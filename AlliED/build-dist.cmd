@@ -12,6 +12,8 @@ For %%a in (
 xcopy /s /d "%%~a" dist\
 )
 
+md dist\Data\
+
 For %%a in (
 "AlliED\bin\Release\net48\Data\"
 ) do (

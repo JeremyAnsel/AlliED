@@ -1,0 +1,232 @@
+---
+X-W
+Y-W
+A-W
+B-W
+T/F
+T/I
+T/B
+T/A
+T/D
+IRD
+TOS
+MIS
+T/W
+Z-95
+R-41
+GUN
+SHU
+E/S
+SPC
+SCT
+TRN
+ATR
+ETR
+TUG
+CUV
+CN/A
+CN/B
+CN/C
+CN/D
+HLF
+MINER
+FRT
+CARG
+CNVYR
+CTRNS
+MTRNS
+MUTR
+CORT
+FALC
+CRV
+M/CRV
+FRG
+M/FRG
+LINER
+CRKC
+STRKC
+ESC
+DREAD
+CRS
+CRL
+INT
+VSD
+ISD
+SSD
+CN/E
+CN/F
+CN/G
+CN/H
+CN/I
+PLT/1
+PLT/2
+PLT/3
+PLT/4
+PLT/5
+PLT/6
+R&D FC
+LAS BAT
+W LNCHR
+FAC/1
+SAT/1
+SAT/2
+SAT/3
+*Sat4
+*Sat5
+Mn/T1
+Mn/T2
+Mn/T3
+GPLT
+*Mine5
+PROBE/1
+PROBE
+PROBE/3
+NAV BUOY
+BUOY 2
+HYP
+Asteroid
+Planet
+RDZ BUOY
+C/C
+SHPYD
+REPYD
+M/SC
+L/FRG
+B/CRS
+A/FRG
+GSP
+L/C
+A/S
+M-CRV
+STARG
+SRS
+LT3000
+F/L
+M/TRN
+MOB
+Xiy/T
+Frt/C
+Frt/H
+Frt/K
+YT-2000
+YT-2400
+Suprosa MOB
+S/B
+T/e1
+T/e2
+T/e3
+T/e4
+T/e5
+Clk/F
+Rzr/F
+Plt/F
+Sup/F
+Pnk/F
+B/R
+Pry/F
+*Xiz/F
+FRS
+PES
+G/1
+G/2
+G/3
+D/P
+S/ARY
+C/RLY
+SC/1
+SC/2
+SC/3
+CAS
+C/F1
+C/F2
+AMU
+PP
+BASE
+IRC
+AZZ
+RY/2
+Pirate SHPYD
+FAC/2
+JUNKYD
+E-POD
+Pr/Tk
+CN/J
+CN/K
+CN/L
+CN/Hgr
+G/P
+GW/P
+PM/1
+PM/2
+H/Mine1
+H/Mine2
+L/B
+I/B
+CF
+Cargo Freighter 2
+Cargo Freighter 3
+Cargo Freighter 4
+Cargo Freighter 5
+CT
+Cargo Tanker 2
+Cargo Tanker 3
+Cargo Tanker 4
+Cargo Tanker 5
+E-POD/2
+Rebel Pilot
+Imperial Pilot
+Civ Pilot
+ZG/S
+ZG/U
+MK-09
+R2-D2
+Worker Droid (R2-D2)
+B/Drop
+*Forest moon of Endor
+*Endor
+*Sullust
+*Bothuwai
+*Kothlis
+*Hoth
+*Death Star II
+*Nar shadda
+*Planet 10
+*Planet 11
+*Planet 12
+*Planet 13
+*Planet 14
+*Planet 15
+*Moon 1
+*Moon 2
+*Moon 3
+*Moon 4
+*Moon 5
+*Sun 1
+*Sun 2
+*Sun 3
+*Sun 4
+*Sun 5
+*Sun 6
+*Sun 7
+*Sun 8
+*Sun 9
+*Sun 10
+*Backdrop 1
+*Backdrop 2
+*Backdrop 3
+*Backdrop 4
+*Backdrop 5
+*Backdrop 6
+*Backdrop 7
+*Backdrop 8
+*Backdrop 9
+*Backdrop 10
+*Backdrop 11
+*Backdrop 12
+*Backdrop 13
+*Backdrop 14
+*Backdrop 15
+WCRS
+VSDII
+ISDII
+*Backdrop 16

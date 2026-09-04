@@ -1,0 +1,71 @@
+(AlwaysTrue)
+Arrive
+Be Destroyed
+Be Attacked
+Be Captured
+Be Inspected
+Be Boarded
+Finish Docking
+Be Disabled
+Exist(Survive,ButNotShownYetOnCMD)
+(NeverTrue)
+Status-NotYetIdentified
+Complete Mission
+Complete Primary Goal
+Fail Primary Goal
+Complete Secondary Goal
+Fail Secondary Goal
+Complete Bonus Goal
+Fail Bonus Goal
+Be Dropped Off
+Be Reinforced
+Have 0% Shields
+Be At 50% Hull
+Run Out Of Missiles
+Arrive(?)
+Be Dropped Off
+Be Unharmed(NotAttacked?)
+Not Be Disabled
+Not Be Bagged
+Destroyed Without Inspection
+Be Docked With
+Not Be Docked With
+Begin Boarding
+Not Begin Boarding
+Be At 50% Shields
+Be At 25% Shields
+Be At 75% Hull
+Be At 25% Hull
+38 ?
+39 ?
+40 ?
+Be All Player Craft
+Reinforced By A.I.?
+Come And Go
+Be Bagged
+Withdraw
+Be Carried Away
+Arrive In Region #
+Leave Region # (AllArrive-Team/IFF)
+Be In Proximity Of (AllDestroyed)
+Be Outside Proximity Of (AllAttacked)
+All Seized
+Defect (AllInspected)
+Be Towing It/Be In Convoy (AllBoarded)
+Be Delivered (AllDocked)
+55 All Disabled
+Be Shown (Message)
+Be Identified (AlwaysTrue?)
+Not Be Identified
+Exist (AllCompleteMission)
+Another Team Won
+Fail All Primary [G]Goals
+Fail All Secondary [G]Goals
+Fail All Secondary [G]Goals
+Fail All Bonus [G]Goals
+Complete All Bonus [G]Goals
+All Be Dropped Off [GG]
+All Be Reinforced [GG]
+All Be At 0% Shields [GG]
+All Be At 50% Hull [GG]
+All Be At 0 Warheads [GG]

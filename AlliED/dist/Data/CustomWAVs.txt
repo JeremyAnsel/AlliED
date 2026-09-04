@@ -1,0 +1,256 @@
+ Some "general purpose" wavs from XWA CD2
+
+ HYPERING OUT
+MissionVoice\B1m1\R010101 0 Form up and proceed to your hyperpoint.  [Devers]
+MissionVoice\B3m1\R030101 0 Head for the hyperbuoy and prepare to jump to hyperspace.
+MissionVoice\B3m3\R030301 0 Head for the hyperbuoy, and prepare to enter hyperspace.
+MissionVoice\B3m6\R030602 0 Head to the hyperspace point and prepare to jump.
+MissionVoice\B3m4\R030402 0 Head to the hyperspace point and prepare to move out.
+MissionVoice\B4m6\R040601 0 Head for your hyperspace point. There's no time to lose.
+MissionVoice\B6m3\R060301 0 All units head for the hyperbuoy. May the Force be with you
+MissionVoice\B6m4\R060401 0 Alright pilots, head for the hyperbuoy!
+MissionVoice\B3m7\R030701 0 [Red Group], head for your hyperpoint!
+MissionVoice\B3m6\R030610 0 We're transmitting the coordinates now.
+MissionVoice\B1m4\R010415 0 Everyone prepare to enter hyperspace along that vector.  [Devers]
+MissionVoice\B2m1\R020108 0 Feeding you the hyper coordinates.  [Kupalo]
+MissionVoice\B6m3\R060302 0 Activating hyperdrive.
+MissionVoice\B2m1\R020102 0 Have a safe trip.  [Devers]
+MissionVoice\B2m2\R020202 0 Good hunting out there.  [Kupalo]
+
+ MISSION START
+MissionVoice\B3m6\R030601 0 Ok, pilots, let's do this one by the book.
+MissionVoice\B3m4\R030407 0 Let's move quickly, pilots!
+MissionVoice\B1m7\R010701 0 It's all or nothing this time.  [Devers]
+MissionVoice\B5m1\R050123 0 Looks like we arrived just in time.  [RO1]
+MissionVoice\B1m6\R010601 0 Looks like we arrived right on time.  [RP2]
+MissionVoice\B4m2\R040204 0 Stay sharp, pilots. That area is about to get very busy.
+MissionVoice\B7m4\R070403 0 Form up. And stay alert.  [Wedge]
+MissionVoice\B6m1\R060103 0 The area looks secure. Assume a standard patrol.
+MissionVoice\B5m4\R050401 0 Be prepared, we expect major resistance.  [Zaletta]
+MissionVoice\B1m3\R010302 0 Let's make this quick and get out of here.  [RP3]
+MissionVoice\B4m5\R040502 0 The Imperial strike force will be arriving at any moment.
+MissionVoice\B2m2\R020203 0 Hopefully, the Imps will take the bait.  [Kupalo]
+
+ ENEMIES ARRIVING
+MissionVoice\B3m4\R030412 0 We've got Imperial warships entering the area!
+MissionVoice\B5m1\R050113 0 Imperial Star Destroyer entering the area.  [Zaletta]
+MissionVoice\B5m7\R050711 0 Looks like the Imperials have shown up  [RP1]
+MissionVoice\B5m1\R050107 0 Alert! Imperial patrol craft emerging from hyperspace.  [Zaletta]
+MissionVoice\B6m1\R060109 0 We've got unidentified ships coming in from hyperspace.
+MissionVoice\B4m5\R040503 0 Here they come! All fighters attack!
+REBEL_PILOT11\A0l1126 0 Here they come  [11,12]
+REBEL_PILOT12\A0l2126 0 Here they come  [11,12]
+MissionVoice\B2m6\R020604 0 Here they come!  [Wingman]
+MissionVoice\B7m4\R070430 0 Looks like they've arranged a welcoming party!  [Wedge]
+MissionVoice\B3m4\R030411 0 Looks like we've worn out our welcome here.
+
+ FIGHTERS INBOUND
+REBEL_PILOT9\A0p9126 0 Enemy starfighters inbound  [9,10]
+REBEL_PILOT10\A0l0126 0 Enemy starfighters inbound  [9,10]
+MissionVoice\B7m1\R070130 0 Fighters coming in!
+MissionVoice\B1m1\R010106 0 Here come the fighters!  [RP1]
+MissionVoice\B2m2\R020204 0 Enemy starfighters emerging from hyperspace!  [RP1]
+AERON_AZZAMEEN\A0AE103 0 Heads up! Starfighters coming our way
+MissionVoice\B1m3\R010309 0 More enemy starfighters are launching to engage us!  [RP3]
+MissionVoice\B3m6\R030623 0 Red Group, we've got incoming fighters! Move to intercept!
+MissionVoice\B1m7\R010707 0 TIE Fighters moving in fast!  [Devers]
+MissionVoice\B5m7\R050713 0 All pilots be advised: TIE starfighters are moving to engage  [Zaletta]
+MissionVoice\B2m5\R020501 0 Bad guys at 11 o'clock.  [RP1]
+MissionVoice\B7m1\R070138 0 Three of them coming in, twenty degrees!
+ (launching)
+MissionVoice\B4m2\R040208 0 Heads up, we've got enemy fighters launching.
+MissionVoice\B5m4\R050406 0 More starfighters are launching from that Star Destroyer.  [Zaletta]
+MissionVoice\B5m7\R050702 0 Fighters are launching from the base!  [Zaletta]
+MissionVoice\B3m4\R030413 0 They're launching fighters! [Red Group], intercept!
+MissionVoice\B1m4\R010417 0 TIEs are launching from that station.  [Devers]
+MissionVoice\B1m7\R010712 0 TIE Bombers are launching from the station.  [Devers]
+MissionVoice\B3m6\R030632 0 The ISD is launching bombers and they're headed our way.
+MissionVoice\B3m6\R030633 0 Stop them before they get within range to fire their warheads!
+ (more waves)
+MissionVoice\B2m5\R020510 0 Heads up! Another wave of fighters!  [RP1]
+MissionVoice\B6m6\R060612 0 I think they've called for some help... more fighters incoming!  [RP1]
+MissionVoice\B3m1\R030106 0 We've got more fighters coming in! Stay after your targets!
+MissionVoice\B3m7\R030720 0 Heads up, [Red 2]! We've got more fighters incoming.
+ (GUNs)
+MissionVoice\B1m7\R010716 0 GUNs entering the area, heads up.  [Devers]
+MissionVoice\B3m3\R030316 0 Stay sharp... we've got Assault Gunboats inbound!  [RP8]
+MissionVoice\B3m3\R030319 0 More Gunboats are entering the area. Watch yourselves!  [RP8]
+MissionVoice\B1m4\R010405 0 Those Gunboats look like they're breaking off to engage us  [RP2]
+MissionVoice\B1m4\R010410 0 Finish off those Gunboats.  [Devers]
+ (engage)
+MissionVoice\B5m1\R050110 0 All pilots, engage those starfighters.  [Zaletta]
+MissionVoice\B2m5\R020502 0 All fighters engage the enemy starfighters!  [Kupalo]
+MissionVoice\B1m7\R010709 0 [Red group], engage those starfighters!  [Devers]
+MissionVoice\B2m2\R020207 0 Engaging starfighters.  [RP1]
+MissionVoice\B1m4\R010418 0 [X-W Red], keep those TIEs busy!  [Devers]
+MissionVoice\B3m1\R030108 0 Let's try to clean up some of this fighter cover.
+ (status)
+MissionVoice\B3m6\R030605 0 That's half the fighters gone, keep it up!
+MissionVoice\B5m1\R050112 0 All enemy starfighters destroyed.  [Zaletta]
+MissionVoice\B5m7\R050720 0 All Imperial starfighter opposition has been eliminated  [Zaletta]
+MissionVoice\B1m1\R010109 0 That's it for the TIEs!  [Devers]
+MissionVoice\B1m1\R010120 0 Way to handle those TIEs  [Devers]
+MissionVoice\B3m6\R030606 0 We've taken out all the fighters. Great work!
+MissionVoice\B1m7\R010722 0 That's it for the starfighters.  [Devers]
+MissionVoice\B2m4\R020409 0 Looks like we finished off the starfighter opposition.  [RP2]
+MissionVoice\B2m2\R020213 0 Excellent work with those fighters.  [Kupalo]
+
+ CONVOYS / I.D.ing
+MissionVoice\B4m2\R040202 0 The convoy should be arriving soon.
+MissionVoice\B1m1\R010104 0 Convoy spotted!  [RP1]
+MissionVoice\B1m6\R010603 0 Cargo ships spotted.  [RP2]
+MissionVoice\B5m2\R050203 0 Cargo convoy spotted.  [RP2]
+MissionVoice\B4m2\R040205 0 There they are... looks like the convoy is starting to arrive.
+MissionVoice\B4m2\R040206 0 Move in and inspect as many ships as you can!
+MissionVoice\B1m3\R010315 0 Go ID the search group. I'll cover you.  [RP3]
+MissionVoice\B1m4\R010403 0 We'll need a positive ID on that ship  [Devers]
+MissionVoice\B5m2\R050204 0 Do a quick inspection on the convoy.  [Zaletta]
+MissionVoice\B1m3\R010308 0 Half of the search group has been inspected. Let's hurry it up.  [Devers]
+MissionVoice\B3m1\R030103 0 The X-Wings will engage the fighters. Go ID that convoy.
+MissionVoice\B6m1\R060110 0 [Gold Group], check them out!
+MissionVoice\B4m2\M040201 0 Great work! All the convoy craft have been inspected.
+MissionVoice\B1m1\R010114 0 Most of the convoy is down.... I smell victory!  [RP1]
+
+ BOARD / CAPTURE
+MissionVoice\B3m1\R030105 0 Disable them at once!
+MissionVoice\B2m4\R020407 0 Commencing boarding operation.  [RO2]
+MissionVoice\B1m4\R010419 0 Boarding operation underway. Just give us a few more minutes.  [RO2]
+MissionVoice\B1m4\R010428 0 Boarding operation completed  [RO2]
+MissionVoice\B2m2\R020214 0 Capture operation completed. Heading home.  [RO2]
+
+ SHUTTLES
+MissionVoice\B1m7\R010736 0 A shuttle has launched from that station  [Devers]
+MissionVoice\B1m7\R010731 0 Stop that shuttle!  [Devers]
+MissionVoice\B2m6\R020621 0 Shoot down those shuttles.  [Kupalo]
+MissionVoice\B3m7\R030719 0 Keep them away from that shuttle!
+MissionVoice\B6m1\R060124 0 Good work, the shuttle has returned safely
+MissionVoice\B1m7\R010733 0 The shuttle got away  [Devers]
+
+ INTERDICTORS
+MissionVoice\B1m7\R010719 0 An INT has entered the area. This is NOT good!  [Devers]
+MissionVoice\B1m7\R010720 0 The INT's gravity wells are engaged.  We're not going anywhere.  [RP1]
+MissionVoice\B3m6\R030625 0 We're being pinned down by an Interdictor and can't hyper!
+MissionVoice\B6m4\R060405 0 Well, let's get to it! Target that Interdictor and open fire!
+MissionVoice\B3m6\R030629 0 We're moving to engage the [Interdictor].
+MissionVoice\B6m4\R060421 0 The Interdictor's shields are down! Press the attack!
+MissionVoice\B3m6\R030637 0 The [Interdictor]'s shields are out! Concentrate your fire!
+MissionVoice\B6m4\R060422 0 The Interdictor is bugging out. Keep it up!
+MissionVoice\B3m6\R030638 0 Looks like the [Interdictor] is making a run for it.
+MissionVoice\B6m4\R060423 0 Great work, Gold Group, that INT is no longer a threat
+
+ PROVIDE ASSISTANCE / COVER
+MissionVoice\B1m1\R010121 0 We have starfighters on us. Please assist  [RP2]
+MissionVoice\B2m4\R020413 0 We need assistance!  [RO2]
+MissionVoice\B2m2\R020208 0 We're taking fire over here!  [RO1]
+MissionVoice\B2m1\R020110 2 We're being attacked and request assistance.  [CO2]
+MissionVoice\B2m1\R020112 2 Alliance fighters, please help us!  [CO2]
+MissionVoice\B5m5\R050505 2 Keep them off of us for a little longer.  [CO4]
+MissionVoice\B5m5\R050517 0 We're taking hits.  [RP3]
+MissionVoice\B2m6\R020611 0 We're taking fire over here.  [Kupalo]
+MissionVoice\B2m5\R020506 0 We're taking heavy fire here. You must buy us more time.  [Kupalo]
+MissionVoice\B3m7\R030723 0 We're taking a beating over here!
+MissionVoice\B2m5\R020507 0 We can't take much more of this.  [Kupalo]
+MissionVoice\B1m4\R010425 0 Those Bombers are coming straight for us! Please assist!  [RO2]
+MissionVoice\B2m6\R020612 0 Shields are low, stop those bombers!  [Kupalo]
+MissionVoice\B3m3\R030320 0 We're getting hammered out here!  [RP8]
+MissionVoice\B6m6\R060617 0 We're taking serious damage! We need cover!
+MissionVoice\B3m1\R030112 0 Our transports are being attacked! Assist them at once!
+MissionVoice\B5m4\R050414 0 Protect the escaping craft! They're under fire!  [Zaletta]
+MissionVoice\B1m6\R010605 0 This is [X-W Red]; we'll keep those GUNs off your backs.  [RP2]
+MissionVoice\B1m4\R010421 0 [X-Wing Red], cover the retreat.  [Devers]
+MissionVoice\B3m1\R030114 0 Now, let's see them safely to hyperspace.
+MissionVoice\B3m4\R030420 0 We're headed for the hyperpoint. Keep our tail clear!
+MissionVoice\B3m6\R030641 0 We'll provide cover for you and meet you back at the fleet.
+
+ MISSION STATUS
+MissionVoice\B4m6\R040608 0 I think our luck just ran out.
+MissionVoice\B1m7\R010708 0 Everything is going to according to plan.  [Devers]
+MissionVoice\B1m1\R010115 0 Keep it up, we're half way there!  [Devers]
+MissionVoice\B5m7\R050703 0 Target almost destroyed, keep it up  [Zaletta]
+MissionVoice\B4m2\R040213 0 Keep at it, you're almost there. Only a few more craft to go.
+MissionVoice\B2m6\R020622 0 That's the last of them.  [Kupalo]
+MissionVoice\B2m2\R020217 0 All enemy craft are either destroyed or disabled.  [Kupalo]
+MissionVoice\B5m7\R050715 0 All pirates are down for the count  [RP1]
+MissionVoice\B3m3\R030307 0 Great work! The station's shields are down!
+MissionVoice\B6m3\R060317 0 There go the last of the defenses. Time to clear the fighters
+MissionVoice\B5m7\R050709 0 There goes the base, great work out there people  [Zaletta]
+MissionVoice\B3m4\R030410 0 Excellent. All the mines have been destroyed.
+MissionVoice\B1m7\R010732 0 The station crew is attempting to escape!  [Devers]
+MissionVoice\B3m4\R030408 0 It won't be long before enemy reinforcements start to arrive.
+MissionVoice\B2m1\R020115 0 All clear. Repeat. All clear.  [RP3]
+MissionVoice\B1m7\M010705 0 Excellent work.
+
+ TACTICAL OFFICER ORDERS
+MissionVoice\B2m6\R020605 0 Attention all pilots.  [Kupalo]
+MissionVoice\B2m6\R020601 0 All fighters engage. Let's give it to 'em.  [Kupalo]
+MissionVoice\B2m4\R020401 0 Let's hit them hard and fast.  [RP2]
+MissionVoice\B2m4\R020411 0 Take out everything you can.  [Kupalo]
+MissionVoice\B2m4\R020412 0 Let's leave this place in pieces.  [RP2]
+MissionVoice\B5m7\R050701 0 Pound them into space debris  [Zaletta]
+MissionVoice\B3m3\R030312 0 Red Group, you are cleared to destroy the facility.
+MissionVoice\B2m4\R020419 0 Stop them.  [Kupalo]
+MissionVoice\B3m6\R030639 0 Finish them off!
+MissionVoice\B2m6\R020620 0 Watch for any fleeing craft.  [Kupalo]
+MissionVoice\B2m6\R020618 0 Keep it up!  [Kupalo]
+MissionVoice\B4m2\R040216 0 Stay after your objectives!
+MissionVoice\B6m4\R060437 0 See if you can run some interference!
+MissionVoice\B6m6\R060624 0 If you need to, you can return to the Liberty to rearm
+MissionVoice\B3m6\R030628 0 Try to stay out of range of the Star Destroyer.
+MissionVoice\B3m6\R030630 0 Red Group, if you get the chance, head to the Liberty to rearm
+
+ TARGETING
+MissionVoice\B5m2\R050206 0 These are our targets.  [Zaletta]
+MissionVoice\B2m6\R020609 0 Make it your primary target.  [Kupalo]
+MissionVoice\B5m4\R050419 0 Moving to target. Requesting backup.  [RP4]
+MissionVoice\B3m1\R030102 0 There's our target... looks like they've brought some company.
+MissionVoice\B3m6\R030604 0 There's the target. [Red group], engage the defending fighters!
+
+ PILOT CHATTER
+MissionVoice\B2m2\R020215 0 Let's go.  [RP1]
+MissionVoice\B5m7\R050712 0 This is not going to be good  [RP1]
+MissionVoice\B6m6\R060613 0 Roger that. Let's take 'em down.
+MissionVoice\B2m4\R020404 0 It's getting pretty thick out here.  [RP2]
+MissionVoice\B2m5\R020505 0 There are so many of them.  [RP1]
+MissionVoice\B7m1\R070131 0 There's too many of them!
+MissionVoice\B1m3\R010313 0 Those Interceptors are going right for you  [RP3]
+MissionVoice\B4m4\R040455 0 I could use some help over here, boys!
+MissionVoice\B6m5\R060547 0 Someone call for some backup?
+MissionVoice\B7m2\R070226 0 She's gonna blow!  [RP11]
+MissionVoice\B7m4\R070429 0 That stopped one of them!  [Wedge]
+MissionVoice\B7m3\R070317 0 Choke on that, Imperial swine.  [RP1]
+MissionVoice\B2m6\R020614 0 Way to go!  [RP1]
+MissionVoice\B1m3\R010320 0 Well, looks like we found what we've been looking for  [RP3]
+MissionVoice\B7m4\R070424 0 Now what?  [Wedge]
+MissionVoice\B7m4\R070436 0 There it is!  [Wedge]
+MissionVoice\B2m1\R020125 0 What's the Empire up to?  [RO2]
+MissionVoice\B4m4\R040460 0 Incoming! Scatter!
+
+ BUG OUT
+MissionVoice\B1m3\R010306 0 Ok, time to return home.  [Devers]
+MissionVoice\B2m4\R020410 0 Time to get out of here.  [RP2]
+MissionVoice\B1m4\R010420 0 Ok, let's get out of here.  [RO2]
+MissionVoice\B1m6\R010619 0 Finish your mission and get out of there.  [Devers]
+MissionVoice\B5m7\R050710 0 We should leave before the Imperials arrive  [Zaletta]
+MissionVoice\B6m6\R060621 0 That does it for this sector. Let's head out!
+MissionVoice\B5m7\R050726 0 OK, we got the last of them. Heading home.  [RO2]
+MissionVoice\B5m5\R050519 0 That wraps it up.  [RP3]
+MissionVoice\B2m4\R020408 0 We got what we came for, bugging out.  [RP2]
+MissionVoice\B2m4\R020422 0 We have what we came for.  [RO2]
+MissionVoice\B5m4\R050423 0 Time to go before reinforcements arrive.  [Zaletta]
+MissionVoice\B1m7\R010724 0 Great work, pilots.  [Devers]
+
+ IMPERIAL / HOSTILE
+MissionVoice\B5m7\R050751 1 You will not win this fight, Rebels!  [Holtz]
+MissionVoice\B1m2\R010205 1 Stand down or be destroyed. This is your final warning  [IO2]
+MissionVoice\B6m2\R060227 1 Stand down and prepare to be boarded!
+MissionVoice\B6m7\R060711 1 Stand down and prepare to be boarded.
+MissionVoice\B5m1\R050118 1 Lower your shields and prepare to be boarded.  [IO2]
+MissionVoice\B5m4\R050407 1 All ships stand down and prepare to be taken prisoner.  [Holtz]
+MissionVoice\B6m4\R060407 1 All ships stand down and prepare to be boarded.
+MissionVoice\B6m4\R060408 1 If you cooperate, you will be searched and allowed to leave.
+MissionVoice\B6m4\R060411 1 If you resist, or attempt to escape, we will open fire.
+MissionVoice\B6m4\R060427 1 If you do not comply, we will open fire!
+MissionVoice\B6m2\R060248 1 Leave the area at once, or we'll be forced to remove you
+MissionVoice\B6m5\R060504 1 State your business.
+MissionVoice\B1m5\R010512 2 You are in violation of Imperial Code. Prepare to be boarded.  [CO3]
+MissionVoice\B5m1\R050124 3 Surrender your vessels and nobody gets hurt.  [CO4]

@@ -1,0 +1,18 @@
+Attack
+Patrol
+Escort
+Intercept
+Protect
+Defence
+Superiority
+Suppression
+Strike
+Strike Escort
+Defence
+Recon
+Inspection
+Heavy Attack
+Hvy Attack
+Disable
+Base Defence
+Dogfight

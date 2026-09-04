@@ -1,0 +1,51 @@
+Normal
+Double Missiles
+Half Missiles
+No Shields
+50% Shields
+No Lasers
+No Hyperdrive
+Shields 0%, Charging
+Shields Added
+Hyperdrive Added
+10
+11
+(200% Shields)
+Shields 50%,Charging
+(No Lasers)
+15
+Add Shields+H/drive
+17
+200% Shields
+(50% Shields)
+Invincible
+Infinite Warheads
+22
+23
+Not inspected
+Already identified
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50

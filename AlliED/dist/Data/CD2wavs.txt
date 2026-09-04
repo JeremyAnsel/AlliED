@@ -1,0 +1,1703 @@
+ BATTLE 1 MISSION 1
+
+MissionVoice\B1m1\R010101 0 Form up and proceed to your hyperpoint.  [Devers]
+MissionVoice\B1m1\R010102 0 It's your first time out, [Red Three]. Keep your eyes open.  [Devers]
+MissionVoice\B1m1\R010103 0 Remember, it's just like a training exercise.  [Devers]
+MissionVoice\B1m1\R010104 0 Convoy spotted!  [RP1]
+MissionVoice\B1m1\R010105 0 Looks like it's being escorted by a [Strike Cruiser]!  [RP1]
+MissionVoice\B1m1\R010106 0 Here come the fighters!  [RP1]
+MissionVoice\B1m1\R010107 0 Ok, [Red Three], just follow our lead and stay sharp.  [RP1]
+MissionVoice\B1m1\R010108 0 [Y-W Green] engaging cargo ships.  [RP2]
+MissionVoice\B1m1\R010109 0 That's it for the TIEs!  [Devers]
+MissionVoice\B1m1\R010110 0 The [Strike Cruiser] is making a run for it.  [Devers]
+MissionVoice\B1m1\R010111 0 Should we engage it?  [RP1]
+MissionVoice\B1m1\R010112 0 That should make them think twice!  [Devers]
+MissionVoice\B1m1\R010113 0 Great job, head back home.  [Devers]
+MissionVoice\B1m1\R010114 0 Most of the convoy is down.... I smell victory!  [RP1]
+MissionVoice\B1m1\R010115 0 Keep it up, we're half way there!  [Devers]
+MissionVoice\B1m1\R010116 0 Are you sure you can handle that STRKC there, Ace?  [RP1]
+MissionVoice\B1m1\R010117 0 That's up to you to assess, pilot  [Devers]
+MissionVoice\B1m1\R010118 0 Excellent kill. You're showing great promise  [Devers]
+MissionVoice\B1m1\R010119 0 The destruction of a Strike Cruiser is no small task  [Devers]
+MissionVoice\B1m1\R010120 0 Way to handle those TIEs  [Devers]
+MissionVoice\B1m1\R010121 0 We have starfighters on us. Please assist  [RP2]
+MissionVoice\B1m1\R010122 0 We've lost the Y-Wings. You'll have to continue without them  [Devers]
+MissionVoice\B1m1\R010123 0 Not bad for your first mission, Ace  [RP1]
+MissionVoice\B1m1\M010101 0 You moved in fast and took them down. Great mission!
+MissionVoice\B1m1\M010103 0 Not a very impressive first time out, Azzameen
+MissionVoice\B1m1\M010105 0 Excellent job obtaining the cargo data
+MissionVoice\B1m1\M010106 0 This should provide Intel with something to work with
+
+ BATTLE 1 MISSION 2
+
+MissionVoice\B1m2\R010201 5 Good to see you, brother. Let's get on with this  [Emon]
+MissionVoice\B1m2\R010202 5 OK, there's the station.  [Emon]
+MissionVoice\B1m2\R010203 5 Station security is launching fighters  [Emkay]
+MissionVoice\B1m2\R010204 3 Intruders....you are trespassing in private space  [IO2]
+MissionVoice\B1m2\R010205 3 Stand down or be destroyed. This is your final warning  [IO2]
+MissionVoice\B1m2\R010206 5 We're going to attempt the pickup now.  [Emkay]
+MissionVoice\B1m2\R010207 5 Ok, Uncle Antan is on board. Do we have to leave the fight?  [Emkay]
+MissionVoice\B1m2\R010208 5 Meet me back at our rendezvous point  [Emon]
+MissionVoice\B1m2\R010209 5 That's the spirit! Kick them were it hurts!  [Emkay]
+MissionVoice\B1m2\R010210 0 Welcome back, Otana. You have landing clearance  [Devers]
+MissionVoice\B1m2\R010211 5 We need to make this quick, before they summon the Imps  [Emon]
+MissionVoice\B1m2\R010212 5 Sir, an Imperial response team has arrived. We should leave  [Emkay]
+MissionVoice\B1m2\R010213 5 You need to get back to the Rebellion, bro  [Emon]
+MissionVoice\B1m2\R010214 5 Dock with me and I'll make sure Uncle Antan gets home safely  [Emon]
+MissionVoice\B1m2\R010215 5 Thanks, Ace. I always told father you where a good boy  [Antan]
+MissionVoice\B1m2\R010216 5 Do something about that trigger-happy droid, will you?  [Emon]
+MissionVoice\B1m2\R010217 5 I can see I'm not wanted here. Let's get back to the [Defiance]  [Emkay]
+MissionVoice\B1m2\R010218 5 Save one of those fighters for me  [Emon]
+MissionVoice\B1m2\R010219 5 Time to drop in the tokens and go for the score  [Emon]
+MissionVoice\B1m2\M010201 5 I knew you still had some Azzameen fighting spirit left in you!
+MissionVoice\B1m2\M010203 5 Please don't tell me you're the best pilot in the Rebellion.
+MissionVoice\B1m2\M010204 5 I really expected more from you, Little Brother.
+MissionVoice\B1m2\M010205 5 Great job destroying their containers
+MissionVoice\B1m2\M010206 5 Every little bit of payback helps
+
+ BATTLE 1 MISSION 3
+
+MissionVoice\B1m3\R010301 0 We've spotted the search group.  [RP3]
+MissionVoice\B1m3\R010302 0 Let's make this quick and get out of here.  [RP3]
+MissionVoice\B1m3\R010303 0 The [Corrupter] is launching probes!  [Devers]
+MissionVoice\B1m3\R010304 0 Destroy them, [Blue 2]!  [Devers]
+MissionVoice\B1m3\R010305 0 Any one of those probes could locate our task force.  [Devers]
+MissionVoice\B1m3\R010306 0 Ok, time to return home.  [Devers]
+MissionVoice\B1m3\R010307 0 Hopefully, Intel can use some of the information we obtained.  [Devers]
+MissionVoice\B1m3\R010308 0 Half of the search group has been inspected. Let's hurry it up.  [Devers]
+MissionVoice\B1m3\R010309 0 More enemy starfighters are launching to engage us!  [RP3]
+MissionVoice\B1m3\R010310 0 The [Corrupter] is here! That's Holtz's command ship.  [RP3]
+MissionVoice\B1m3\R010311 0 I'm under heavy fire over here  [RP3]
+MissionVoice\B1m3\R010312 0 You're on your own. I can't stay any longer  [RP3]
+MissionVoice\B1m3\R010313 0 Those Interceptors are going right for you  [RP3]
+MissionVoice\B1m3\R010314 0 All right. I can't wait to get out of here!  [RP3]
+MissionVoice\B1m3\R010315 0 Go ID the search group. I'll cover you.  [RP3]
+MissionVoice\B1m3\R010316 0 All clear here. Let's go to the next one  [RP3]
+MissionVoice\B1m3\R010317 0 This one's empty.  [RP3]
+MissionVoice\B1m3\R010318 0 I guess we scared them all away.  [RP3]
+MissionVoice\B1m3\R010319 0 Let's check out the last one  [RP3]
+MissionVoice\B1m3\R010320 0 Well, looks like we found what we've been looking for  [RP3]
+MissionVoice\B1m3\M010301 0 Those Imperials will have trouble finding their own docking bays now.
+MissionVoice\B1m3\M010303 0 There'll be no medals waiting for us this time.
+
+ BATTLE 1 MISSION 4
+
+MissionVoice\B1m4\R010401 0 Let's get our people back. The Force be with us!  [Devers]
+MissionVoice\B1m4\R010402 0 I have a lock on an Imperial ship under moderate escort  [RP2]
+MissionVoice\B1m4\R010403 0 We'll need a positive ID on that ship  [Devers]
+MissionVoice\B1m4\R010404 0 I'll bet a month's pay that's our Dreadnaught  [RP2]
+MissionVoice\B1m4\R010405 0 Those Gunboats look like they're breaking off to engage us  [RP2]
+MissionVoice\B1m4\R010406 0 Hurry it up! We need to rescue our people.  [Devers]
+MissionVoice\B1m4\R010407 0 Everyone watch your fire...there's heavy civilian traffic here  [Devers]
+MissionVoice\B1m4\R010408 0 We don't want to hit any innocents  [Devers]
+MissionVoice\B1m4\R010409 0 That prisoner ship is about to get away!  [Devers]
+MissionVoice\B1m4\R010410 0 Finish off those Gunboats.  [Devers]
+MissionVoice\B1m4\R010411 0 The Imperials made it into hyperspace.  [RP2]
+MissionVoice\B1m4\R010412 0 There is only one Imperial station along that hyper vector.  [Devers]
+MissionVoice\B1m4\R010413 0 Could be tricky.  [RP2]
+MissionVoice\B1m4\R010414 0 Let's finish what we started. Our people are counting on us.  [Devers]
+MissionVoice\B1m4\R010415 0 Everyone prepare to enter hyperspace along that vector.  [Devers]
+MissionVoice\B1m4\R010416 0 OK.....Imperial prisoner ship spotted.  [Devers]
+MissionVoice\B1m4\R010417 0 TIEs are launching from that station.  [Devers]
+MissionVoice\B1m4\R010418 0 [X-W Red], keep those TIEs busy!  [Devers]
+MissionVoice\B1m4\R010419 0 Boarding operation underway. Just give us a few more minutes.  [RO2]
+MissionVoice\B1m4\R010420 0 Ok, let's get out of here.  [RO2]
+MissionVoice\B1m4\R010421 0 [X-Wing Red], cover the retreat.  [Devers]
+MissionVoice\B1m4\R010422 0 Welcome home, everyone!  [Devers]
+MissionVoice\B1m4\R010423 0 This is [Storm Unit].  [RO2]
+MissionVoice\B1m4\R010424 0 Thanks for bringing us back home! First round is on us.  [RO2]
+MissionVoice\B1m4\R010425 0 Those Bombers are coming straight for us! Please assist!  [RO2]
+MissionVoice\B1m4\R010426 0 Have you lost your mind?!? You'll answer for this!  [Devers]
+MissionVoice\B1m4\R010427 0 Our guests wanted us to pass along a message  [RO2]
+MissionVoice\B1m4\R010428 0 Boarding operation completed  [RO2]
+MissionVoice\B1m4\R010429 0 You should get out of there before the Imperials are reinforced  [Devers]
+MissionVoice\B1m4\R010430 0 Our commando team left the Imperials a little present  [RO2]
+MissionVoice\B1m4\R010431 0 They should be finding out about it any minute now  [R02]
+MissionVoice\B1m4\R010432 0 Good work, Storm Unit  [Devers]
+MissionVoice\B1m4\M010401 0 I don't think you'll be buying drinks for a long time
+MissionVoice\B1m4\M010403 0 What a disaster. The Admiral will have your head for this one
+MissionVoice\B1m4\M010405 0 Breaking up the penal station will set the Imperials back some
+MissionVoice\B1m4\M010406 0 Good initiative!
+
+ BATTLE 1 MISSION 5
+
+MissionVoice\B1m5\R010501 5 I have the probe on my sensors.  [Emkay]
+MissionVoice\B1m5\R010502 5 Uh, oh...looks like we've got company.  [Emkay]
+MissionVoice\B1m5\R010503 5 Sensors indicate we're being scanned and targeted.  [Emkay]
+MissionVoice\B1m5\R010504 5 That is not friendly. Take'em down.  [Emkay]
+MissionVoice\B1m5\R010505 5 I guess they don't want to share their toys.  [Emkay]
+MissionVoice\B1m5\R010506 5 That's it for the fighters. I enjoyed that.  [Emkay]
+MissionVoice\B1m5\R010507 5 That Muurian is making a run for the probe.  [Emkay]
+MissionVoice\B1m5\R010508 5 We got what we came for, let's go meet your sister.  [Emkay]
+MissionVoice\B1m5\R010509 5 There's the customs checkpoint.  [Emkay]
+MissionVoice\B1m5\R010510 5 Let's just hope they don't look at that probe too closely.  [Emkay]
+MissionVoice\B1m5\R010511 2 Otana, stop your engines and prepare for inspection.  [CO3]
+MissionVoice\B1m5\R010512 2 You are in violation of Imperial Code. Prepare to be boarded.  [CO3]
+MissionVoice\B1m5\R010513 5 I don't think they plan to arrest us, if you know what I mean.  [Emkay]
+MissionVoice\B1m5\R010514 5 Sensors show several small objects emerging from hyperspace.  [Emkay]
+MissionVoice\B1m5\R010515 5 Looks like Pirates. They're going for the cargo station.  [Emkay]
+MissionVoice\B1m5\R010516 5 Now would be a good time to make a run for it.  [Emkay]
+MissionVoice\B1m5\R010517 5 We made it. There's Aeron now.  [Emkay]
+MissionVoice\B1m5\R010518 5 Hello there, kiddo. I see you made it in one piece.  [Aeron]
+MissionVoice\B1m5\R010519 5 We need to get back to the [Defiance]. Hurry up.  [Emkay]
+MissionVoice\B1m5\R010520 5 Thanks for pulling this one off, Ace.  [Aeron]
+MissionVoice\B1m5\R010521 5 I really don't think we should stick around.  [Emkay]
+MissionVoice\B1m5\R010522 5 We could shoot our way out.  [Emkay]
+MissionVoice\B1m5\R010523 5 Head for the Hyperbuoy!  [Emkay]
+MissionVoice\B1m5\R010524 5 The Muurian has dropped the probe. They've had enough.  [Emkay]
+MissionVoice\B1m5\R010525 2 Thanks for your help, Otana.  [CO3]
+MissionVoice\B1m5\R010526 2 Feel free to go about your business.  [CO3]
+MissionVoice\B1m5\R010527 5 Those pirates are showing an interest in us, Ace.  [Emkay]
+MissionVoice\B1m5\R010528 5 We either need to fight or make a run for the hyperbuoy.  [Emkay]
+MissionVoice\B1m5\R010529 5 Looks like they found the probe.  [Emkay]
+MissionVoice\B1m5\M010501 5 We made it!
+MissionVoice\B1m5\M010503 5 I can't believe we blew it.
+MissionVoice\B1m5\M010505 5 Well we helped out with those pirates.
+MissionVoice\B1m5\M010506 5 Never hurts to do a good deed.
+
+ BATTLE 1 MISSION 6
+
+MissionVoice\B1m6\R010601 0 Looks like we arrived right on time.  [RP2]
+MissionVoice\B1m6\R010602 0 [X-W Red]...[A-W blue]...take down those starfighters.  [Devers]
+MissionVoice\B1m6\R010603 0 Cargo ships spotted.  [RP2]
+MissionVoice\B1m6\R010604 0 They're probably carrying the replacement parts.  [Devers]
+MissionVoice\B1m6\R010605 0 This is [X-W Red]; we'll keep those GUNs off your backs.  [RP2]
+MissionVoice\B1m6\R010606 0 Shuttles are leaving the Monitor. Inspect them.  [Devers]
+MissionVoice\B1m6\R010607 0 Destroy them before they reach the Corrupter.  [Devers]
+MissionVoice\B1m6\R010608 0 Stay out of range of the Corrupters' weapons!  [Devers]
+MissionVoice\B1m6\R010609 0 Looks like we stopped that supply operation cold.  [Devers]
+MissionVoice\B1m6\R010610 0 Now hurry back to the fleet...something's come up.  [Devers]
+MissionVoice\B1m6\R010611 0 Welcome back.  [Devers]
+MissionVoice\B1m6\R010612 0 All pilots report to the briefing room after landing.  [Devers]
+MissionVoice\B1m6\R010613 0 You will be departing on your next mission immediately.  [Devers]
+MissionVoice\B1m6\R010614 0 They're carrying the hyperdrive technicians.  [Devers]
+MissionVoice\B1m6\R010615 0 Enemy fighters are moving towards B-W Green.  [Devers]
+MissionVoice\B1m6\R010616 0 Watch the explosions coming from those convoy craft.  [Devers]
+MissionVoice\B1m6\R010617 0 The FRG Monitor is close to hyperspacing out of this region.  [Devers]
+MissionVoice\B1m6\R010618 0 Before the Corrupter summons reinforcements.  [Devers]
+MissionVoice\B1m6\R010619 0 Finish your mission and get out of there.  [Devers]
+MissionVoice\B1m6\R010620 0 There is a risk of taking proximity damage from their cargo.  [Devers]
+MissionVoice\B1m6\M010601 0 Way to go, mates!
+MissionVoice\B1m6\M010603 0 We sure messed up. I was just getting used to my new rank, too.
+
+ BATTLE 1 MISSION 7
+
+MissionVoice\B1m7\R010701 0 It's all or nothing this time.  [Devers]
+MissionVoice\B1m7\R010702 0 Jamming equipment is online.  [RO2]
+MissionVoice\B1m7\R010703 0 Let's go make a hole!  [RP1]
+MissionVoice\B1m7\R010704 0 Sensor station sighted.  [RP1]
+MissionVoice\B1m7\R010705 0 I have a visual on the main sensor array.  [RP1]
+MissionVoice\B1m7\R010706 0 Score another one for Alliance Intelligence.  [RP1]
+MissionVoice\B1m7\R010707 0 TIE Fighters moving in fast!  [Devers]
+MissionVoice\B1m7\R010708 0 Everything is going to according to plan.  [Devers]
+MissionVoice\B1m7\R010709 0 [Red group], engage those starfighters!  [Devers]
+MissionVoice\B1m7\R010710 0 They must not be allowed to destroy our jamming craft.  [Devers]
+MissionVoice\B1m7\R010711 0 If the Imps call for reinforcements, this mission is over.  [Devers]
+MissionVoice\B1m7\R010712 0 TIE Bombers are launching from the station.  [Devers]
+MissionVoice\B1m7\R010713 0 Those bombers are going after the ATRs! Stop Them!  [Devers]
+MissionVoice\B1m7\R010714 0 We lost an ATR.....jamming strength is stable but reduced.  [RO2]
+MissionVoice\B1m7\R010715 0 We think they were able to get a very short-range message out.  [RO2]
+MissionVoice\B1m7\R010716 0 GUNs entering the area, heads up.  [Devers]
+MissionVoice\B1m7\R010717 0 They must have been close by and picked up the signal.  [RO2]
+MissionVoice\B1m7\R010718 0 We lost another ATR! Jamming net is offline!  [RO2]
+MissionVoice\B1m7\R010719 0 An INT has entered the area. This is NOT good!  [Devers]
+MissionVoice\B1m7\R010720 0 The INT's gravity wells are engaged.  We're not going anywhere.  [RP1]
+MissionVoice\B1m7\R010721 0 We need to take that thing out, if we're going to escape.  [RP1]
+MissionVoice\B1m7\R010722 0 That's it for the starfighters.  [Devers]
+MissionVoice\B1m7\R010723 0 The sensor station is a goner.  [RP1]
+MissionVoice\B1m7\R010724 0 Great work, pilots.  [Devers]
+MissionVoice\B1m7\R010725 0 See you at the rendezvous point.  [Devers]
+MissionVoice\B1m7\R010726 0 The [Repression] is down. Good Kill.  [Devers]
+MissionVoice\B1m7\R010727 0 With the main sensor dish down, we're almost there!  [RP1]
+MissionVoice\B1m7\R010728 0 Destroy the sensor station  [Devers]
+MissionVoice\B1m7\R010729 0 Destroy the main sensor array  [Devers]
+MissionVoice\B1m7\R010730 0 Take out their eyes!  [Devers]
+MissionVoice\B1m7\R010731 0 Stop that shuttle!  [Devers]
+MissionVoice\B1m7\R010732 0 The station crew is attempting to escape!  [Devers]
+MissionVoice\B1m7\R010733 0 The shuttle got away  [Devers]
+MissionVoice\B1m7\R010734 0 We can only hope this doesn't compromise the mission  [Devers]
+MissionVoice\B1m7\R010735 0 Calling in the Defiance  [RP1]
+MissionVoice\B1m7\R010736 0 A shuttle has launched from that station  [Devers]
+MissionVoice\B1m7\M010701 0 You've won the day!
+MissionVoice\B1m7\M010702 0 We will still need to move through this system quickly. Well done
+MissionVoice\B1m7\M010703 0 All that planning has gone to waste
+MissionVoice\B1m7\M010704 0 You should have been paying more attention to what was going on
+MissionVoice\B1m7\M010705 0 Excellent work.
+MissionVoice\B1m7\M010706 0 You have insured that the mission isn't compromised
+
+ BATTLE 2 MISSION 1
+
+MissionVoice\B2m1\R020101 0 The Flight staff will be launching shortly.  [Devers]
+MissionVoice\B2m1\R020102 0 Have a safe trip.  [Devers]
+MissionVoice\B2m1\R020103 0 Tell that old space pirate, Yamarus, I said hello.  [Devers]
+MissionVoice\B2m1\R020104 0 Comm sensors are detecting a distress call from a nearby system  [Kupalo]
+MissionVoice\B2m1\R020105 0 It seems they're under attack by unknown craft.  [Kupalo]
+MissionVoice\B2m1\R020106 0 Those are probably the bandits we've been sent to investigate.  [RP3]
+MissionVoice\B2m1\R020107 0 [Blue 1] and [2], break off and check out the distress call.  [Kupalo]
+MissionVoice\B2m1\R020108 0 Feeding you the hyper coordinates.  [Kupalo]
+MissionVoice\B2m1\R020109 2 This is the [Calico]. Can anyone read us?  [CO2]
+MissionVoice\B2m1\R020110 2 We're being attacked and request assistance.  [CO2]
+MissionVoice\B2m1\R020111 0 Looks like the bandits are hitting them hard.  [RP3]
+MissionVoice\B2m1\R020112 2 Alliance fighters, please help us!  [CO2]
+MissionVoice\B2m1\R020113 0 Check out those fighters.  [RP3]
+MissionVoice\B2m1\R020114 0 Try to get as close to them as you can.  [RP3]
+MissionVoice\B2m1\R020115 0 All clear. Repeat. All clear.  [RP3]
+MissionVoice\B2m1\R020116 2 Thanks for your assistance.....we owe you one.  [CO2]
+MissionVoice\B2m1\R020117 2 It didn't look like we were going to make it.  [CO2]
+MissionVoice\B2m1\R020118 0 Let's get out of here and meet up with the [Liberty].  [RP3]
+MissionVoice\B2m1\R020119 0 [Blue 1], [Blue 2], you are cleared to land.  [RO2]
+MissionVoice\B2m1\R020120 0 Report to the debriefing room as soon as possible.  [RO2]
+MissionVoice\B2m1\R020121 0 They are going to want to hear about this.  [RO2]
+MissionVoice\B2m1\R020122 0 Hopefully, our flight records caught everything.  [RO2]
+MissionVoice\B2m1\R020123 0 Those things look like some weird new TIE design.  [RO2]
+MissionVoice\B2m1\R020124 0 Must be some new secret weapon of the Empire.  [RO2]
+MissionVoice\B2m1\R020125 0 What's the Empire up to?  [RO2]
+MissionVoice\B2m1\R020126 0 You can bet it's not good.  [RP3]
+MissionVoice\B2m1\M020101 0 Good work. Proceed to your rendezvous with the Liberty.
+MissionVoice\B2m1\M020102 0 We should begin studying your flight recorders immediately.
+MissionVoice\B2m1\M020103 0 You let those people perish.
+MissionVoice\B2m1\M020104 0 I thought the Defiance was sending its best.
+
+ BATTLE 2 MISSION 2
+
+MissionVoice\B2m2\R020201 0 Form up with the decoy convoy and proceed to the hyperpoint.  [Kupalo]
+MissionVoice\B2m2\R020202 0 Good hunting out there.  [Kupalo]
+MissionVoice\B2m2\R020203 0 Hopefully, the Imps will take the bait.  [Kupalo]
+MissionVoice\B2m2\R020204 0 Enemy starfighters emerging from hyperspace!  [RP1]
+MissionVoice\B2m2\R020205 0 Get an ID on those ETRs.  [Kupalo]
+MissionVoice\B2m2\R020206 0 I'll begin my firing run.  [RP1]
+MissionVoice\B2m2\R020207 0 Engaging starfighters.  [RP1]
+MissionVoice\B2m2\R020208 0 We're taking fire over here!  [RO1]
+MissionVoice\B2m2\R020209 0 ETRs disabled. Our boarding craft should be here shortly.  [Kupalo]
+MissionVoice\B2m2\R020210 0 Protect our lifters during their operation.  [Kupalo]
+MissionVoice\B2m2\R020211 0 Try to save some of convoy Sulin.  [Kupalo]
+MissionVoice\B2m2\R020212 0 We do not want to lose all of them.  [Kupalo]
+MissionVoice\B2m2\R020213 0 Excellent work with those fighters.  [Kupalo]
+MissionVoice\B2m2\R020214 0 Capture operation completed. Heading home.  [RO2]
+MissionVoice\B2m2\R020215 0 Let's go.  [RP1]
+MissionVoice\B2m2\R020216 0 Welcome back, pilots. Well done.  [Kupalo]
+MissionVoice\B2m2\R020217 0 All enemy craft are either destroyed or disabled.  [Kupalo]
+MissionVoice\B2m2\R020218 0 Be sure to finish off any remaining disabled craft.  [Kupalo]
+MissionVoice\B2m2\R020219 0 Our timetable prevents us from grabbing them all.  [Kupalo]
+MissionVoice\B2m2\R020220 0 Sulin has lost half their number.  [Kupalo]
+MissionVoice\B2m2\R020222 0 I hope these ion pulses work as advertised [RP1]
+MissionVoice\B2m2\R020223 0 Or this is going to be one short mission.  [RP1]
+MissionVoice\B2m2\R020224 0 You gotta love the Z-95.  [RP1]
+MissionVoice\B2m2\R020225 0 Nothing beats the feeling of power it gives you.  [RP1]
+MissionVoice\B2m2\R020226 0 Something bothering you, pilot?  [Kupalo]
+MissionVoice\B2m2\R020227 0 Um, No Sir.  [RP1]
+MissionVoice\B2m2\R020228 0 Good.  [Kupalo]
+MissionVoice\B2m2\R020229 0 You have disabled most of the enemy fighters. A few more to go.  [Kupalo]
+MissionVoice\B2m2\R020230 0 I'm really starting to like these new warheads.  [RP1]
+MissionVoice\B2m2\M020201 0 The enemy fell for the trap and you made them pay for it.
+MissionVoice\B2m2\M020203 0 I'll have a rough time explaining this one to the CO.
+MissionVoice\B2m2\M020204 0 We were so close.
+MissionVoice\B2m2\M020205 0 Not a single craft in Sulin was destroyed.
+MissionVoice\B2m2\M020206 0 Flawless mission. Well done.
+
+ BATTLE 2 MISSION 3
+
+MissionVoice\B2m3\R020301 5 Let's go meet Emon. I don't want to miss any action.  [Emkay]
+MissionVoice\B2m3\R020302 5 Ah...my little Rebel brother. I hope you're up for this, kid.  [Emon]
+MissionVoice\B2m3\R020303 5 Here they come now. Stay alert.  [Emon]
+MissionVoice\B2m3\R020304 5 That escort doesn't look so tough.  [Emkay]
+MissionVoice\B2m3\R020305 5 Hmm....my sensors detect no life forms aboard the target ship.  [Emkay]
+MissionVoice\B2m3\R020306 5 What?!?  [Emon]
+MissionVoice\B2m3\R020307 5 Emkay, are you sure about that?  [Emon]
+MissionVoice\B2m3\R020308 5 Sir....I do not make such mistakes.  [Emkay]
+MissionVoice\B2m3\R020309 5 It's a setup!!!!!  [Emon]
+MissionVoice\B2m3\R020310 5 Several fighters are entering the sector.  [Emkay]
+MissionVoice\B2m3\R020311 3 Greetings, Azzameens.  [Bounty]
+MissionVoice\B2m3\R020312 3 We're here to fulfill a contract on your heads.  [Bounty]
+MissionVoice\B2m3\R020313 3 It seems a certain K'Armyn Viraxo is a little upset with you.  [Bounty]
+MissionVoice\B2m3\R020315 5 Ok kid, looks like we have to fight our way out of here.
+MissionVoice\B2m3\R020317 2 Be advised, you are in violation. This is a weapons free zone.  [CO3]
+MissionVoice\B2m3\R020318 2 The Imperial authorities have been notified.
+MissionVoice\B2m3\R020319 5 We'd better hurry this up then.  [Emon]
+MissionVoice\B2m3\R020320 5 I calculate we can take these thugs.  [Emkay]
+MissionVoice\B2m3\R020321 5 But I'm uncertain as to our chances against the Imperials.  [Emkay]
+MissionVoice\B2m3\R020322 5 That's the last of them.  [Emon]
+MissionVoice\B2m3\R020323 5 Well, at least we took out the yacht.  [Emkay]
+MissionVoice\B2m3\R020324 5 Let's split up  [Emon]
+MissionVoice\B2m3\R020325 5 Bounty hunters!  [Emon]
+MissionVoice\B2m3\R020326 5 How did they know we were going to be here?!?
+MissionVoice\B2m3\R020327 5 Oh, we have a problem. They're trying to block our escape.  [Emkay]
+MissionVoice\B2m3\M020301 5 Looks like we made it out of there in one piece, Ace.
+MissionVoice\B2m3\M020303 5 For a military outfit, the Rebels haven't
+MissionVoice\B2m3\M020304 5 taught you much about discipline.
+
+ BATTLE 2 MISSION 4
+
+MissionVoice\B2m4\R020401 0 Let's hit them hard and fast.  [RP2]
+MissionVoice\B2m4\R020402 0 Production facility dead ahead.  [Kupalo]
+MissionVoice\B2m4\R020403 0 Look's like they're throwing a party for us.  [RP2]
+MissionVoice\B2m4\R020404 0 It's getting pretty thick out here.  [RP2]
+MissionVoice\B2m4\R020405 0 Storm Unit is under attack. Protect them.  [Kupalo]
+MissionVoice\B2m4\R020406 0 The experimental TIEs are launching from those hangar bays.  [Kupalo]
+MissionVoice\B2m4\R020407 0 Commencing boarding operation.  [RO2]
+MissionVoice\B2m4\R020408 0 We got what we came for, bugging out.  [RP2]
+MissionVoice\B2m4\R020409 0 Looks like we finished off the starfighter opposition.  [RP2]
+MissionVoice\B2m4\R020410 0 Time to get out of here.  [RP2]
+MissionVoice\B2m4\R020411 0 Take out everything you can.  [Kupalo]
+MissionVoice\B2m4\R020412 0 Let's leave this place in pieces.  [RP2]
+MissionVoice\B2m4\R020413 0 We need assistance!  [RO2]
+MissionVoice\B2m4\R020414 0 We are on board the station. Opposition is light.  [RO2]
+MissionVoice\B2m4\R020415 0 We are at the main data core. Retrieving data now.  [RO2]
+MissionVoice\B2m4\R020416 0 The commando team is on board. Heading home.  [RO2]
+MissionVoice\B2m4\R020417 0 Now that the commando team is safe, destroy the facility.  [Kupalo]
+MissionVoice\B2m4\R020418 0 The cargo vessels are attempting to escape.  [Kupalo]
+MissionVoice\B2m4\R020419 0 Stop them.  [Kupalo]
+MissionVoice\B2m4\R020420 0 Looks like Intel was right.  [RP2]
+MissionVoice\B2m4\R020421 0 This place is connected to the research program.  [RP2]
+MissionVoice\B2m4\R020422 0 We have what we came for.  [RO2]
+MissionVoice\B2m4\R020423 0 Setting charges.  [RO2} [D]
+MissionVoice\B2m4\M020401 0 They'll be no more new prototypes coming from that facility.
+MissionVoice\B2m4\M020403 0 We've lost all of the commandos.
+MissionVoice\B2m4\M020404 0 Abort! Abort!
+MissionVoice\B2m4\M020405 0 The more damage we cause...
+MissionVoice\B2m4\M020406 0 the less the Imps have to work with.
+
+ BATTLE 2 MISSION 5
+
+MissionVoice\B2m5\R020501 0 Bad guys at 11 o'clock.  [RP1]
+MissionVoice\B2m5\R020502 0 All fighters engage the enemy starfighters!  [Kupalo]
+MissionVoice\B2m5\R020503 0 Stop those warheads from hitting the Liberty!  [Kupalo]
+MissionVoice\B2m5\R020504 0 Try to knock out those controller ships.  [Kupalo]
+MissionVoice\B2m5\R020505 0 There are so many of them.  [RP1]
+MissionVoice\B2m5\R020506 0 We're taking heavy fire here. You must buy us more time.  [Kupalo]
+MissionVoice\B2m5\R020507 0 We can't take much more of this.  [Kupalo]
+MissionVoice\B2m5\R020508 0 These things aren't so hot without their controller ships.  [RP1]
+MissionVoice\B2m5\R020509 0 New wave of TIEs coming in off the Liberty's bow!  [Kupalo]
+MissionVoice\B2m5\R020510 0 Heads up! Another wave of fighters!  [RP1]
+MissionVoice\B2m5\R020511 0 Hyperdrive system is offline.  [Kupalo]
+MissionVoice\B2m5\R020512 0 They must have scored a lucky hit.  [Kupalo]
+MissionVoice\B2m5\R020513 0 The Liberty isn't going anywhere.  [Kupalo]
+MissionVoice\B2m5\R020514 0 Let's give them all we got.  [RP1]
+MissionVoice\B2m5\R020515 0 Great job out there, pilots!  [Kupalo]
+MissionVoice\B2m5\R020516 0 We all owe you one.  [Kupalo]
+MissionVoice\B2m5\R020517 0 Everyone watch your fire.  [RP1]
+MissionVoice\B2m5\R020518 0 We don't want to hit each other.  [RP1]
+MissionVoice\B2m5\M020501 0 Victory is ours! Long live the Alliance!
+MissionVoice\B2m5\M020502 0 Great work protecting the Liberty!
+MissionVoice\B2m5\M020503 0 All is lost.....all is lost.
+
+ BATTLE 2 MISSION 6
+
+MissionVoice\B2m6\R020601 0 All fighters engage. Let's give it to 'em.  [Kupalo]
+MissionVoice\B2m6\R020602 0 What is that?  [Wingman]
+MissionVoice\B2m6\R020603 0 Tactical reports starfighters launching from that capital ship.  [Kupalo]
+MissionVoice\B2m6\R020604 0 Here they come!  [Wingman]
+MissionVoice\B2m6\R020605 0 Attention all pilots.  [Kupalo]
+MissionVoice\B2m6\R020606 0 That ship is emitting unusual radio signals.  [Kupalo]
+MissionVoice\B2m6\R020607 0 It may be some sort of master control craft.  [Kupalo]
+MissionVoice\B2m6\R020608 0 Similar to the signals previously used by the modified ETRs.  [Kupalo]
+MissionVoice\B2m6\R020609 0 Make it your primary target.  [Kupalo]
+MissionVoice\B2m6\R020610 0 Great job....now engage the research station.  [Kupalo]
+MissionVoice\B2m6\R020611 0 We're taking fire over here.  [Kupalo]
+MissionVoice\B2m6\R020612 0 Shields are low, stop those bombers!  [Kupalo]
+MissionVoice\B2m6\R020613 0 Looks like we're seeing some new variants.  [RP1]
+MissionVoice\B2m6\R020614 0 Way to go!  [RP1]
+MissionVoice\B2m6\R020615 0 All fighters return to the [Liberty].  [Kupalo]
+MissionVoice\B2m6\R020616 0 I'm on it.  [RP1]
+MissionVoice\B2m6\R020617 0 The Master Control craft is at half shields.  [Kupalo]
+MissionVoice\B2m6\R020618 0 Keep it up!  [Kupalo]
+MissionVoice\B2m6\R020619 0 The research station is almost destroyed.  [Kupalo]
+MissionVoice\B2m6\R020620 0 Watch for any fleeing craft.  [Kupalo]
+MissionVoice\B2m6\R020621 0 Shoot down those shuttles.  [Kupalo]
+MissionVoice\B2m6\R020622 0 That's the last of them.  [Kupalo]
+MissionVoice\B2m6\R020623 0 It's a very hot place you go when you're bad.  [RP2]
+MissionVoice\B2m6\R020624 0 Put a lid on it...this is serious business.  [RP1]
+MissionVoice\B2m6\M020601 0 Great work! Hope you all like Corellian champagne.
+MissionVoice\B2m6\M020602 0 We'll toast to the end of that research program.
+MissionVoice\B2m6\M020603 0 How could this have happened?  Victory was in our grasp.
+MissionVoice\B2m6\M020604 0 Report back immediately.
+MissionVoice\B2m6\M020605 0 Hopefully we were able to get them all.
+MissionVoice\B2m6\M020606 0 Well done!
+
+ BATTLE 3 MISSION 1
+
+MissionVoice\B3m1\R030101 0 Head for the hyperbuoy and prepare to jump to hyperspace.
+MissionVoice\B3m1\R030102 0 There's our target... looks like they've brought some company.
+MissionVoice\B3m1\R030103 0 The X-Wings will engage the fighters. Go ID that convoy.
+MissionVoice\B3m1\R030104 0 Sensors confirm the presence of slaves on the convoy!
+MissionVoice\B3m1\R030105 0 Disable them at once!
+MissionVoice\B3m1\R030106 0 We've got more fighters coming in! Stay after your targets!
+MissionVoice\B3m1\R030107 0 OK, team, the assault transports are on their way.
+MissionVoice\B3m1\R030108 0 Let's try to clean up some of this fighter cover.
+MissionVoice\B3m1\R030109 0 Watch out for that Golan defense platform.
+MissionVoice\B3m1\R030110 0 Try to keep those TIE Fighters off the ATRs!
+MissionVoice\B3m1\R030111 0 We've got to free those slaves!
+MissionVoice\B3m1\R030112 0 Our transports are being attacked! Assist them at once!
+MissionVoice\B3m1\R030113 0 Good job, pilots. The ATRs have picked up the slaves.
+MissionVoice\B3m1\R030114 0 Now, let's see them safely to hyperspace.
+MissionVoice\B3m1\R030115 0 [Red 2], you're getting awfully close to that Star Destroyer.
+MissionVoice\B3m1\R030116 0 Great work. The transports have returned to the Liberty safely.
+MissionVoice\B3m1\R030117 0 I see them. Let's take them from behind, Rookie.  [RP3]
+MissionVoice\B3m1\R030118 0 I'm right with you...and don't call me Rookie.  [RP1]
+MissionVoice\B3m1\M030101 0 Great job, pilots. We've successfully freed the slaves!
+MissionVoice\B3m1\M030102 0 Return to the Liberty and prepare for your next mission.
+MissionVoice\B3m1\M030103 0 We can't complete the mission! Abort! Abort!
+MissionVoice\B3m1\M030104 0 Pay attention to your mission objectives!
+
+ BATTLE 3 MISSION 2
+
+MissionVoice\B3m2\R030201 5 Let's head out. The freighters are standing by for my signal.
+MissionVoice\B3m2\R030202 5 I am picking up a few fighters and some gun platforms.  [Emkay]
+MissionVoice\B3m2\R030203 5 I thought there would be more.  [Emkay]
+MissionVoice\B3m2\R030204 5 Yeah, that's what makes me nervous.
+MissionVoice\B3m2\R030205 5 Well, let's get in there and mix it up a bit, shall we?
+MissionVoice\B3m2\R030206 5 Ok, that's the last of the gun platforms.
+MissionVoice\B3m2\R030207 5 There goes the last of the fighters.
+MissionVoice\B3m2\R030208 5 I am signaling our people now. They should arrive any moment.  [Emkay]
+MissionVoice\B3m2\R030209 5 Keep your eyes peeled for reinforcements.
+MissionVoice\B3m2\R030210 5 I am picking up a new contact coming in from hyperspace  [Emkay]
+MissionVoice\B3m2\R030211 5 They have fighter escort, too...  [Emkay]
+MissionVoice\B3m2\R030212 5 Wait a minute... those aren't Viraxo ships!
+MissionVoice\B3m2\R030213 5 I have never seen that particular design before.  [Emkay]
+MissionVoice\B3m2\R030214 5 I have... those are Black Sun fighters!
+MissionVoice\B3m2\R030215 5 Those are the fighters that supposedly replaced the Star Viper.
+MissionVoice\B3m2\R030216 5 We've still got a job to do here, let's get after them!
+MissionVoice\B3m2\R030217 5 They're going for the freighters!
+MissionVoice\B3m2\R030218 5 Our freighters are taking hits! We've got to help them out!
+MissionVoice\B3m2\R030219 5 Attention, Sabra.
+MissionVoice\B3m2\R030220 5 Attention, Otana
+MissionVoice\B3m2\R030221 5 This is Magnum 1. We're heading for the cargo
+MissionVoice\B3m2\R030222 5 Magnum 1, reporting in. We're all stocked up and ready to go.
+MissionVoice\B3m2\R030223 5 Ok, let's get these ships to the rendezvous point!
+MissionVoice\B3m2\R030224 5 Now you are talking!  [Emkay -]
+MissionVoice\B3m2\M030201 5 Nice work, Ace. We really pulled that one off well!
+MissionVoice\B3m2\M030202 5 Uncle Antan will be glad to hear the good news.
+MissionVoice\B3m2\M030203 5 Oh, no, we've lost our freighters!
+MissionVoice\B3m2\M030204 5 We're going to have to abort! Let's get out of here!
+
+ BATTLE 3 MISSION 3
+
+MissionVoice\B3m3\R030301 0 Head for the hyperbuoy, and prepare to enter hyperspace.
+MissionVoice\B3m3\R030302 0 There's our target, dead ahead. Take out those gun emplacements
+MissionVoice\B3m3\R030303 0 Watch for enemy fighters! Blue Group will provide cover.
+MissionVoice\B3m3\R030304 0 Great work. With those gunpads gone, we can engage the base.
+MissionVoice\B3m3\R030305 0 Uh oh.. looks like we have company. Red 6, continue the attack.
+MissionVoice\B3m3\R030306 0 We'll take care of the fighters from that Star Destroyer.
+MissionVoice\B3m3\R030307 0 Great work! The station's shields are down!
+MissionVoice\B3m3\R030308 0 Red 6, try to locate the blast doors and expose the reactor.
+MissionVoice\B3m3\R030309 0 Then, find a way inside and see if you can take it out!
+MissionVoice\B3m3\R030310 0 Interesting... seems to be some sort of reactor test facility.
+MissionVoice\B3m3\R030311 0 Command, what are your orders?
+MissionVoice\B3m3\R030312 0 Red Group, you are cleared to destroy the facility.
+MissionVoice\B3m3\R030313 0 We'll analyze the data you've collected once you return.
+MissionVoice\B3m3\R030314 0 Roger that, Command. You heard 'em. Let's get it done, pilots!
+MissionVoice\B3m3\R030315 0 Copy. I'm on 'em!  [RP1]
+MissionVoice\B3m3\R030316 0 Stay sharp... we've got Assault Gunboats inbound!  [RP8]
+MissionVoice\B3m3\R030317 0 Red 6, blast those communications satellites!  [RP8]
+MissionVoice\B3m3\R030318 0 We don't want them calling for reinforcements!  [RP8]
+MissionVoice\B3m3\R030319 0 More Gunboats are entering the area. Watch yourselves!  [RP8]
+MissionVoice\B3m3\R030320 0 We're getting hammered out here!  [RP8]
+MissionVoice\B3m3\R030321 0 The Liberty is on their way. That ought to help us out!  [RP8]
+MissionVoice\B3m3\R030322 0 The Liberty is heading back to the fleet. Let's stay with them!  [RP8]
+MissionVoice\B3m3\R030323 0 The Liberty is under attack! We'd better give them some cover!  [RP8]
+MissionVoice\B3m3\R030324 0 Our job's done here, Red Group. Let's get outta here!  [RP8]
+MissionVoice\B3m3\M030301 0 Excellent job! The station has been destroyed!
+MissionVoice\B3m3\M030302 0 Return to the Liberty.
+
+ BATTLE 3 MISSION 4
+
+MissionVoice\B3m4\R030401 0 Ok, pilots, stay sharp. Let's do this one by the numbers.
+MissionVoice\B3m4\R030402 0 Head to the hyperspace point and prepare to move out.
+MissionVoice\B3m4\R030403 0 Looks like they've got a minefield protecting the satellites.
+MissionVoice\B3m4\R030404 0 Take care of those fighters first, then move on to the mines.
+MissionVoice\B3m4\R030405 0 Use caution when firing around those mines!
+MissionVoice\B3m4\R030406 0 You don't want to hit one of the satellites!
+MissionVoice\B3m4\R030407 0 Let's move quickly, pilots!
+MissionVoice\B3m4\R030408 0 It won't be long before enemy reinforcements start to arrive.
+MissionVoice\B3m4\R030409 0 Very good, all of the satellites have been inspected.
+MissionVoice\B3m4\R030410 0 Excellent. All the mines have been destroyed.
+MissionVoice\B3m4\R030411 0 Looks like we've worn out our welcome here.
+MissionVoice\B3m4\R030412 0 We've got Imperial warships entering the area!
+MissionVoice\B3m4\R030413 0 They're launching fighters! [Red Group], intercept!
+MissionVoice\B3m4\R030414 0 The Modified CRV [Python] is on the way. Stay alert.
+MissionVoice\B3m4\R030415 0 Keep those fighters away from the [Python]!
+MissionVoice\B3m4\R030416 0 They've got to finish downloading the communications data.
+MissionVoice\B3m4\R030417 0 This is the [Python]. We're starting the download now.
+MissionVoice\B3m4\R030418 0 This is the [Python]! We're getting hammered here!
+MissionVoice\B3m4\R030419 0 This is the [Python]. We've finished the download.
+MissionVoice\B3m4\R030420 0 We're headed for the hyperpoint. Keep our tail clear!
+MissionVoice\B3m4\R030421 0 This is the [Python]. One minute to go until download complete.
+MissionVoice\B3m4\R030422 0 This is the Python. Uh.. we're picking up a strange signal here
+MissionVoice\B3m4\R030423 0 It's an Alliance frequency, but one we haven't used for a while
+MissionVoice\B3m4\R030424 0 That could be our anonymous informant.
+MissionVoice\B3m4\R030425 0 Save it to your data log. We'll analyze it when you return.
+MissionVoice\B3m4\R030426 0 Roger, Liberty.
+MissionVoice\B3m4\M030401 0 Great work, Red Group! Return to the Liberty.
+MissionVoice\B3m4\M030402 0 Hopefully, that data will turn up some valuable information.
+
+ BATTLE 3 MISSION 5
+
+MissionVoice\B3m5\R030501 5 I've missed you, kiddo, since you joined the Rebellion.
+MissionVoice\B3m5\R030502 5 I hear of so much activity going on.....I worry about you.
+MissionVoice\B3m5\R030503 5 Don't you worry about me, too?  [Emkay]
+MissionVoice\B3m5\R030504 5 Of course I do, Emkay. You're expensive to repair.
+MissionVoice\B3m5\R030505 5 I will delete that remark from my memory banks.  [Emkay]
+MissionVoice\B3m5\R030506 5 We'd better get going. Let's head for the hyperspace point.
+MissionVoice\B3m5\R030507 5 Looks like they're setting up another minefield.
+MissionVoice\B3m5\R030508 5 Let's take 'em out, and then check out the satellites.
+MissionVoice\B3m5\R030509 5 Nice shooting, that's the last of the mines.
+MissionVoice\B3m5\R030510 5 There... that looks like a good one. Now pull in close.
+MissionVoice\B3m5\R030511 5 Only a couple of fighters, we must get rid of them.  [Emkay]
+MissionVoice\B3m5\R030512 5 That ought to give us some room to operate.  [Emkay]
+MissionVoice\B3m5\R030513 5 OK, Ace, I'm out of the hatch. Heading for the satellite.
+MissionVoice\B3m5\R030514 5 Just give me a few minutes and I'll have this baby plugged in.
+MissionVoice\B3m5\R030515 5 Uh oh... we've got company!  [Emkay]
+MissionVoice\B3m5\R030516 5 They're sending troops out after Aeron; we've got to stop them!  [Emkay]
+MissionVoice\B3m5\R030517 5 They're getting a little too close! Get these guys off of me!
+MissionVoice\B3m5\R030518 5 I'm all finished here. It was easier than I thought it would be
+MissionVoice\B3m5\R030519 5 Bring it in close, so I can climb aboard!
+MissionVoice\B3m5\R030520 5 Ok, I'm in. Let's get out of here!
+MissionVoice\B3m5\R030521 5 We've got enemy fighters coming in!  [Emkay]
+MissionVoice\B3m5\R030522 5 Today, guys! I'm not out here space walking for my health!
+MissionVoice\B3m5\M030501 5 Great work! That device is going to come in very handy.
+MissionVoice\B3m5\M030502 5 Uncle Antan will be happy to get the good news!
+MissionVoice\B3m5\M030503 5 We blew it... Uncle Antan is gonna be furious.
+MissionVoice\B3m5\M030504 5 Let's get out of here.
+
+ BATTLE 3 MISSION 6
+
+MissionVoice\B3m6\R030601 0 Ok, pilots, let's do this one by the book.
+MissionVoice\B3m6\R030602 0 Head to the hyperspace point and prepare to jump.
+MissionVoice\B3m6\R030603 0 The rendezvous point looks clear. Proceed to the Outpost.
+MissionVoice\B3m6\R030604 0 There's the target. [Red group], engage the defending fighters!
+MissionVoice\B3m6\R030605 0 That's half the fighters gone, keep it up!
+MissionVoice\B3m6\R030606 0 We've taken out all the fighters. Great work!
+MissionVoice\B3m6\R030607 0 Now, move to engage the outpost.
+MissionVoice\B3m6\R030608 0 We've got shuttles leaving the outpost. Red 2, check them out!
+MissionVoice\B3m6\R030609 0 Looks like we've found our man.
+MissionVoice\B3m6\R030610 0 We're transmitting the coordinates now.
+MissionVoice\B3m6\R030611 1 Alliance X-wings, this is [Commander Zaletta]. Signal received.
+MissionVoice\B3m6\R030612 1 See you on the other side of the fence.
+MissionVoice\B3m6\R030613 0 Good work, team. Let's bring it back to the rendezvous point.
+MissionVoice\B3m6\R030614 0 Shuttle AA-23, this is the Alliance Frigate [Redemption].
+MissionVoice\B3m6\R030615 0 Please state your intentions.
+MissionVoice\B3m6\R030616 1 Redemption, this is [Commander Zaletta] aboard Shuttle [AA-23]
+MissionVoice\B3m6\R030617 1 I request asylum with the Rebellion.
+MissionVoice\B3m6\R030618 1 My services and knowledge are at your disposal.
+MissionVoice\B3m6\R030619 0 We copy, AA-23. You are cleared for landing in the main hangar
+MissionVoice\B3m6\R030620 0 Welcome to the Rebel Alliance.
+MissionVoice\B3m6\R030621 0 Ok, Red Group, let's form up and head back to the [Liberty].
+MissionVoice\B3m6\R030622 0 What the... it's a trap! I want that Imperial scum in shackles!
+MissionVoice\B3m6\R030623 0 Red Group, we've got incoming fighters! Move to intercept!
+MissionVoice\B3m6\R030624 0 Liberty, this is the [Redemption]! We're under attack.
+MissionVoice\B3m6\R030625 0 We're being pinned down by an Interdictor and can't hyper!
+MissionVoice\B3m6\R030626 0 Redemption, this is the [Liberty]. Help is on the way.
+MissionVoice\B3m6\R030627 0 Redemption, this is the [Liberty]. We're launching fighters.
+MissionVoice\B3m6\R030628 0 Try to stay out of range of the Star Destroyer.
+MissionVoice\B3m6\R030629 0 We're moving to engage the [Interdictor].
+MissionVoice\B3m6\R030630 0 Red Group, if you get the chance, head to the Liberty to rearm
+MissionVoice\B3m6\R030631 0 Then return and assist in the attack on the Interdictor.
+MissionVoice\B3m6\R030632 0 The ISD is launching bombers and they're headed our way.
+MissionVoice\B3m6\R030633 0 Stop them before they get within range to fire their warheads!
+MissionVoice\B3m6\R030634 0 This is the [Redemption]! We're taking hits! Shields holding.
+MissionVoice\B3m6\R030635 0 This is the [Redemption]! Our shields are failing!
+MissionVoice\B3m6\R030636 0 This is the [Redemption]! We're taking serious damage!
+MissionVoice\B3m6\R030637 0 The [Interdictor]'s shields are out! Concentrate your fire!
+MissionVoice\B3m6\R030638 0 Looks like the [Interdictor] is making a run for it.
+MissionVoice\B3m6\R030639 0 Finish them off!
+MissionVoice\B3m6\R030640 0 [Redemption], you are cleared to start your run to hyperspace.
+MissionVoice\B3m6\R030641 0 We'll provide cover for you and meet you back at the fleet.
+MissionVoice\B3m6\R030642 0 The [Redemption] is safely away. Great work, pilots!
+MissionVoice\B3m6\R030643 0 All fighters return to the fleet! We'll collect you there.
+MissionVoice\B3m6\M030601 0 Splendid job! Commander Zaletta is now safely in our hands.
+MissionVoice\B3m6\M030602 0 Return to the [Liberty] for your debriefing.
+
+ BATTLE 3 MISSION 7
+
+MissionVoice\B3m7\R030701 0 [Red Group], head for your hyperpoint!
+MissionVoice\B3m7\R030702 0 There it is. [Red 2], see if you can get an ID on the shuttle.
+MissionVoice\B3m7\R030703 0 Watch out! He's dropping homing mines!
+MissionVoice\B3m7\R030704 0 Liberty, this is Red One. We've confirmed Kupalo is on board.
+MissionVoice\B3m7\R030705 0 You've got to stop him, [Red Group]! We can't let him escape.
+MissionVoice\B3m7\R030706 0 Roger that, Liberty. [Red 2], let's get his attention.
+MissionVoice\B3m7\R030707 0 Uh, oh! Looks like he's called for some backup.
+MissionVoice\B3m7\R030708 0 I'll take care of these gunboats. You stay after Kupalo!
+MissionVoice\B3m7\R030709 0 Blast! Looks like he's given us the slip!
+MissionVoice\B3m7\R030710 0 We've plotted his course, [Red Group]. Stay on him!
+MissionVoice\B3m7\R030711 0 Give it up, Commander, you can't escape.
+MissionVoice\B3m7\R030712 0 I'm afraid I can't do that, Olin. I MUST carry out my orders.
+MissionVoice\B3m7\R030713 0 Your ship has taken serious damage, Kupalo.
+MissionVoice\B3m7\R030714 0 Power down your systems. We don't want this to get ugly.
+MissionVoice\B3m7\R030715 0 Alright! Alright! I'm powering down now...
+MissionVoice\B3m7\R030716 0 Good work, Red Group! Storm Unit is on the way.
+MissionVoice\B3m7\R030717 0 Liberty, we've got a Star Destroyer entering the area.
+MissionVoice\B3m7\R030718 0 I think Kupalo's ride is here.
+MissionVoice\B3m7\R030719 0 Keep them away from that shuttle!
+MissionVoice\B3m7\R030720 0 Heads up, [Red 2]! We've got more fighters incoming.
+MissionVoice\B3m7\R030721 0 Those fighters are going after Storm Unit! Help them out!
+MissionVoice\B3m7\R030722 0 This is Storm Unit. We've got the shuttle and are heading out.
+MissionVoice\B3m7\R030723 0 We're taking a beating over here!
+MissionVoice\B3m7\R030724 0 [Red 2], assist Storm Unit at once!
+MissionVoice\B3m7\M030701 0 Excellent work, Red Group!
+MissionVoice\B3m7\M030702 0 Return to the Liberty for your debriefing.
+MissionVoice\B3m7\M030703 0 Oh, no! The shuttle is in Imperial hands now!
+MissionVoice\B3m7\M030704 0 I don't think we're gonna get any medals for this.
+
+ BATTLE 4 MISSION 1
+
+MissionVoice\B4m1\R040101 5 Let's head for the rendezvous point. Our ships are waiting.
+MissionVoice\B4m1\R040102 5 Hailing the Otana.
+MissionVoice\B4m1\R040103 5 Hailing the Sabra.
+MissionVoice\B4m1\R040104 5 We're all set here. Ready to head out when you are.
+MissionVoice\B4m1\R040105 5 Alright, team, let's hit the Viraxo hard and fast!
+MissionVoice\B4m1\R040106 5 Uh oh, looks like more Black Sun ships!
+MissionVoice\B4m1\R040107 5 All ships engage! The freighters won't be far behind us!
+MissionVoice\B4m1\R040108 5 Ok, stay sharp. Our freighters are on there way in.
+MissionVoice\B4m1\R040109 5 Keep those fighters off our freighters!
+MissionVoice\B4m1\R040110 5 Let's pick up the pace, people!
+MissionVoice\B4m1\R040111 5 That Viraxo convoy can't be far off! We're losing time here!
+MissionVoice\B4m1\R040112 5 This is Juno 1. We're going for the cargo now. Cover us!
+MissionVoice\B4m1\R040113 5 The Conveyors Lara 1 & 2 have finished their docking operations
+MissionVoice\B4m1\R040114 5 They're headed for the hyper point. Keep their tails clear!
+MissionVoice\B4m1\R040115 5 Set course for the Vergesso Asteroids.
+MissionVoice\B4m1\R040116 5 Let's get these ships outta here.
+MissionVoice\B4m1\R040117 5 Great... looks like that Viraxo convoy has arrived!
+MissionVoice\B4m1\R040118 5 We've got more fighters incoming! Keep 'em off the freighters!
+MissionVoice\B4m1\R040119 5 We'd better take out that System Patrol craft.
+MissionVoice\B4m1\R040120 5 It'll make short work of our freighters.
+MissionVoice\B4m1\R040121 5 There goes the neighborhood.  [Emkay]
+MissionVoice\B4m1\R040122 5 The Conveyors are under attack! Help them out!
+MissionVoice\B4m1\R040123 5 This is Juno 1 reporting in... we're about halfway through here
+MissionVoice\B4m1\R040124 5 We just need a few more minutes and we'll be ready to go!
+MissionVoice\B4m1\R040125 5 Alright! We're all packed up and ready to get outta here!
+MissionVoice\B4m1\R040126 5 Our ships are taking some damage! You've got to hold them off!
+MissionVoice\B4m1\R040127 5 Thanks for the help Otana.
+MissionVoice\B4m1\R040128 5 It'll be nice to see a paycheck again!
+MissionVoice\B4m1\M040101 5 Great work, Ace. The Rebels will be grateful for these supplies
+MissionVoice\B4m1\M040102 5 And Uncle Antan will be happy for the credits!
+MissionVoice\B4m1\M040103 5 Just great... we've lost our freighters!
+MissionVoice\B4m1\M040104 5 We'd better get outta here.
+
+ BATTLE 4 MISSION 2
+
+MissionVoice\B4m2\R040201 0 Blue Group, you know the drill. Head to your hyperspace point.
+MissionVoice\B4m2\R040202 0 The convoy should be arriving soon.
+MissionVoice\B4m2\R040203 0 Looks like we've beaten them here.
+MissionVoice\B4m2\R040204 0 Stay sharp, pilots. That area is about to get very busy.
+MissionVoice\B4m2\R040205 0 There they are... looks like the convoy is starting to arrive.
+MissionVoice\B4m2\R040206 0 Move in and inspect as many ships as you can!
+MissionVoice\B4m2\R040207 0 With luck, you can get a jump on them before they can react.
+MissionVoice\B4m2\R040208 0 Heads up, we've got enemy fighters launching.
+MissionVoice\B4m2\R040209 0 Keep an eye on them, but concentrate on your reconnaissance.
+MissionVoice\B4m2\R040210 0 Good work, Blue Group, that's about half the convoy inspected.
+MissionVoice\B4m2\R040211 0 More fighters are entering the area, Blue 2. Stay focused!
+MissionVoice\B4m2\R040212 0 Blue two, break off and recharge! You're taking lots of hits!
+MissionVoice\B4m2\R040213 0 Keep at it, you're almost there. Only a few more craft to go.
+MissionVoice\B4m2\R040214 0 I've never seen such heavy escort. Something is definitely up.
+MissionVoice\B4m2\R040215 0 Blue Two, you're getting a little too close to those escorts.
+MissionVoice\B4m2\R040216 0 Stay after your objectives!
+MissionVoice\B4m2\R040217 0 Kid, you're a magnet for starfighters.  [Olin ga]
+MissionVoice\B4m2\M040201 0 Great work! All the convoy craft have been inspected.
+MissionVoice\B4m2\M040202 0 Return to the [Liberty] with the data you've collected.
+MissionVoice\B4m2\M040203 0 You've failed to inspect one of the convoy ships.
+MissionVoice\B4m2\M040204 0 Return to the [Liberty] at once for your debriefing.
+
+ BATTLE 4 MISSION 3
+
+MissionVoice\B4m3\R040301 5 We must go! We don't have much time!  [Emkay]
+MissionVoice\B4m3\R040302 5 I've already plotted our course. I hope we're not too late.  [Emkay]
+MissionVoice\B4m3\R040303 5 There's the shipyard, dead ahead. Look at that Imperial force!  [Emkay]
+MissionVoice\B4m3\R040304 5 That's Vader's ship! I have a bad feeling about this.  [Emkay]
+MissionVoice\B4m3\R040305 5 I don't think Aeron's communicator will reach us from here.  [Emkay]
+MissionVoice\B4m3\R040306 5 If you can get us close enough, I may be able to reach her.  [Emkay]
+MissionVoice\B4m3\R040307 5 We're almost in range, keep heading for the landing platform.  [Emkay]
+MissionVoice\B4m3\R040308 5 Otana, this is Aeron! Do you read? Ace, is that you?
+MissionVoice\B4m3\R040309 5 We read you Aeron. Did someone call for a ride?  [Emkay]
+MissionVoice\B4m3\R040310 5 Stow it, Emkay! Get your rusted bolts over here!
+MissionVoice\B4m3\R040311 5 We're already on our way. Sit tight.  [Emkay]
+MissionVoice\B4m3\R040312 5 It doesn't look like the fighters have noticed us yet.  [Emkay]
+MissionVoice\B4m3\R040313 5 We're pretty much on our own, here, Ace.
+MissionVoice\B4m3\R040314 5 The Rebel fighter defense won't be able to give us much cover.
+MissionVoice\B4m3\R040315 5 Ok, we're in range, let's start the docking sequence.  [Emkay]
+MissionVoice\B4m3\R040316 5 Uh oh, I think we've been noticed.  [Emkay]
+MissionVoice\B4m3\R040317 5 You'd better head for the turrets. I'll handle the docking.  [Emkay]
+MissionVoice\B4m3\R040318 5 Aeron, we're docked at the North Tower.  [Emkay]
+MissionVoice\B4m3\R040319 5 You'd better hurry! We're a sitting bantha here!  [Emkay]
+MissionVoice\B4m3\R040320 5 I'm hurrying! I'm hurrying! I'd like to get off this rock, too!
+MissionVoice\B4m3\R040321 5 Aeron, those Star Destroyers are getting closer!  [Emkay]
+MissionVoice\B4m3\R040322 5 Cool your servos! I'm almost there!
+MissionVoice\B4m3\R040323 5 Okay guys, I'm on board. Let's get outta here!  [Aeron]
+MissionVoice\B4m3\R040324 5 How far is it to the hyperspace point?  [Aeron]
+MissionVoice\B4m3\R040325 5 It's just beyond that Super Star Destroyer.  [Emkay]
+MissionVoice\B4m3\R040326 5 They seem to be doing a decent job of blocking the exit vector.  [Emkay]
+MissionVoice\B4m3\R040327 5 Well, we've run through some pretty nasty blockades before.  [Aeron]
+MissionVoice\B4m3\R040328 5 This'll be one for the record books. Let's go!  [Aeron]
+MissionVoice\B4m3\R040329 5 Watch out for those turbolasers! We're getting awfully close.  [Aeron]
+MissionVoice\B4m3\R040330 5 Almost there! Just another few klicks!  [Emkay]
+MissionVoice\B4m3\R040331 5 Ok, punch it!  [Aeron]
+MissionVoice\B4m3\R040332 5 Yee-Haa!  [Aeron]
+MissionVoice\B4m3\R040333 5 I owe you one, kid. You're the greatest.  [Aeron]
+MissionVoice\B4m3\R040334 5 What about me? I thought my performance was superb.  [Emkay]
+MissionVoice\B4m3\R040335 5 Are you kidding? I'm surprised you didn't blow a gasket, Emkay.  [Aeron]
+MissionVoice\B4m3\R040336 5 I'm sure your Uncle would be very upset to hear that you...  [Emkay]
+MissionVoice\B4m3\R040337 5 Emkay, it is so important to your future...  [Aeron]
+MissionVoice\B4m3\R040338 5 that you not finish that sentence.  [Aeron]
+MissionVoice\B4m3\R040339 5 Yes ma'am.  [Emkay]
+MissionVoice\B4m3\R040340 5 Let's head home.  [Aeron]
+MissionVoice\B4m3\M040301 5 That was some fantastic flying, Ace!
+MissionVoice\B4m3\M040302 5 You've really become quite a pilot! Thanks for saving me.
+MissionVoice\B4m3\M040303 5 Oh no... I can't believe it... we've lost Aeron.
+MissionVoice\B4m3\M040304 5 We'd better get out of here.
+
+ BATTLE 4 MISSION 4
+
+MissionVoice\B4m4\R040401 0 Keep it tight, Blue Squad. We're almost to the jump point.
+MissionVoice\B4m4\R040402 0 From there we'll make a quick jump out to the local moon.
+MissionVoice\B4m4\R040403 0 If our information is correct,
+MissionVoice\B4m4\R040404 0 the freighter should be arriving at any moment.
+MissionVoice\B4m4\R040405 0 Alright, we're at the coordinates. Stay sharp.
+MissionVoice\B4m4\R040406 0 Heads up, Blue Squad, there's our target. Attack formation!
+MissionVoice\B4m4\R040407 0 Attention those on board the freighter [Suprosa].
+MissionVoice\B4m4\R040408 0 This is Commander Skywalker of the Alliance.
+MissionVoice\B4m4\R040409 0 Shut down your engines and prepare to be boarded.
+MissionVoice\B4m4\R040410 2 This is the captain of the [Suprosa]. Are you crazy?
+MissionVoice\B4m4\R040411 2 We're hauling fertilizer here! What kind of pirates are you?
+MissionVoice\B4m4\R040412 0 We're not pirates. Like I said, we're with the Alliance.
+MissionVoice\B4m4\R040413 0 And maybe we have a big garden.
+MissionVoice\B4m4\R040414 0 Pull it up, Captain, and no one gets hurt.
+MissionVoice\B4m4\R040415 3 Listen, pal; I'm working under contract to XTS...
+MissionVoice\B4m4\R040416 3 and my orders are to deliver my cargo to the agent on Bothawui.
+MissionVoice\B4m4\R040417 3 Why don't you go bother somebody smuggling guns or spice?
+MissionVoice\B4m4\R040418 0 Captain, either you shut down your engines...
+MissionVoice\B4m4\R040419 0 or we'll shut them down for you.
+MissionVoice\B4m4\R040420 0 My gunners have twitchy fingers...don't push the issue.
+MissionVoice\B4m4\R040421 0 It looks like he's making a run for it, Luke.
+MissionVoice\B4m4\R040422 0 I guess we've got to do it the hard way, then.
+MissionVoice\B4m4\R040423 0 Blue Squadron, target the freighter, but only use ion cannons.
+MissionVoice\B4m4\R040424 0 We don't want to blow this baby up. Move in!
+MissionVoice\B4m4\R040425 0 Luke, I'm getting some strange readings from the Suprosa.
+MissionVoice\B4m4\R040426 0 Heads up, everybody, this thing has got teeth!
+MissionVoice\B4m4\R040427 0 Looks like cannons and missile launchers. Watch yourselves!
+MissionVoice\B4m4\R040428 0 He's got a missile off!
+MissionVoice\B4m4\R040429 0 Your engines are dead, captain.
+MissionVoice\B4m4\R040430 0 And that's what you and your crew will be...
+MissionVoice\B4m4\R040431 0 if you offer any more resistance. Do you copy?
+MissionVoice\B4m4\R040432 0 I copy.
+MissionVoice\B4m4\R040433 0 You'd best not mess with your real cargo. It's a long way home.
+MissionVoice\B4m4\R040434 0 Dash, go ahead and dock. See if you can find the computer.
+MissionVoice\B4m4\R040435 0 I'm already on my way.
+MissionVoice\B4m4\R040436 0 We've got it, Luke. It's not much to look at. It's pretty small
+MissionVoice\B4m4\R040437 0 Melan, do you think you'll be able to access the program?
+MissionVoice\B4m4\R040438 0 No, it'll be encrypted and protected by a self destruct device.  [Melan]
+MissionVoice\B4m4\R040439 0 Our best team is on Kothlis, a colony not too far from here.  [Melan]
+MissionVoice\B4m4\R040440 0 We'll transport it there and see what we've got.  [Melan]
+MissionVoice\B4m4\R040441 0 Are we apt to run into any more Imperials along the way?
+MissionVoice\B4m4\R040442 0 Who can say? It is possible.  [Melan]
+MissionVoice\B4m4\R040443 0 Alright then, Blue Squad, form up with the Outrider and lets go
+MissionVoice\B4m4\R040444 0 Uh... Luke? I don't think we're in Kothlis anymore.
+MissionVoice\B4m4\R040445 0 Well, we're not going anywhere with that Interdictor here.
+MissionVoice\B4m4\R040446 0 Blue Squad, see if you can drive them off.
+MissionVoice\B4m4\R040447 0 Dash and I will take care of the fighters.
+MissionVoice\B4m4\R040448 0 Good work, Blue Squad! It looks like they're bugging out!
+MissionVoice\B4m4\R040449 0 Get ready to set your nav coordinates back to Kothlis.
+MissionVoice\B4m4\R040450 0 Alright everyone, let's get out of here!
+MissionVoice\B4m4\R040451 0 I only hope what's in that computer is worth the price we paid.
+MissionVoice\B4m4\R040452 0 Thanks for your help, Blue Squad. Your comrades would be proud.
+MissionVoice\B4m4\R040453 0 Good luck, and may the Force be with you.
+MissionVoice\B4m4\R040454 0 Hey! It's getting awfully hot over here! Gimme some cover!
+MissionVoice\B4m4\R040455 0 I could use some help over here, boys!
+MissionVoice\B4m4\R040456 0 I got it. I'll hammer that spike into scrap!
+MissionVoice\B4m4\R040457 0 Blast! I've got to be hitting it! Why doesn't it stop?!
+MissionVoice\B4m4\R040458 0 Dash! Come on!
+MissionVoice\B4m4\R040459 0 Shut up, I've got it! Stop, you blasted piece of junk. Stop!
+MissionVoice\B4m4\R040460 0 Incoming! Scatter!
+MissionVoice\B4m4\R040461 0 I can't have missed! I can't!
+MissionVoice\B4m4\R040462 0 I couldn't have missed!
+MissionVoice\B4m4\R040463 0 Stow it, Dash, it's too late to worry about that now.
+MissionVoice\B4m4\R040464 0 Get ready to bring your ship in.
+MissionVoice\B4m4\M040401 0 Excellent work. The Imperial computer has been secured!
+MissionVoice\B4m4\M040403 0 We've lost a great opportunity. All craft abort the mission!
+MissionVoice\B4m4\M040404 0 Return to base at once for your debriefing.
+
+ BATTLE 4 MISSION 5
+
+MissionVoice\B4m5\R040501 0 Stay sharp, Blue Group. Keep an eye out for that shuttle.
+MissionVoice\B4m5\R040502 0 The Imperial strike force will be arriving at any moment.
+MissionVoice\B4m5\R040503 0 Here they come! All fighters attack!
+MissionVoice\B4m5\R040504 0 Where is that blasted shuttle? We can't hold them off forever!
+MissionVoice\B4m5\R040505 2 Alliance vessels, this is Borsk Fey'lya on the Fey'lya's Pride.
+MissionVoice\B4m5\R040506 2 I have your cargo with me, have I come at a bad time?
+MissionVoice\B4m5\R040507 0 Better late than never. The CRV [Razor] is standing by.
+MissionVoice\B4m5\R040508 2 Affirmative, Liberty. Proceeding with docking operation.
+MissionVoice\B4m5\R040509 2 The cargo is all yours. However, there is another matter...
+MissionVoice\B4m5\R040510 0 We can discuss that later, Fey'lya.
+MissionVoice\B4m5\R040511 0 If you haven't noticed, we're a little busy here.
+MissionVoice\B4m5\R040512 0 You have clearance to land at the Liberty.
+MissionVoice\B4m5\R040513 2 Very well, Liberty. Fey'lya out.
+MissionVoice\B4m5\R040514 0 The Razor is taking hits! Help them out!
+MissionVoice\B4m5\R040515 0 The Razor's shields are out! Assist them at once!
+MissionVoice\B4m5\R040516 0 Great work! The Razor has made it safely to hyperspace
+MissionVoice\B4m5\R040517 0 Now, if you'll be so kind as to escort us out of here.
+MissionVoice\B4m5\R040518 0 The Golan Platform's shields are failing!
+MissionVoice\B4m5\R040519 0 We won't last long without our heavy defenses!
+MissionVoice\B4m5\R040520 0 This is the Liberty, our shields are failing!
+MissionVoice\B4m5\R040521 0 This is the Liberty! We're taking serious hull damage!
+MissionVoice\B4m5\R040522 0 Watch out for those guns on the Executor!
+MissionVoice\B4m5\R040523 0 You're getting too close to that Star Destroyer, Blue 2!
+MissionVoice\B4m5\R040524 0 We're on it, Liberty
+MissionVoice\B4m5\M040501 0 Good work team, that was a little too close for comfort.
+MissionVoice\B4m5\M040502 0 You're cleared to land at the Liberty.
+MissionVoice\B4m5\M040503 0 Abort the mission! The Empire has gained the upper hand today.
+MissionVoice\B4m5\M040504 0 Scatter to confuse them and escape to the rally point!
+
+ BATTLE 4 MISSION 6
+
+MissionVoice\B4m6\R040601 0 Head for your hyperspace point. There's no time to lose.
+MissionVoice\B4m6\R040602 0 There's the Razor. I hope we're not too late.
+MissionVoice\B4m6\R040603 0 Glad to see you, Blue Group!
+MissionVoice\B4m6\R040604 0 We're going to need some time to repair the engines.
+MissionVoice\B4m6\R040605 0 We've got you covered, Razor. Just get those engines online!
+MissionVoice\B4m6\R040606 0 Oh, no! It's the Avenger!
+MissionVoice\B4m6\R040607 0 We haven't finished repairing the engines!
+MissionVoice\B4m6\R040608 0 I think our luck just ran out.
+MissionVoice\B4m6\R040609 0 We can't let the Imperials recover that computer!
+MissionVoice\B4m6\R040610 0 They're locking tractor beams! We're running out of time here!
+MissionVoice\B4m6\R040611 0 Liberty! We're being boarded! We're being boarded!
+MissionVoice\B4m6\R040612 0 Stay calm, son! Try to get to one of the escape pods!
+MissionVoice\B4m6\R040613 0 I made it, and I've got the computer with me!
+MissionVoice\B4m6\R040614 0 Activating launch sequence now!
+MissionVoice\B4m6\R040615 2 This is the Dreadnaught Mercury. We're here to offer assistance
+MissionVoice\B4m6\R040616 0 Great timing, Mercury! We may need you to recover an escape pod
+MissionVoice\B4m6\R040617 2 We won't last long against that Star Destroyer.
+MissionVoice\B4m6\R040618 0 Copy that, Mercury. We just need a little more time!
+MissionVoice\B4m6\R040619 0 Blue Group, protect that escape pod!
+MissionVoice\B4m6\R040620 0 Make sure he gets to the Mercury!
+MissionVoice\B4m6\R040621 2 This is the Mercury! Our shields are failing!
+MissionVoice\B4m6\R040622 0 Mercury, we're transmitting the coordinates of the Independence
+MissionVoice\B4m6\R040623 0 You must see the contents of that escape pod safely delivered.
+MissionVoice\B4m6\R040624 2 We copy, Liberty. Heading to the hyperspace point now.
+MissionVoice\B4m6\R040625 0 Blue Group, you have new orders!
+MissionVoice\B4m6\R040626 0 Escort the Mercury to its rendezvous with the Independence.
+MissionVoice\B4m6\R040627 2 Independence, this is the Mercury.
+MissionVoice\B4m6\R040628 2 We have vital cargo that must be delivered to you.
+MissionVoice\B4m6\R040629 2 Imperial forces are pursuing us. We don't have much time.
+MissionVoice\B4m6\R040630 0 This is Admiral Ackbar. We've been monitoring the situation.
+MissionVoice\B4m6\R040631 0 Send the cargo over at your earliest opportunity.
+MissionVoice\B4m6\R040632 0 Blue Group, maintain a patrol pattern.
+MissionVoice\B4m6\R040633 0 We're readying fighters to assist you.
+MissionVoice\B4m6\R040634 2 The Avenger has entered the area!
+MissionVoice\B4m6\R040635 0 It's the Executor! All fighters prepare to engage
+MissionVoice\B4m6\R040636 0 TIE Bombers have entered the area!
+MissionVoice\B4m6\R040637 0 Intercept them before they get within range!
+MissionVoice\B4m6\R040638 0 All fighters, we have the computer. We're heading out!
+MissionVoice\B4m6\R040639 2 She's breaking apart!
+MissionVoice\B4m6\R040640 0 This is the Independence! Our shields are down!
+MissionVoice\B4m6\R040641 0 We've plotted your fastest return course.
+MissionVoice\B4m6\R040642 0 Get yourselves out of there and return to the Liberty.
+MissionVoice\B4m6\M040601 0 Great work, Blue Group! The Independence has escaped!
+MissionVoice\B4m6\M040603 0 The Empire has dealt us a heavy blow
+
+ BATTLE 5 MISSION 1
+
+MissionVoice\B5m1\R050101 0 We are on schedule for the meeting.  [RO2]
+MissionVoice\B5m1\R050102 0 Assume a loose formation in the meeting area.  [Zaletta]
+MissionVoice\B5m1\R050103 0 We have arrived. Dunari's people should be here soon.  [RO2]
+MissionVoice\B5m1\R050104 2 Greetings, friends. Sorry to keep you waiting.  [Dunari]
+MissionVoice\B5m1\R050105 2 I see you came dressed appropriately.  [Dunari]
+MissionVoice\B5m1\R050106 2 Let's get the ball rolling; awaiting boarding.  [Dunari]
+MissionVoice\B5m1\R050107 0 Alert! Imperial patrol craft emerging from hyperspace.  [Zaletta]
+MissionVoice\B5m1\R050108 2 Is this some kind of setup?  [Dunari]
+MissionVoice\B5m1\R050109 0 Don't worry, our pilots will handle the situation.  [RO2]
+MissionVoice\B5m1\R050110 0 All pilots, engage those starfighters.  [Zaletta]
+MissionVoice\B5m1\R050111 0 Do not allow them to interfere with the meeting.  [Zaletta]
+MissionVoice\B5m1\R050112 0 All enemy starfighters destroyed.  [Zaletta]
+MissionVoice\B5m1\R050113 0 Imperial Star Destroyer entering the area.  [Zaletta]
+MissionVoice\B5m1\R050114 2 Now these are bad odds. Be seeing you, partner.  [Dunari]
+MissionVoice\B5m1\R050115 0 Buy time for the Delegates to escape.  [Zaletta]
+MissionVoice\B5m1\R050116 0 The meeting is over, let's get out of here.  [RO2]
+MissionVoice\B5m1\R050117 1 This is the Omicron; you are in a restricted area.  [IO2]
+MissionVoice\B5m1\R050118 1 Lower your shields and prepare to be boarded.  [IO2]
+MissionVoice\B5m1\R050119 0 It is very likely the Imperials will investigate this attack.  [Zaletta]
+MissionVoice\B5m1\R050120 0 Report to the debriefing room as soon as possible.  [Zaletta]
+MissionVoice\B5m1\R050121 2 Those are Raiders!  [Dunari]
+MissionVoice\B5m1\R050122 2 I hope your pilots know how to fly those ships.  [Dunari]
+MissionVoice\B5m1\R050123 0 Looks like we arrived just in time.  [RO1]
+MissionVoice\B5m1\R050124 3 Surrender your vessels and nobody gets hurt.  [CO4]
+MissionVoice\B5m1\R050125 2 Don't believe them.  [Dunari]
+MissionVoice\B5m1\R050126 3 Resistance....that's the way we like it.  [CO4]
+MissionVoice\B5m1\R050127 0 They got us. Calling for a repair craft.  [RO2]
+MissionVoice\B5m1\R050128 2 My systems are out. Can you summon a repair craft?  [Dunari]
+MissionVoice\B5m1\R050129 0 This is the Bombadil. Here to conduct repairs.  [RO1]
+MissionVoice\B5m1\R050130 2 Thanks. I thought we had a serious problem on our hands.  [Dunari]
+MissionVoice\B5m1\R050131 2 Imperial security has increased since Admiral Holtz arrived.  [Dunari]
+MissionVoice\B5m1\R050132 2 I will need to rethink security in the future.  [Dunari]
+MissionVoice\B5m1\M050101 0 The meeting is over. Dunari has decided to work with us.
+MissionVoice\B5m1\M050102 0 Escort the delegate's back to the Liberty.
+MissionVoice\B5m1\M050103 0 You failed to protect the meeting.
+MissionVoice\B5m1\M050104 0 You cannot understand the damage this has caused us.
+
+ BATTLE 5 MISSION 2
+
+MissionVoice\B5m2\R050201 3 Greetings, friends. Ready to dirty your hands a little?  [Golov]
+MissionVoice\B5m2\R050202 3 Let's see how good Rebel pilots really are.  [Golov]
+MissionVoice\B5m2\R050203 0 Cargo convoy spotted.  [RP2]
+MissionVoice\B5m2\R050204 0 Do a quick inspection on the convoy.  [Zaletta]
+MissionVoice\B5m2\R050205 0 Let's be sure of what we're hitting.  [Zaletta]
+MissionVoice\B5m2\R050206 0 These are our targets.  [Zaletta]
+MissionVoice\B5m2\R050207 0 Let's go easy on them; we need the cargo intact.  [RP2]
+MissionVoice\B5m2\R050208 0 Transport craft, lower your shields and prepare to be boarded.  [RP2]
+MissionVoice\B5m2\R050209 2 Message acknowledged. We'll lower our shields.  [CO2]
+MissionVoice\B5m2\R050210 3 Two of them are making a run for it.  [Golov]
+MissionVoice\B5m2\R050211 3 We cannot allow them to escape. Moving to intercept.  [Golov]
+MissionVoice\B5m2\R050212 3 We'll teach them a lesson!  [Golov]
+MissionVoice\B5m2\R050213 0 Cool your blasters there, friend. We'll disable them.  [RP2]
+MissionVoice\B5m2\R050214 3 No one defies the Hurrim.  [Golov]
+MissionVoice\B5m2\R050215 0 The Hurrim are firing on civilians!  [RP2]
+MissionVoice\B5m2\R050216 0 We can't just sit here and watch this massacre.  [RP2]
+MissionVoice\B5m2\R050217 0 The situation has gotten out of hand.  [Zaletta]
+MissionVoice\B5m2\R050218 0 Alliance fighters, engage the Hurrim.  [Zaletta]
+MissionVoice\B5m2\R050219 0 We must prevent any further bloodshed.  [Zaletta]
+MissionVoice\B5m2\R050220 0 All fighters please return to the Liberty at once.  [Zaletta]
+MissionVoice\B5m2\R050221 0 You must save the civilians.  [Zaletta]
+MissionVoice\B5m2\R050222 0 This is Raider Group. Moving to cargo convoy.  [RO2]
+MissionVoice\B5m2\R050223 0 Raider group has finished up. Escort them to the Liberty.  [Zaletta]
+MissionVoice\B5m2\R050224 0 The Imperials will probably arrive soon to pick up the pieces.  [Zaletta]
+MissionVoice\B5m2\R050225 0 We still need their cargo, so stay sharp.  [Zaletta]
+MissionVoice\B5m2\R050226 0 Excellent work...you regained control of the situation.  [Zaletta]
+MissionVoice\B5m2\R050227 0 Cargo craft should arrive soon to conduct the pickup.  [Zaletta]
+MissionVoice\B5m2\R050228 3 Where are the weapons?  [Golov]
+MissionVoice\B5m2\R050229 3 There were supposed to be weapons on board.  [Golov]
+MissionVoice\B5m2\R050230 0 We are carrying medical supplies to Jorus V.  [CO2]
+MissionVoice\B5m2\R050231 0 I have no idea what you're talking about.  [CO2]
+MissionVoice\B5m2\R050232 2 People will hear about this, Rebel.  [CO3]
+MissionVoice\B5m2\R050233 2 You won't get away with this.  [CO3]
+MissionVoice\B5m2\R050234 0 Stop, we're unarmed. Please stop!  [CO2]
+MissionVoice\B5m2\R050235 0 Stop the Hurrim.  [Zaletta]
+MissionVoice\B5m2\R050236 0 Raider group; abort the mission.  [Zaletta]
+MissionVoice\B5m2\R050237 0 Yes, sir.  [RO2]
+MissionVoice\B5m2\R050238 3 Wrong answer!  [Golov]
+MissionVoice\B5m2\M050201 0 That was sharp thinking out there, pilots.
+MissionVoice\B5m2\M050202 0 You saved a lot of innocent lives.
+MissionVoice\B5m2\M050203 0 You should have stopped the Hurrim slaughter.
+MissionVoice\B5m2\M050204 0 Your hesitation killed those innocent people.
+
+ BATTLE 5 MISSION 3
+
+MissionVoice\B5m3\R050301 2 Find the container.  [Dunari]
+MissionVoice\B5m3\R050302 2 Great, now pick it up and let's get out of here.  [Dunari]
+MissionVoice\B5m3\R050303 5 I'm sure they've put out a call for help.  [Emkay]
+MissionVoice\B5m3\R050304 2 Too bad it will never get here in time.  [Dunari]
+MissionVoice\B5m3\R050305 1 Greetings, Ocanis Gas vessel. You're running late.  [IO1]
+MissionVoice\B5m3\R050306 5 We had a small problem with our hyperdrive.  [Emkay]
+MissionVoice\B5m3\R050307 5 It has been corrected.  [Emkay]
+MissionVoice\B5m3\R050308 1 Place your cargo next to the other containers.  [I03]
+MissionVoice\B5m3\R050309 2 Try to place it within 1 to 1.5 clicks from the base.  [Dunari]
+MissionVoice\B5m3\R050310 2 We don't want our little surprise to go off on you.  [Dunari]
+MissionVoice\B5m3\R050311 2 Line yourself up with the rest of those cargo ships.  [Dunari]
+MissionVoice\B5m3\R050312 2 They're on to us now. Here comes a group of TIEs.  [Dunari]
+MissionVoice\B5m3\R050313 2 The TIEs are bugging out.  [Dunari]
+MissionVoice\B5m3\R050314 2 OK, my security team is inside the station.  [Dunari]
+MissionVoice\B5m3\R050315 2 Keep those TIEs off of me.  [Dunari]
+MissionVoice\B5m3\R050316 2 Emon is aboard. Let's get out of here while we still can.  [Dunari]
+MissionVoice\B5m3\R050317 1 Otana, power your engines down and prepare to be boarded.  [IO1]
+MissionVoice\B5m3\R050318 5 I would really like to get out of here now.  [Emkay]
+MissionVoice\B5m3\R050319 2 They found Emon and he's Okay. They're on their way back now.  [Dunari]
+MissionVoice\B5m3\R050320 5 That should shut them down for a while.  [Emkay]
+MissionVoice\B5m3\R050321 2 I'm moving in to board the station now.  [Dunari]
+MissionVoice\B5m3\R050322 2 Yes! I feel sorry for the guys in that cargo hold.  [Dunari]
+MissionVoice\B5m3\R050323 5 Look out for those gun emplacements.  [Emkay]
+MissionVoice\B5m3\R050324 2 I'll take care of the TIEs; you find the container.  [Dunari]
+MissionVoice\B5m3\R050325 2 Once that container goes it will start a chain reaction.  [Dunari]
+MissionVoice\B5m3\R050326 2 That should be enough to distract station security.  [Dunari]
+MissionVoice\B5m3\R050327 2 There it goes.  [Dunari]
+MissionVoice\B5m3\M050301 5 Way to go! Of course, without my assistance...never mind.
+
+ BATTLE 5 MISSION 4
+
+MissionVoice\B5m4\R050401 0 Be prepared, we expect major resistance.  [Zaletta]
+MissionVoice\B5m4\R050402 0 The Imps are all over there place!  [Wingman]
+MissionVoice\B5m4\R050403 0 Be careful, there are lots of civilians around.  [Zaletta]
+MissionVoice\B5m4\R050404 2 We had time to get most of the guests off.  [Dunari]
+MissionVoice\B5m4\R050405 2 We need a few more minutes to get the personnel out  [Dunari]
+MissionVoice\B5m4\R050406 0 More starfighters are launching from that Star Destroyer.  [Zaletta]
+MissionVoice\B5m4\R050407 1 All ships stand down and prepare to be taken prisoner.  [Holtz]
+MissionVoice\B5m4\R050408 0 That doesn't sound appealing.  [RP2]
+MissionVoice\B5m4\R050409 2 Just a little more time.  [Dunari]
+MissionVoice\B5m4\R050410 2 That's the last one, thanks for your help.  [Dunari]
+MissionVoice\B5m4\R050411 2 I'm going to miss this place.  [Dunari]
+MissionVoice\B5m4\R050412 2 Now, I need to get myself out of here.  [Dunari]
+MissionVoice\B5m4\R050413 0 TIE Bomber Beta is attacking the Casino. Stop them!  [Zaletta]
+MissionVoice\B5m4\R050414 0 Protect the escaping craft! They're under fire!  [Zaletta]
+MissionVoice\B5m4\R050415 0 Stop those GUNs from launching warheads at the casino.  [Zaletta]
+MissionVoice\B5m4\R050416 0 The Casino's shields are out!  [Zaletta]
+MissionVoice\B5m4\R050417 2 We're taking heavy fire over here. Buy us more time!  [Dunari]
+MissionVoice\B5m4\R050418 0 Green group breaking off to engage that Strike Cruiser.  [RP4]
+MissionVoice\B5m4\R050419 0 Moving to target. Requesting backup.  [RP4]
+MissionVoice\B5m4\R050420 2 We got the GUNs, go help the B-Wings.  [CO1]
+MissionVoice\B5m4\R050421 0 The Imps are trying to box us in.  [Wingman]
+MissionVoice\B5m4\R050422 2 Everyone has made it off.  [CO1]
+MissionVoice\B5m4\R050423 0 Time to go before reinforcements arrive.  [Zaletta]
+MissionVoice\B5m4\R050424 2 Damn those Hurrim!  [Dunari]
+MissionVoice\B5m4\R050425 2 When I get out of here I'm going to settle up with Nakhym  [Dunari]
+MissionVoice\B5m4\R050426 2 Nobody double-crosses me  [Dunari]
+MissionVoice\B5m4\R050427 2 A little longer. I just need a few minutes.  [Dunari]
+MissionVoice\B5m4\R050428 2 Don't worry Ace. I have Emon aboard  [Dunari]
+MissionVoice\B5m4\M050401 0 Your actions have saved many today
+MissionVoice\B5m4\M050403 0 What have you allowed to happen?
+
+ BATTLE 5 MISSION 5
+
+MissionVoice\B5m5\R050501 0 Let's turn and burn, we don't have much time.  [RP3]
+MissionVoice\B5m5\R050502 2 Thank the stars, you showed up in time.  [CO4]
+MissionVoice\B5m5\R050503 2 They're right on our tail; they'll be here any second.  [CO4]
+MissionVoice\B5m5\R050504 0 Looks like the Hurrim don't know when to quit.  [RP3]
+MissionVoice\B5m5\R050505 2 Keep them off of us for a little longer.  [CO4]
+MissionVoice\B5m5\R050506 0 That's it for them, let's get out of here.  [RP3]
+MissionVoice\B5m5\R050507 0 We should be safe now.  [RP3]
+MissionVoice\B5m5\R050508 0 A little longer and we'll be jumping back to the fleet.  [RP3]
+MissionVoice\B5m5\R050509 2 We have a problem here.  [CO4]
+MissionVoice\B5m5\R050510 2 We've discovered a homing device in the cabin.  [CO4]
+MissionVoice\B5m5\R050511 2 We blasted it, but they might have been able to track our jump.  [CO4]
+MissionVoice\B5m5\R050512 0 Impossible, only Imperials have sensors with that kind of range  [RP3]
+MissionVoice\B5m5\R050513 2 You don't tangle with Imperial patrols all your life...  [CO4]
+MissionVoice\B5m5\R050514 2 without learning a few of their tricks.  [CO4]
+MissionVoice\B5m5\R050515 2 We splice into their sensor net all of the time.  [CO4]
+MissionVoice\B5m5\R050516 0 Looks like this discussion is over. The Hurrim are back.  [RP3]
+MissionVoice\B5m5\R050517 0 We're taking hits.  [RP3]
+MissionVoice\B5m5\R050518 2 Don't know how much more punishment this thing can take.  [CO4]
+MissionVoice\B5m5\R050519 0 That wraps it up.  [RP3]
+MissionVoice\B5m5\R050520 2 Thanks for all your help.  [CO4]
+MissionVoice\B5m5\M050501 0 Good job on that one Ace.
+MissionVoice\B5m5\M050502 0 We've all made it home in one piece.
+MissionVoice\B5m5\M050503 0 We're losing allies fast with you at the helm.
+
+ BATTLE 5 MISSION 6
+
+MissionVoice\B5m6\R050601 5 Let's go find that Datacore.  [Emon]
+MissionVoice\B5m6\R050602 5 There are a lot of containers to look through.  [Emon]
+MissionVoice\B5m6\R050603 5 Better get started.  [Emon]
+MissionVoice\B5m6\R050604 5 The station has powered down.  [Emkay]
+MissionVoice\B5m6\R050605 5 Let's hope it stays that way. We don't need distractions.  [Emon]
+MissionVoice\B5m6\R050606 5 It's got to be here somewhere.  [Emon]
+MissionVoice\B5m6\R050607 5 Where is it! It has to be here!  [Emon]
+MissionVoice\B5m6\R050608 5 Okay, we found it!  [Emkay]
+MissionVoice\B5m6\R050609 5 Come to a stop near that container, I'll be at the airlock.  [Emkay]
+MissionVoice\B5m6\R050610 5 I'm going out there to get it.  [Emkay]
+MissionVoice\B5m6\R050611 5 Analyzing the Datacore now.  [Emkay]
+MissionVoice\B5m6\R050612 5 Datacore is clean. Ready for pickup.  [Emkay]
+MissionVoice\B5m6\R050613 5 I'm on board. Let's get out of here.  [Emkay]
+MissionVoice\B5m6\R050614 5 Hey, Ace, we got raiders coming our way.  [Emon]
+MissionVoice\B5m6\R050615 5 See what I mean about a leak in security?  [Emon]
+MissionVoice\B5m6\R050616 5 Make sure to protect Emkay  [Emon]
+MissionVoice\B5m6\R050617 5 Yes, I would like that very much.  [Emkay]
+MissionVoice\B5m6\R050618 5 Well, whoever they were, they're space dust now  [Emon]
+MissionVoice\B5m6\R050619 3 You shouldn't be looking into things that don't concern you.  [Mercs]
+MissionVoice\B5m6\R050620 5 Hey, identify yourselves...what's your problem with us?  [Emon]
+MissionVoice\B5m6\R050621 5 Who sent you?  [Emon]
+MissionVoice\B5m6\R050622 5 They're not answering me. Looks like we got ourselves a fight.  [Emon]
+MissionVoice\B5m6\R050623 3 Otana, stop what you're doing and leave this area at once.  [Mercs]
+MissionVoice\B5m6\R050624 5 Sure.... shall we sweep the place for you, too?  [Emon]
+MissionVoice\B5m6\R050625 5 They've destroyed Emkay!  [Emon]
+MissionVoice\B5m6\R050626 5 I'll meet with you back at the Liberty  [Emon]
+MissionVoice\B5m6\R050627 5 Ok Ace, ready for transfer  [Emon]
+MissionVoice\B5m6\R050628 5 Ok kid. It's always good flying with you  [Emon]
+MissionVoice\B5m6\M050601 5 I placed the datacore in storage. It is undamaged
+
+ BATTLE 5 MISSION 7
+
+MissionVoice\B5m7\R050701 0 Pound them into space debris  [Zaletta]
+MissionVoice\B5m7\R050702 0 Fighters are launching from the base!  [Zaletta]
+MissionVoice\B5m7\R050703 0 Target almost destroyed, keep it up  [Zaletta]
+MissionVoice\B5m7\R050704 0 Shuttles are escaping from the Hurrim base  [Zaletta]
+MissionVoice\B5m7\R050705 0 Inspect them, we don't want Nakhym to escape  [Zaletta]
+MissionVoice\B5m7\R050706 0 You located Nakhym, disable his shuttle  [Zaletta]
+MissionVoice\B5m7\R050707 0 We want him taken alive  [Zaletta]
+MissionVoice\B5m7\R050708 0 Good job. Protect Storm Unit 2 while it captures the shuttle  [Zaletta]
+MissionVoice\B5m7\R050709 0 There goes the base, great work out there people  [Zaletta]
+MissionVoice\B5m7\R050710 0 We should leave before the Imperials arrive  [Zaletta]
+MissionVoice\B5m7\R050711 0 Looks like the Imperials have shown up  [RP1]
+MissionVoice\B5m7\R050712 0 This is not going to be good  [RP1]
+MissionVoice\B5m7\R050713 0 All pilots be advised: TIE starfighters are moving to engage  [Zaletta]
+MissionVoice\B5m7\R050714 0 Engage the Corrupter  [Zaletta]
+MissionVoice\B5m7\R050715 0 All pirates are down for the count  [RP1]
+MissionVoice\B5m7\R050716 0 We have captured Nakhym  [RO2]
+MissionVoice\B5m7\R050717 0 He wasn't too happy  [RO2]
+MissionVoice\B5m7\R050718 0 But he quieted down after I stunned him.  [RO2]
+MissionVoice\B5m7\R050719 0 The Corrupter is in bad shape  [Zaletta]
+MissionVoice\B5m7\R050720 0 All Imperial starfighter opposition has been eliminated  [Zaletta]
+MissionVoice\B5m7\R050721 0 This is the Jericho we are under heavy attack  [RO1]
+MissionVoice\B5m7\R050722 0 Admiral Holtz has shown up to the party  [RP1]
+MissionVoice\B5m7\R050723 0 We are on our way to recover the prisoners  [RO1]
+MissionVoice\B5m7\R050724 0 Most of the cargo ships have been repaired. Cover them  [Zaletta]
+MissionVoice\B5m7\R050725 0 Ok, we recovered all of our cargo ships. Excellent work  [Zaletta]
+MissionVoice\B5m7\R050726 0 OK, we got the last of them. Heading home.  [RO2]
+MissionVoice\B5m7\R050727 0 Storm Unit is severely damaged. Protect them!  [Zaletta]
+MissionVoice\B5m7\R050728 0 The Corrupter is destroyed. That should make our job easier.  [Zaletta]
+MissionVoice\B5m7\R050729 2 Looks like I arrived right on time  [Dunari]
+MissionVoice\B5m7\R050730 2 I'm here to lend you guys a hand  [Dunari]
+MissionVoice\B5m7\R050731 2 and settle the score with the Hurrim  [Dunari]
+MissionVoice\B5m7\R050732 2 No one backs out on a deal with me  [Dunari]
+MissionVoice\B5m7\R050733 0 All fighters, provide support for the Dreadnought Longshot  [Zaletta]
+MissionVoice\B5m7\R050734 2 My boys will help you with the starfighters  [Dunari]
+MissionVoice\B5m7\R050735 2 I'll move the Longshot into position to take on the Hurrim base  [Dunari]
+MissionVoice\B5m7\R050736 2 Well, I'd say our business deal just got a little stronger  [Dunari]
+MissionVoice\B5m7\R050737 2 With this problem settled it will only be a matter of days...  [Dunari]
+MissionVoice\B5m7\R050738 2 until things return to normal  [Dunari]
+MissionVoice\B5m7\R050739 0 The Corrupter's shields are down. Take it out  [Zaletta]
+MissionVoice\B5m7\R050740 0 The Hurrim base has been destroyed  [Zaletta]
+MissionVoice\B5m7\R050741 2 Not bad for a ship that's been in mothballs for ten years  [Dunari]
+MissionVoice\B5m7\R050742 2 If we don't take it out we won't get another chance like this  [Dunari]
+MissionVoice\B5m7\R050743 0 Agreed. All fighters engage the Corrupter and destroy her.  [Yamarus]
+MissionVoice\B5m7\R050744 2 Our shields are low. Could you lend a hand?  [Dunari]
+MissionVoice\B5m7\R050745 2 Our shields are out. We need assistance. Ace, can you hear me?  [Dunari]
+MissionVoice\B5m7\R050746 2 Our hull is critical. We really need some cover.  [Dunari]
+MissionVoice\B5m7\R050747 0 The Longshot has been destroyed  [Zaletta]
+MissionVoice\B5m7\R050748 2 I'm all right. My crew and I made it out in time  [Dunari]
+MissionVoice\B5m7\R050749 0 Sending Search and Rescue team to recover you.  [Zaletta]
+MissionVoice\B5m7\R050750 2 No rush. This is a great view  [Dunari]
+MissionVoice\B5m7\R050751 1 You will not win this fight, Rebels!  [Holtz]
+MissionVoice\B5m7\R050752 0 Looks like you're wrong, Admiral!  [RP1]
+MissionVoice\B5m7\R050753 2 It's payback time, Golov!  [Dunari]
+MissionVoice\B5m7\R050754 2 You did great out there, Ace.  [Dunari]
+MissionVoice\B5m7\R050755 2 You've done your father proud, kid!  [Dunari]
+MissionVoice\B5m7\R050756 0 Storm Unit 3 and 4 will recover our cargo craft.  [Zaletta]
+MissionVoice\B5m7\M050701 0 Job well done. Today will be remembered
+MissionVoice\B5m7\M050703 0 Abort mission! Repeat Abort Mission
+MissionVoice\B5m7\M050704 0 We have failed. Time to salvage what we can
+MissionVoice\B5m7\M050705 0 Good work. All Cargo craft have been recovered
+
+ BATTLE 6 MISSION 1
+
+MissionVoice\B6m1\R060101 0 [Gold Group], proceed to the rendezvous point.
+MissionVoice\B6m1\R060102 0 The Liberty will be following shortly.
+MissionVoice\B6m1\R060103 0 The area looks secure. Assume a standard patrol.
+MissionVoice\B6m1\R060104 0 This is the [Tal'cara]. Good to see you, Gold Group.
+MissionVoice\B6m1\R060105 0 I'm sure you won't mind, we brought a little extra escort along
+MissionVoice\B6m1\R060106 0 Not a problem, Tal'cara. We're ready to proceed when you are.
+MissionVoice\B6m1\R060107 0 Roger that, Liberty. We're sending the delegation over now.
+MissionVoice\B6m1\R060108 0 [Gold Group], escort the shuttle the Liberty's hangar bay.
+MissionVoice\B6m1\R060109 0 We've got unidentified ships coming in from hyperspace.
+MissionVoice\B6m1\R060110 0 [Gold Group], check them out!
+MissionVoice\B6m1\R060111 0 They're going for the Tal'cara!
+MissionVoice\B6m1\R060112 0 Liberty, this is Fey'lya. What's going on here?
+MissionVoice\B6m1\R060113 0 We're not sure, Councilor, but we've got it under control.
+MissionVoice\B6m1\R060114 0 I wonder why they're not attacking the Liberty.
+MissionVoice\B6m1\R060115 0 The Tal'cara is taking damage! Get those fighters off of them!
+MissionVoice\B6m1\R060116 0 We've got a Marauder-class corvette entering the area.
+MissionVoice\B6m1\R060117 0 [Gold Group], try to distract them!
+MissionVoice\B6m1\R060118 0 The Marauder is abandoning ship, I'm picking up escape pods
+MissionVoice\B6m1\R060119 0 [Gold Group], one of the Blastboats is going for the escape pod
+MissionVoice\B6m1\R060120 0 We're launching the shuttle [Compassion] to pick it up.
+MissionVoice\B6m1\R060121 0 We need some answers here. Don't let that escape pod get away.
+MissionVoice\B6m1\R060122 0 Alright, [Gold Group], the meeting is finished.
+MissionVoice\B6m1\R060123 0 The Shuttle is headed back to the Tal'cara. Give them cover.
+MissionVoice\B6m1\R060124 0 Good work, the shuttle has returned safely
+MissionVoice\B6m1\R060125 0 Now escort the Tal'cara to their hysperspace point
+MissionVoice\B6m1\M060101 0 Great work, team. That was quick thinking out there.
+MissionVoice\B6m1\M060102 0 Bring it back to the Liberty.
+MissionVoice\B6m1\M060103 0 Your failure will not digest well with High Command.
+
+ BATTLE 6 MISSION 2
+
+MissionVoice\B6m2\R060201 5 Okay, Ace... let's go find that freighter.
+MissionVoice\B6m2\R060202 5 There's the Redhawk... and there's the cargo station.  [Emkay]
+MissionVoice\B6m2\R060203 5 I don't see any escorts. I wonder where they are?  [Emkay]
+MissionVoice\B6m2\R060204 5 I'm sure they'll be coming soon enough.
+MissionVoice\B6m2\R060205 5 Better bring us in, Ace.
+MissionVoice\B6m2\R060206 5 We may not have long before they figure out what we're up to.
+MissionVoice\B6m2\R060207 5 Maybe I should take control of the guns...  [Emkay]
+MissionVoice\B6m2\R060208 5 No Emkay... I need you to help me bypass the Redhawk's security
+MissionVoice\B6m2\R060209 5 Then I can slice into their records and see what we've got.
+MissionVoice\B6m2\R060210 5 I'm in! Amatuers! They really need to get some better security
+MissionVoice\B6m2\R060211 5 This is almost too easy.
+MissionVoice\B6m2\R060212 5 I hate to interrupt your fanfare...  [Emkay]
+MissionVoice\B6m2\R060213 5 What is it, Emkay?
+MissionVoice\B6m2\R060214 5 I think the Redhawk's escort has arrived  [Emkay]
+MissionVoice\B6m2\R060215 5 I'll start powering up the guns...  [Emkay]
+MissionVoice\B6m2\R060216 5 Concentrate on the download, Emkay.
+MissionVoice\B6m2\R060217 5 Better get to the turrets, Ace.
+MissionVoice\B6m2\R060218 5 We'll need another minute or two to finish up here
+MissionVoice\B6m2\R060219 3 You just picked the wrong freighter to mess with, Otana.
+MissionVoice\B6m2\R060220 3 Prepare to suck vacuum!
+MissionVoice\B6m2\R060221 5 Yea, yea. You don't scare us.
+MissionVoice\B6m2\R060222 5 I hope you've brushed up on your sharpshooting, kiddo.
+MissionVoice\B6m2\R060223 5 Here they come!
+MissionVoice\B6m2\R060224 5 Download complete! Let's get off this crate!
+MissionVoice\B6m2\R060225 5 I've got the coordinates of the Base. Let's go!
+MissionVoice\B6m2\R060226 1 Otana, you have entered a restricted area!
+MissionVoice\B6m2\R060227 1 Stand down and prepare to be boarded!
+MissionVoice\B6m2\R060228 5 What the... Emkay!!! Where the hell are we?
+MissionVoice\B6m2\R060229 5 It appears the flight plan has been "doctored".  [Emkay]
+MissionVoice\B6m2\R060230 5 My sensors indicate we have arrived at the Imperial  [Emkay]
+MissionVoice\B6m2\R060232 5 Oh great... this is NOT good. This is NOT good!
+MissionVoice\B6m2\R060233 5 I'm afraid it's worse. That ISD is blocking our exit vector  [Emkay]
+MissionVoice\B6m2\R060234 5 I'll have to calculate a new course  [Emkay]
+MissionVoice\B6m2\R060235 5 Well don't just sit there... do it!
+MissionVoice\B6m2\R060236 1 Otana, surrender your ship at once or we will open fire!
+MissionVoice\B6m2\R060237 5 That's okay... we were just leaving.
+MissionVoice\B6m2\R060238 5 We've got fighters coming in!
+MissionVoice\B6m2\R060239 5 Emkay! Where's that blasted vector?!
+MissionVoice\B6m2\R060240 5 I've almost got it... there!  [Emkay]
+MissionVoice\B6m2\R060241 5 Let's head back to the cargo station!
+MissionVoice\B6m2\R060242 5 I'll see if I can recover the Redhawk's flight plan from there
+MissionVoice\B6m2\R060243 5 Get us out of here!
+MissionVoice\B6m2\R060244 5 Whew... that was close. Let's try this again.
+MissionVoice\B6m2\R060245 5 Bring us in to the station and dock, Ace.
+MissionVoice\B6m2\R060246 5 Okay, I've sliced into their systems... starting the download
+MissionVoice\B6m2\R060247 2 Otana, this is station security. We don't abide pirates
+MissionVoice\B6m2\R060248 1 Leave the area at once, or we'll be forced to remove you
+MissionVoice\B6m2\R060249 5 Not again! I don't believe this!
+MissionVoice\B6m2\R060250 5 They're launching fighters.  [Emkay]
+MissionVoice\B6m2\R060251 5 Hold 'em off! I've almost got it here
+MissionVoice\B6m2\R060252 5 Ok, I've got it... get us outta here, Ace!
+MissionVoice\B6m2\R060253 5 I've plotted the course in navigation. Head for the buoy!
+MissionVoice\B6m2\R060254 5 Okay, we're here. There's the Redhawk....and...
+MissionVoice\B6m2\R060255 5 ...and there's....our home.
+MissionVoice\B6m2\R060256 5 This can't be right... Emkay...
+MissionVoice\B6m2\R060257 5 I've double-checked the coordinates, there is no doubt.  [Emkay]
+MissionVoice\B6m2\R060258 5 Our home has become a base for mercenaries?!
+MissionVoice\B6m2\R060259 5 It appears so.  [Emkay]
+MissionVoice\B6m2\R060260 5 Alert! Hostile starfighters detected.  [Emkay]
+MissionVoice\B6m2\R060261 5 We'd better get out of here, and fast!
+MissionVoice\B6m2\R060262 5 Come on, kid... we can't risk being ID'd.
+MissionVoice\B6m2\R060263 5 Perhaps we could take out a couple of ....  [Emkay]
+MissionVoice\B6m2\R060264 5 Another time, Emkay. Let's get back to the Liberty....now.
+MissionVoice\B6m2\M060201 5 We will give the Liberty the coordinates of our home.
+MissionVoice\B6m2\M060202 5 I’'m sure the Rebellion will be very grateful.
+MissionVoice\B6m2\M060203 5 I do not think the Rebellion will be happy about this.
+
+ BATTLE 6 MISSION 3
+
+MissionVoice\B6m3\R060301 0 All units head for the hyperbuoy. May the Force be with you
+MissionVoice\B6m3\R060302 0 Activating hyperdrive.
+MissionVoice\B6m3\R060303 5 Let's go, Azzameens! Homeward bound!
+MissionVoice\B6m3\R060304 5 Cut the dramatics, Emon, and stick with us, okay?
+MissionVoice\B6m3\R060305 5 I'm with you, Emon!  [Emkay]
+MissionVoice\B6m3\R060306 5 Don't worry your pretty little head, sis...I'm right with ya
+MissionVoice\B6m3\R060307 5 I don't know about you, Aeron, but I feel better.....  [Emkay]
+MissionVoice\B6m3\R060308 5 ....my sensors tell me we will need him.  [Emkay]
+MissionVoice\B6m3\R060309 0 [Gold Group], let's move in. Take out those defenses!
+MissionVoice\B6m3\R060310 5 This place is infested with fighters!
+MissionVoice\B6m3\R060311 5 There appear to be more fighters exiting the hangar.  [Emkay]
+MissionVoice\B6m3\R060312 5 Bring 'em on....This is a family matter.
+MissionVoice\B6m3\R060313 0 [Gold Group]....engage!
+MissionVoice\B6m3\R060314 0 Roger. I'm in.  [RP1]
+MissionVoice\B6m3\R060315 5 Watch those fighters, Ace. Energy to lasers, Emkay
+MissionVoice\B6m3\R060316 5 That's what I like to hear! Lasers at maximum recharge.  [Emkay]
+MissionVoice\B6m3\R060317 0 There go the last of the defenses. Time to clear the fighters
+MissionVoice\B6m3\R060318 5 More fighters entering sector.  [Emkay]
+MissionVoice\B6m3\R060319 5 Good. I was starting to get bored.
+MissionVoice\B6m3\R060320 0 Here comes Storm Unit. Let's give them some cover.
+MissionVoice\B6m3\R060321 0 Preparing to assault base. Keep those fighters busy.
+MissionVoice\B6m3\R060322 0 You got it. [Gold Two], follow me in.
+MissionVoice\B6m3\R060323 5 Two ships are making a run for it. Emon...do you see that?
+MissionVoice\B6m3\R060324 5 I see it. I just don't understand it. That's Uncle Antan's ship
+MissionVoice\B6m3\R060325 5 What is he doing here?
+MissionVoice\B6m3\R060326 5 Something's dreadfully wrong, Emon
+MissionVoice\B6m3\R060327 0 Base secured. Contacting the Liberty.
+MissionVoice\B6m3\R060328 5 All clear of Mercenary scum. I'm going to try and track Uncle
+MissionVoice\B6m3\R060329 5 Okay, Emon. Be careful....something's not right.
+MissionVoice\B6m3\R060330 5 No problem, sis. I'll be in touch.
+MissionVoice\B6m3\R060331 5 C'mon Emkay, let's land
+MissionVoice\B6m3\R060332 0 Storm Unit reporting in... we've got a problem here.
+MissionVoice\B6m3\R060333 0 It looks like the Mercs have rigged the central computer
+MissionVoice\B6m3\R060334 0 We tried bypassing the security, but were unsuccesful
+MissionVoice\B6m3\R060335 5 Cut to the chase, Storm Unit, what's going on down there?
+MissionVoice\B6m3\R060336 0 We've got 3 minutes before this whole place goes nova
+MissionVoice\B6m3\R060337 5 Just great... hold tight, Storm Unit. I'm coming in.
+MissionVoice\B6m3\R060338 5 I know those systems like the back of my hand.
+MissionVoice\B6m3\R060339 5 Ace, give us some cover here.
+MissionVoice\B6m3\R060340 5 The bomb has been disarmed. Whew that was close.
+MissionVoice\B6m3\R060341 0 We've got 2 minutes left.
+MissionVoice\B6m3\R060342 0 One minute left...
+MissionVoice\B6m3\R060343 5 You'd better hail him.
+MissionVoice\B6m3\R060344 5 I wouldn't want to lose him in the confusion.
+MissionVoice\B6m3\R060345 5 Blast! He's not answering! What is going on here?
+MissionVoice\B6m3\R060346 5 I don't know, Emon. I've got a bad feeling about this.
+MissionVoice\B6m3\R060347 5 Yeah, me too.
+MissionVoice\B6m3\R060348 5 Uncle Antan is going to have a lot of explaining to do
+MissionVoice\B6m3\M060301 0 Good work team. The Mercenary threat has been neutralized.
+MissionVoice\B6m3\M060302 0 Return to the Liberty.
+MissionVoice\B6m3\M060303 5 Hope you've gotten comfortable living away from home, Ace
+MissionVoice\B6m3\M060304 5 There's no reason to ever come back here again.
+
+ BATTLE 6 MISSION 4
+
+MissionVoice\B6m4\R060401 0 Alright pilots, head for the hyperbuoy!
+MissionVoice\B6m4\R060402 0 Those Bothans won't stay hidden for long
+MissionVoice\B6m4\R060403 0 There's an awful lot of traffic out here.
+MissionVoice\B6m4\R060404 0 I can see why they brought an Interdictor along.
+MissionVoice\B6m4\R060405 0 Well, let's get to it! Target that Interdictor and open fire!
+MissionVoice\B6m4\R060406 1 This is the Star Destroyer [Accuser]
+MissionVoice\B6m4\R060407 1 All ships stand down and prepare to be boarded.
+MissionVoice\B6m4\R060408 1 If you cooperate, you will be searched and allowed to leave.
+MissionVoice\B6m4\R060409 1 Any craft found harboring the criminals we're searching for
+MissionVoice\B6m4\R060411 1 If you resist, or attempt to escape, we will open fire.
+MissionVoice\B6m4\R060412 1 [Accuser] out.
+MissionVoice\B6m4\R060413 0 I don't think they're talking to us. We've got fighters inbound
+MissionVoice\B6m4\R060414 0 Gold Group, you are clear to engage, but focus on the INT!
+MissionVoice\B6m4\R060415 0 Watch out for the Accuser's turbolasers!
+MissionVoice\B6m4\R060416 0 We've got to locate which ships the Bothans are on
+MissionVoice\B6m4\R060417 0 Gold 2, check out the freighters.
+MissionVoice\B6m4\R060418 0 Good work, Gold 2, all the Bothans have been located.
+MissionVoice\B6m4\R060419 0 There are Bothans on that freighter near the Accuser!
+MissionVoice\B6m4\R060420 0 I'm afraid it may to too late for them, Commander.
+MissionVoice\B6m4\R060421 0 The Interdictor's shields are down! Press the attack!
+MissionVoice\B6m4\R060422 0 The Interdictor is bugging out. Keep it up!
+MissionVoice\B6m4\R060423 0 Great work, Gold Group, that INT is no longer a threat
+MissionVoice\B6m4\R060424 0 It looks like everyone else is making a run for it, too
+MissionVoice\B6m4\R060425 0 This could work to our advantage.
+MissionVoice\B6m4\R060426 1 This is the Accuser. All ships, you are ordered to halt!
+MissionVoice\B6m4\R060427 1 If you do not comply, we will open fire!
+MissionVoice\B6m4\R060428 0 Liberty, we could use some help out here!
+MissionVoice\B6m4\R060429 0 We won't be able to get fighters to you in time, Gold Group!
+MissionVoice\B6m4\R060430 0 There's a Sullustan security base not far from your location
+MissionVoice\B6m4\R060431 0 We'll see if they can send some help. Stand by
+MissionVoice\B6m4\R060432 0 Bad news, Gold Group. The Sullustans have refused to help!
+MissionVoice\B6m4\R060433 0 What?!
+MissionVoice\B6m4\R060434 0 They said their forces are committed elsewhere.
+MissionVoice\B6m4\R060435 0 Looks like you're on your own.
+MissionVoice\B6m4\R060436 0 The Accuser is firing on the civilians!
+MissionVoice\B6m4\R060437 0 See if you can run some interference!
+MissionVoice\B6m4\R060438 0 The Bothans are almost to the Hyperpoint! Cover them!
+MissionVoice\B6m4\R060439 0 We've lost one of the Bothan ships!
+MissionVoice\B6m4\R060440 0 We've lost another group of Bothans! Get focused, Gold!
+MissionVoice\B6m4\R060441 0 There's only one Bothan ship left!
+MissionVoice\B6m4\R060442 0 They must return to the fleet! Protect them with your lives!
+MissionVoice\B6m4\R060443 0 We're doing everything we can, Liberty!
+MissionVoice\B6m4\M060401 0 Excellent job, Gold Group. That was not an easy task
+MissionVoice\B6m4\M060402 0 Return to the Liberty
+MissionVoice\B6m4\M060403 0 We've lost all the Bothans! Abort the mission!
+MissionVoice\B6m4\M060404 0 Return to the Liberty at once! You have much to answer for
+
+ BATTLE 6 MISSION 5
+
+MissionVoice\B6m5\R060501 5 Let's get underway. Navigation is locked in for the Zhar system
+MissionVoice\B6m5\R060502 5 There's the customs station. I'm picking up some fighters, too.
+MissionVoice\B6m5\R060503 1 Attention on board the Sabra. This is Imperial Customs.
+MissionVoice\B6m5\R060504 1 State your business.
+MissionVoice\B6m5\R060505 5 This is the Sabra. We've got some supplies for Outpost 327.
+MissionVoice\B6m5\R060506 1 Transmit your ship's manifest, and await further instructions.
+MissionVoice\B6m5\R060507 0 Let's try to stay clear of the fighters.  [RO2]
+MissionVoice\B6m5\R060508 0 If they ID us, we're in big trouble.  [RO2]
+MissionVoice\B6m5\R060509 5 Roger, Customs. Standing by.
+MissionVoice\B6m5\R060510 1 Very well, Sabra, you have clearance to head in-system.
+MissionVoice\B6m5\R060511 5 Course set. Time to head for that outpost.
+MissionVoice\B6m5\R060512 5 There it is, dead ahead. This is gonna take some fancy flying
+MissionVoice\B6m5\R060513 0 That's an impressive amount of fighters out there.  [RO2]
+MissionVoice\B6m5\R060514 0 I hope Rogue Squadron got a good night's sleep.  [RO2]
+MissionVoice\B6m5\R060515 5 Keep your fingers crossed... let's see if we can pull this off.
+MissionVoice\B6m5\R060516 5 Outpost 327, this is the Sabra requesting landing clearance.
+MissionVoice\B6m5\R060517 5 We have a shipment of condensers to deliver.
+MissionVoice\B6m5\R060518 1 Sabra, we don't have you on our schedule. Hold your position
+MissionVoice\B6m5\R060519 5 We're a late arrival, it's probably further down the list
+MissionVoice\B6m5\R060520 0 We may need to get out of here in a hurry.  [RO2]
+MissionVoice\B6m5\R060521 1 Sorry about that Sabra, I see it now. Clearance granted.
+MissionVoice\B6m5\R060522 0 Ok, let's bring it in. The landing pad is inside the station.  [RO2]
+MissionVoice\B6m5\R060523 0 Take it in nice and slow, we don't want to arouse suspicion.  [RO2]
+MissionVoice\B6m5\R060524 0 There are the shuttles, see if you can find the Tydirium  [RO2]
+MissionVoice\B6m5\R060525 1 Sabra, what's taking so long?
+MissionVoice\B6m5\R060526 5 Uhh... we're having some problems with the repulsorlifts...
+MissionVoice\B6m5\R060527 5 We'll have it worked out in a second...
+MissionVoice\B6m5\R060528 1 Well speed it up. We've got other ships waiting.
+MissionVoice\B6m5\R060529 0 There's the Tydirium. Target the Outpost and dock.  [RO2]
+MissionVoice\B6m5\R060530 0 Thanks for the lift, guys. Wait for our signal before you leave  [RO2]
+MissionVoice\B6m5\R060531 0 We may need an alternate escape route.  [RO2]
+MissionVoice\B6m5\R060532 5 Ok control, we're unloading our cargo now.
+MissionVoice\B6m5\R060533 1 Sabra, what's the status of the cargo transfer.
+MissionVoice\B6m5\R060534 5 Still proceeding control... Uh, one of our cargo doors is stuck
+MissionVoice\B6m5\R060535 1 Do you need assistance? I'll send a team over to...
+MissionVoice\B6m5\R060536 5 No no no... that's ok. We've got it.
+MissionVoice\B6m5\R060537 1 Sabra, we have freighters waiting! I'm sending a team down..
+MissionVoice\B6m5\R060538 5 Uh.. negative control... we're almost finished up here.
+MissionVoice\B6m5\R060539 5 I wonder what's taking those commandos so long.
+MissionVoice\B6m5\R060540 0 Ok, Sabra, we're all set. Get out there and signal Rogue.  [RO2]
+MissionVoice\B6m5\R060541 0 We'll wait for the commotion to start before we head out.  [RO2]
+MissionVoice\B6m5\R060542 1 That does it! Sabra stay where you are. I'm sending security...
+MissionVoice\B6m5\R060543 5 Time to leave this party, Ace. Let's get outta here!
+MissionVoice\B6m5\R060544 1 Alert! All craft: intercept the transport Sabra
+MissionVoice\B6m5\R060545 1 They are wanted for questioning!
+MissionVoice\B6m5\R060546 5 Time to call for reinforcements.
+MissionVoice\B6m5\R060547 0 Someone call for some backup?
+MissionVoice\B6m5\R060548 5 Great to see you Rogue Squad! Can you clear us a path?
+MissionVoice\B6m5\R060549 0 It'd be our pleasure. Ok boys, let's light 'em up!
+MissionVoice\B6m5\R060550 5 Let's take out a few of these fighters ourselves!
+MissionVoice\B6m5\R060551 0 We're making our run, Sabra. Give us some cover!  [RO2]
+MissionVoice\B6m5\R060552 5 We're taking some damage, Ace!
+MissionVoice\B6m5\R060553 5 The Tydirium is almost to the hyperpoint.
+MissionVoice\B6m5\M060501 5 Great flying! The Tydirium is now safely in Rebel hands
+MissionVoice\B6m5\M060503 5 Uh oh... I think we blew it. We'd better get outta here
+
+ BATTLE 6 MISSION 6
+
+MissionVoice\B6m6\R060601 0 [Gold Group], let's move out.
+MissionVoice\B6m6\R060602 0 Copy, [Gold Leader], all set to go.  [RP1]
+MissionVoice\B6m6\R060603 0 There's the Defiance. Stay alert for Imperials
+MissionVoice\B6m6\R060604 0 Well, if it isn't pilots Garn and Azzameen!
+MissionVoice\B6m6\R060605 0 Glad you could join us. I trust you're both doing well?
+MissionVoice\B6m6\R060606 0 Good to see you, Commander. Don't worry, we've got you covered.
+MissionVoice\B6m6\R060607 0 Music to my ears, my boys. The Imperials aren't far behind us.
+MissionVoice\B6m6\R060608 0 They're a little closer than you thought, Commander...
+MissionVoice\B6m6\R060609 0 Let's move to intercept, Gold Group
+MissionVoice\B6m6\R060610 0 TIE Bombers, coming in! If you hotshots will do the honors...
+MissionVoice\B6m6\R060611 0 We're already on 'em, Commander
+MissionVoice\B6m6\R060612 0 I think they've called for some help... more fighters incoming!  [RP1]
+MissionVoice\B6m6\R060613 0 Roger that. Let's take 'em down.
+MissionVoice\B6m6\R060614 0 I'm right with you, [Gold Leader].  [RP1]
+MissionVoice\B6m6\R060615 0 We're taking some hits here, Gold Group!
+MissionVoice\B6m6\R060616 0 Our shields are out! I thought you said you had us covered!
+MissionVoice\B6m6\R060617 0 We're taking serious damage! We need cover!
+MissionVoice\B6m6\R060618 0 This is the Defiance. We're almost to the hyperpoint
+MissionVoice\B6m6\R060619 0 Activating hyperdrive engines now. Thanks for the assist!
+MissionVoice\B6m6\R060620 0 See you back at the fleet.
+MissionVoice\B6m6\R060621 0 That does it for this sector. Let's head out!
+MissionVoice\B6m6\R060622 0 Welcome back, Gold Group! Nice work out there.
+MissionVoice\B6m6\R060623 0 Head for your rendezvous with the Independence.
+MissionVoice\B6m6\R060624 0 If you need to, you can return to the Liberty to rearm
+MissionVoice\B6m6\R060625 0 Time is short. The Independence should be arriving soon.
+MissionVoice\B6m6\R060626 0 You don't want to keep Admiral Ackbar waiting.
+MissionVoice\B6m6\R060627 0 Gold Two, you could probably use some warheads.
+MissionVoice\B6m6\R060628 0 We'll proceed to the rendezvous and meet you there.
+MissionVoice\B6m6\R060629 0 Gold Group reporting in, Admiral. Sorry we're a little late.
+MissionVoice\B6m6\R060630 0 We've been expecting you, Gold Group.
+MissionVoice\B6m6\R060631 0 We're readying our B-wings. Clear the area of fighters!
+MissionVoice\B6m6\R060632 0 Yes sir. You heard him. Let's get it done!
+MissionVoice\B6m6\R060633 0 The B-wings are launching now, Gold Group.
+MissionVoice\B6m6\R060634 0 Give them cover while they engage the starships
+MissionVoice\B6m6\R060635 0 The ISD is launching more Bombers! Intercept them at once!
+MissionVoice\B6m6\R060636 0 Good work, team! One Imperial starship down!
+MissionVoice\B6m6\R060637 0 Gold Group, we're taking hits! Intercept those bombers!
+MissionVoice\B6m6\R060638 0 Our shields are down! Respond at once!
+MissionVoice\B6m6\R060639 0 We're on it, Admiral! Come on, Gold! Step up the pace!
+MissionVoice\B6m6\R060640 0 We're taking serious hull damage! We won't last much longer!
+MissionVoice\B6m6\R060641 0 Come on, Gold Group! We can't let the Independence fall!
+MissionVoice\B6m6\R060642 0 We're almost to the hyperpoint! Keep it up!
+MissionVoice\B6m6\R060643 0 Nice flying, team! The Independence is safely away!
+MissionVoice\B6m6\R060644 0 Gold Group, you may rearm in our hangar at your discretion.
+MissionVoice\B6m6\R060645 0 Abort the mission! We've lost the Defiance!
+MissionVoice\B6m6\R060646 0 Abort the mission! We've lost the Independence!
+MissionVoice\B6m6\M060601 0 My compliments to all of you.
+MissionVoice\B6m6\M060602 0 You have my deepest gratitude.
+MissionVoice\B6m6\M060603 0 We can't hope to face the Empire at Endor now!
+MissionVoice\B6m6\M060604 0 This is a grave day for the Alliance
+
+ BATTLE 6 MISSION 7
+
+MissionVoice\B6m7\R060701 5 There's Kessel Station. Uncle Antan?
+MissionVoice\B6m7\R060702 5 Go ahead and dock Aeron, I've already gotten the clearance.
+MissionVoice\B6m7\R060703 5 Here goes nothing... accessing the main registry now.
+MissionVoice\B6m7\R060704 5 Any luck, Aeron?
+MissionVoice\B6m7\R060705 5 Not yet. You'd think "Azzameen" would be at the top of the list
+MissionVoice\B6m7\R060706 5 Keep looking, I know they're here somewhere
+MissionVoice\B6m7\R060707 5 Uncle Antan.....I still don't see them listed  [Emon]
+MissionVoice\B6m7\R060708 5 Keep at it, Aeron, you'll find them.  [Emon]
+MissionVoice\B6m7\R060709 5 I dunno I've got a bad feeling about this  [Aeron]
+MissionVoice\B6m7\R060710 1 Attention Azzameen transports. You are under arrest...  [Empire]
+MissionVoice\B6m7\R060711 1 Stand down and prepare to be boarded.  [Empire]
+MissionVoice\B6m7\R060712 5 I think we're in trouble!  [Emon]
+MissionVoice\B6m7\R060713 5 I filled my part of the bargain, the Rebels are in your hands.  [Aeron]
+MissionVoice\B6m7\R060714 5 What?!?!  [Aeron]
+MissionVoice\B6m7\R060715 1 Antan Azzameen, you are free to go.  [Empire]
+MissionVoice\B6m7\R060716 5 That son of a... he set us up!  [Emon]
+MissionVoice\B6m7\R060717 5 The fighters are turning to attack!  [Emkay]
+MissionVoice\B6m7\R060718 5 If we make it out of this one, it'll be a miracle.  [Aeron]
+MissionVoice\B6m7\R060719 5 If we make it out of this one, our uncle will need the miracle.  [Emon]
+MissionVoice\B6m7\R060720 5 Emkay! Start plotting us a course out of here!  [Aeron]
+MissionVoice\B6m7\R060721 5 It will take some time, with all the Black Holes in this sector  [Emkay]
+MissionVoice\B6m7\R060722 5 Just do it!  [Aeron]
+MissionVoice\B6m7\R060723 2 You kids just can't seem to keep yourselves out of trouble...  [Dunari]
+MissionVoice\B6m7\R060724 5 Dunari!
+MissionVoice\B6m7\R060725 2 Let me guess you don't find trouble, trouble finds you?  [Dunari]
+MissionVoice\B6m7\R060726 5 Something like that  [Emon]
+MissionVoice\B6m7\R060727 5 Alright, let's get home and hear what Uncle Antan has to say.  [Aeron]
+MissionVoice\B6m7\R060728 5 Emon will meet us there.  [Aeron]
+MissionVoice\B6m7\R060729 5 Navigation is locked in.  [Emkay]
+MissionVoice\B6m7\R060730 5 Let's go  [Aeron]
+MissionVoice\B6m7\R060731 5 Ah... home sweet home...  [Aeron]
+MissionVoice\B6m7\R060732 5 Talk to us, Uncle Antan. We saw you hyper out of there...  [Aeron]
+MissionVoice\B6m7\R060733 5 Family means more to me than the Empire or the Rebellion...  [Uncle A]
+MissionVoice\B6m7\R060734 5 I have my connections...  [Uncle A]
+MissionVoice\B6m7\R060735 2 Never fear, Dunari knows this system like the back of his hand  [Dunari]
+MissionVoice\B6m7\R060736 2 I know a little "back door" out of here  [Dunari]
+MissionVoice\B6m7\R060737 2 It won't beat any Kessel Run records, and it's not pretty...  [Dunari]
+MissionVoice\B6m7\R060738 2 But it will get us out of here.  [Dunari]
+MissionVoice\B6m7\R060739 2 If you'd care to follow me?  [Dunari]
+MissionVoice\B6m7\R060740 5 We're right with you, Dunari!  [Emkay]
+MissionVoice\B6m7\R060741 5 Let's head for that hyper buoy, Ace!  [Emkay]
+MissionVoice\B6m7\R060742 2 Our exit is just beyond that large asteroid  [Dunari]
+MissionVoice\B6m7\R060743 5 I'm picking up more Imperial fighters!  [Emkay]
+MissionVoice\B6m7\R060744 2 You've got to make it back to the Liberty  [Dunari]
+MissionVoice\B6m7\R060745 5 But what about Antan?  [Emkay]
+MissionVoice\B6m7\R060746 2 We'll have to deal with him later.  [Dunari]
+MissionVoice\B6m7\R060747 2 Don't worry... he'll get his...  [Dunari]
+MissionVoice\B6m7\R060748 2 Watch out for asteroid laser batteries  [Dunari]
+MissionVoice\B6m7\R060749 2 The Empire set them up to keep ships from running through here  [Dunari]
+MissionVoice\B6m7\R060750 5 We're almost there!  [Emkay]
+MissionVoice\B6m7\R060751 2 Glad you made it out of there in one piece.  [Dunari]
+MissionVoice\B6m7\R060752 2 I'm going to head out now, but I'll be in touch.  [Dunari]
+MissionVoice\B6m7\R060753 2 Try to stay out of trouble, ok?  [Dunari]
+MissionVoice\B6m7\R060754 5 We're taking damage!  [Emkay]
+MissionVoice\B6m7\R060755 5 Emon is taking some damage! Cover him!  [Emkay]
+MissionVoice\B6m7\R060756 5 Dunari is taking damage! Let's help him!  [Emkay]
+MissionVoice\B6m7\M060701 5 You did great! I'll ride shotgun for you anytime!  [Aeron]
+
+ BATTLE 7 MISSION 1
+
+MissionVoice\B7m1\R070101 0 Admiral, we're in position. All fighters accounted for
+MissionVoice\B7m1\R070102 0 Proceed with the countdown.
+MissionVoice\B7m1\R070103 0 All groups assume attack coordinates
+MissionVoice\B7m1\R070104 0 ~~~~~~~~?  [NienNub]
+MissionVoice\B7m1\R070105 0 Don't worry! My friend's down there!
+MissionVoice\B7m1\R070106 0 He'll have that shield down in time!
+MissionVoice\B7m1\R070107 0 ~~~~~~~~?  [NienNub]
+MissionVoice\B7m1\R070108 0 Or this'll be the shortest offensive of all time!
+MissionVoice\B7m1\R070109 0 All craft prepare to jump into hyperspace on my mark!
+MissionVoice\B7m1\R070110 0 All right, stand-by...
+MissionVoice\B7m1\R070111 0 All wings report in.
+MissionVoice\B7m1\R070112 0 Red Leader standing by.
+MissionVoice\B7m1\R070113 0 Grey Leader standing by.
+MissionVoice\B7m1\R070114 0 Green Leader standing by.
+MissionVoice\B7m1\R070115 0 Lock S-foils in attack position.
+MissionVoice\B7m1\R070116 0 May the Force be with us.
+MissionVoice\B7m1\R070117 0 ~~~~~~~~  [NienNub]
+MissionVoice\B7m1\R070118 0 We've got to be able to get some reading on that shield,
+MissionVoice\B7m1\R070119 0 Up or down.
+MissionVoice\B7m1\R070120 0 ~~~~~~~~~?  [NienNub]
+MissionVoice\B7m1\R070121 0 How can they be jamming us if they don't know...
+MissionVoice\B7m1\R070122 0 ...if we're coming?
+MissionVoice\B7m1\R070123 0 Break off the attack; the shield is still up!
+MissionVoice\B7m1\R070124 0 I get no reading; are you sure?
+MissionVoice\B7m1\R070125 0 Pull up, all craft pull up!
+MissionVoice\B7m1\R070126 0 Take evasive action!
+MissionVoice\B7m1\R070127 0 Green Group, stick close to holding sector MV-7
+MissionVoice\B7m1\R070128 0 Admiral, we have enemy ships in sector 47  [RO1]
+MissionVoice\B7m1\R070129 0 It's a trap!
+MissionVoice\B7m1\R070130 0 Fighters coming in!
+MissionVoice\B7m1\R070131 0 There's too many of them!
+MissionVoice\B7m1\R070132 0 Accelerate to attack speed!
+MissionVoice\B7m1\R070133 0 Draw their fire away from the cruisers.
+MissionVoice\B7m1\R070134 0 Copy, Gold Leader.
+MissionVoice\B7m1\R070135 0 Watch yourself, Wedge! Three from above!
+MissionVoice\B7m1\R070136 0 Red Three, Red Two, pull in!
+MissionVoice\B7m1\R070137 0 Got it!
+MissionVoice\B7m1\R070138 0 Three of them coming in, twenty degrees!
+MissionVoice\B7m1\R070139 0 Cut to the left! I'll take the leader!
+MissionVoice\B7m1\R070140 0 They're heading for the medical frigate.
+MissionVoice\B7m1\R070141 0 Pressure's steady.  [RO3]
+MissionVoice\B7m1\R070142 0 ~~~~~~~~~~~  [NienNub]
+MissionVoice\B7m1\R070143 0 Only those fighters are attacking.
+MissionVoice\B7m1\R070144 0 I wonder what those Star Destroyers are waiting for.
+MissionVoice\B7m1\M070101 0 Good work! The first wave of Imperial fighters has been cleared
+MissionVoice\B7m1\M070102 0 If we all fight as well as you, we will win this  BATTLE!
+MissionVoice\B7m1\M070103 0 Well, that was the shortest offensive in history!
+MissionVoice\B7m1\M070104 0 We walked right into the Emperor's trap!
+MissionVoice\B7m1\M070105 0 Outstanding flying! You're an inspiration to us all!
+MissionVoice\B7m1\M070106 0 Keep it up!
+
+ BATTLE 7 MISSION 2
+
+MissionVoice\B7m2\R070201 0 ~~~~~~~~~!  [NienNub]
+MissionVoice\B7m2\R070202 0 Huh! That blast came from the Death Star!  [Lando]
+MissionVoice\B7m2\R070203 0 That thing's operational!  [Lando]
+MissionVoice\B7m2\R070204 0 Home One, this is Gold Leader.  [NienNub]
+MissionVoice\B7m2\R070205 0 We saw it. All craft prepare to retreat.  [Ackbar]
+MissionVoice\B7m2\R070206 0 We won't get another chance at this, Admiral.
+MissionVoice\B7m2\R070207 0 We have no choice, General Calrissian.  [Ackbar]
+MissionVoice\B7m2\R070208 0 Our cruisers can't repel firepower of that magnitude.  [Ackbar]
+MissionVoice\B7m2\R070209 0 Han will have that shield down.  [Lando]
+MissionVoice\B7m2\R070210 0 We've gotta give him more time!
+MissionVoice\B7m2\R070211 0 Yes, I said closer. Move as close as you can and ...
+MissionVoice\B7m2\R070212 0 engage those Star Destroyers at point blank range!
+MissionVoice\B7m2\R070213 0 At that close range ..  [Ackbar]
+MissionVoice\B7m2\R070215 0 We'll last longer than we will against that Death Star...
+MissionVoice\B7m2\R070216 0 and we might just take of few of them with us!  [Lando]
+MissionVoice\B7m2\R070217 0 I can fire anywhere and probably hit a Star Destroyer...  [RP11]
+MissionVoice\B7m2\R070218 0 There are so many of them!  [RP11]
+MissionVoice\B7m2\R070219 0 Everyone target the command ship, the [Executor]!
+MissionVoice\B7m2\R070220 0 If the Executor falls, so does Imperial morale. I like it.  [RP4]
+MissionVoice\B7m2\R070221 0 That's the idea. And don't get tagged on the way in.
+MissionVoice\B7m2\R070222 0 Roger, Sir. Follow me in, boys.  [RP4]
+MissionVoice\B7m2\R070223 0 Concentrate firepower on its forward shields.
+MissionVoice\B7m2\R070224 0 We're on it, General. Group, you copy that?  [RP8]
+MissionVoice\B7m2\R070225 0 Yea, we copy. We're coming to you.  [RP10]
+MissionVoice\B7m2\R070226 0 She's gonna blow!  [RP11]
+MissionVoice\B7m2\R070227 0 The Executor's shield generators are down!  [RP4]
+MissionVoice\B7m2\R070228 0 Green leader, you're heading right into the bridge!  [RP3]
+MissionVoice\B7m2\R070229 0 One A-Wing right into their laps!  [RP8]
+MissionVoice\B7m2\R070230 0 I'm hit!  [RP8]
+MissionVoice\B7m2\M070201 0 Outstanding! The Executor has been destroyed!
+MissionVoice\B7m2\M070202 0 Now if only General Solo can bring down those shields...
+MissionVoice\B7m2\M070203 0 Hey, this was one tall order...too bad you didn't measure up!
+MissionVoice\B7m2\M070205 0 Pretty impressive! You helped take out a Super Star Destroyer!
+MissionVoice\B7m2\M070206 0 Think you can add a Death Star to your credits?
+
+ BATTLE 7 MISSION 3
+
+MissionVoice\B7m3\R070301 0 Watch out. Squad at .06
+MissionVoice\B7m3\R070302 0 I'm on it, Gold Leader.
+MissionVoice\B7m3\R070303 0 Good shot, Red Two.
+MissionVoice\B7m3\R070304 0 C'mon Han, old buddy, don't let me down!
+MissionVoice\B7m3\R070305 0 The shield is down!
+MissionVoice\B7m3\R070306 0 Commence attack on the Death Star's main reactor.
+MissionVoice\B7m3\R070307 0 We're on our way.
+MissionVoice\B7m3\R070308 0 Red Group, Gold Group, all fighters follow me.
+MissionVoice\B7m3\R070309 0 I told you they'd do it!
+MissionVoice\B7m3\R070310 0 I'm going in.
+MissionVoice\B7m3\R070311 0 ~~~~~~~~~!  [NienNub]
+MissionVoice\B7m3\R070312 0 Here goes nothing.
+MissionVoice\B7m3\R070314 0 Good luck in there!  [RP3]
+MissionVoice\B7m3\R070315 0 Grab some Imperial souvenirs while you're in there.  [RP1]
+MissionVoice\B7m3\R070316 0 Keep up the pressure. They're breaking up.  [Lando]
+MissionVoice\B7m3\R070317 0 Choke on that, Imperial swine.  [RP1]
+MissionVoice\B7m3\R070318 0 That was close. Thanks, Red One!  [RP3]
+MissionVoice\B7m3\R070319 0 We got them scattered. Let's keep them that way.  [RP8]
+MissionVoice\B7m3\R070320 0 Door's open! Now's the time!  [RP3]
+MissionVoice\B7m3\M070301 0 You've defeated the Imperial reserve fighter screen.
+MissionVoice\B7m3\M070302 0 Prepare for the ride of your life as you enter the Death Star!
+MissionVoice\B7m3\M070303 0 Another bad day at the office, hon'? (Han?)
+MissionVoice\B7m3\M070304 0 Would you like a hot soak and a neck rub?
+MissionVoice\B7m3\M070305 0 Way to go, Ace, you're racking up quite a kill total!
+
+ BATTLE 7 MISSION 4
+
+MissionVoice\B7m4\R070401 0 Now lock on to the strongest power source.  [Lando]
+MissionVoice\B7m4\R070402 0 It should be the power generator.  [Lando]
+MissionVoice\B7m4\R070403 0 Form up. And stay alert.  [Wedge]
+MissionVoice\B7m4\R070404 0 We could run out of space real fast.  [Wedge]
+MissionVoice\B7m4\R070405 0 Great. The primary route is blocked!  [RP2]
+MissionVoice\B7m4\R070406 0 We'll have to go the long way!  [RP2]
+MissionVoice\B7m4\R070407 0 Call in Grey group to unblock that so we can get out in time.  [Lando]
+MissionVoice\B7m4\R070408 0 Grey group has unblocked the primary route for your way out.  [Ackbar]
+MissionVoice\B7m4\R070409 0 Split up and head back to the surface.  [Lando]
+MissionVoice\B7m4\R070410 0 And see if you can get a few of those ...  [Lando]
+MissionVoice\B7m4\R070411 0 TIE Fighters to follow you.  [Lando]
+MissionVoice\B7m4\R070412 0 Copy, Gold Leader.  [RP4]
+MissionVoice\B7m4\R070413 0 Woah!  [Lando]
+MissionVoice\B7m4\R070414 0 That was too close.  [Lando]
+MissionVoice\B7m4\R070415 0 Watch out for those containers!  [Lando]
+MissionVoice\B7m4\R070416 0 There's no other way out of here.  [Wedge]
+MissionVoice\B7m4\R070417 0 I guess we have to go in between them.  [Lando]
+MissionVoice\B7m4\R070418 0 We're losing too many ships!  [Ackbar]
+MissionVoice\B7m4\R070419 0 We're coming up on one of the superlaser control nodes.  [Lando]
+MissionVoice\B7m4\R070420 0 We could try to disable it.  [Wedge]
+MissionVoice\B7m4\R070421 0 I've targeted a secondary power source.  [Wedge]
+MissionVoice\B7m4\R070422 0 The lens is damaged.  [Wedge]
+MissionVoice\B7m4\R070423 0 Let's get out of here before it fires again!  [Lando]
+MissionVoice\B7m4\R070424 0 Now what?  [Wedge]
+MissionVoice\B7m4\R070425 0 Try taking out one of those pulse modulator panels.  [Lando]
+MissionVoice\B7m4\R070426 0 That should shut it down.  [Lando]
+MissionVoice\B7m4\R070427 0 Which one?  [Wedge]
+MissionVoice\B7m4\R070428 0 How would I know? Just blast the nearest one!  [Lando]
+MissionVoice\B7m4\R070429 0 That stopped one of them!  [Wedge]
+MissionVoice\B7m4\R070430 0 Looks like they've arranged a welcoming party!  [Wedge]
+MissionVoice\B7m4\R070431 0 Construction workers! They must be getting desperate!  [Lando]
+MissionVoice\B7m4\R070432 0 Those aren't construction workers!  [Wedge]
+MissionVoice\B7m4\R070433 0 They're setting up a turbo laser!  [Wedge]
+MissionVoice\B7m4\R070434 0 We have to clear that tunnel!  [Lando]
+MissionVoice\B7m4\R070435 0 We've got to save our torpedoes for the reactor core.  [Wedge]
+MissionVoice\B7m4\R070436 0 There it is!  [Wedge]
+MissionVoice\B7m4\R070437 0 All right, Wedge.  [Lando]
+MissionVoice\B7m4\R070438 0 Go for the power regulator on the north tower.  [Lando]
+MissionVoice\B7m4\R070439 0 Copy, Gold Leader; I'm already on my way out.  [Wedge]
+MissionVoice\B7m4\R070440 0 Move the fleet away from the Death Star.  [Ackbar]
+MissionVoice\B7m4\R070441 0 Yee-haa!!!  [Lando]
+MissionVoice\B7m4\R070442 0 ~~~~~~~~~~~!  [NienN]
+MissionVoice\B7m4\M070401 0 We have achieved a decisive victory!
+MissionVoice\B7m4\M070402 0 This is a great day for the Alliance!
+MissionVoice\B7m4\M070403 0 What a terrible failure! You came so close!
+MissionVoice\B7m4\M070405 0 Great shot, lad! One to be remembered!

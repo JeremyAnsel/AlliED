@@ -1,0 +1,203 @@
+140 Pilots, get to your fighters
+141 Complete your systems check
+142 Get your craft ready for launch
+143 Review your weapons configuration
+144 Launch immediately
+145 Get your ship ready for flight
+146 Get going, pilot!
+
+165 You are cleared for take off
+166 You are cleared for launch
+167 Hold your launch pilot
+168 You are not yet cleared for take off
+169 Proceed with your mission
+170 Good hunting
+171 May the Force be with you!
+172 Do your squadron proud
+173 Uphold the honour of this ship
+
+174 Warning - craft launching
+175 Warning - craft landing
+176 There are no reinforcements available
+177 Reinforcements are on their way
+178 Reinforcements already sent - no more available
+179 Illegal cargo has been found!
+180 Contraband has been found!
+181 I agree
+182 I concur
+
+078 They're aborting their mission
+079 Their shields are out
+080 Their shields are low
+081 They're warheads are used up
+082 Their lasers are out
+083 Their hull is damaged
+084 Their hull is heavily damaged!
+085 They're about to be destroyed
+086 They're abandoning ship
+087 They're under attack
+088 They're under starfighter attack
+089 They're under starship attack
+090 They've been destroyed
+091 They're breaking up
+092 They've been lost
+093 They're going down
+094 They've been disabled
+095 They've been repaired
+096 They've been boarded
+097 They've been captured
+098 They've been inspected
+099 They've been searched
+100 They have arrived
+101 They've just launched 
+102 They've completed their mission
+103 They're heading to their hyperspace point
+104 They've entered hyperspace
+105 They've started their docking operation
+106 They've completed their docking operation
+107 They've started their boarding operation
+108 They've completed their boarding operation
+109 They're taking on turbolaser fire!
+110 They're taking on ion cannon fire!
+111 They've taken missile hits!
+112 They've taken torpedo hits!
+113 They've taken heavy rocket damage!
+114 They've taken space bomb hits!
+115 They've taken mag pulse hits!
+116 They've taken ion pulse hits!
+117 They're being boarded
+118 They've launched a strike force!
+119 They've launched a counter attack!
+120 They've launched a fighter defence!
+121 They're caught in a tractor beam
+122 They're being suppressed
+123 They're being jammed
+
+124 You've destroyed a friendly craft!
+125 You've attacked a friendly craft!
+126 Cease your attack at once or you will be fired upon!
+127 Return to your command ship at once!
+128 Land your craft immediately!
+129 Warning - stay clear of hangar bay
+130 Other craft launching
+131 Other craft landing
+132 This is Commander [name]
+135 Reduce your speed
+136 You are cleared for landing
+137 Hit space bar to activate hangar bay tractor beam
+138 Hangar bay tractor beam activated
+139 Power down your systems
+
+183 Good Work!
+184 Good flying!
+185 Fine effort!
+186 Excellent!
+187 Superb work!
+188 Well done!
+189 Outstanding!
+190 Congratulations!
+191 Full kill awarded
+192 Shared kill awarded
+
+001 Message from Defiance
+002 Message from Liberty
+003 Message from Independance
+004 Message from home base
+005 Message from our command ship
+006 Message from our base
+007 Message from our station
+008 Message from mission critical craft
+009 Message from vital craft
+010 Message from convoy craft
+011 Message from strike craft
+012 Message from reload craft
+
+013 Report on primary target
+014 Report on secondary target
+015 Report on tertiary target
+016 Report on convoy craft
+017 Report on strike craft
+018 Report on mission critical craft
+019 Report on vital craft
+020 Report on research facility
+021 Report on manufacturing facility
+022 Report on base
+023 Report on station
+
+024 Defiance update
+025 Liberty update
+026 Independance update
+027 Home base update
+028 Command ship update
+029 Reload craft update
+030 Primary target update
+031 secondary target update
+032 tertiary target update
+033 convoy craft update
+034 strike craft update
+035 Mission critical craft update
+036 Vital craft update
+037 Research facility update
+038 Manufacturing facility update
+039 Base update
+040 Station update
+
+041 Defiance report
+042 Liberty report
+043 Independance report
+044 Home base report
+045 Command ship report
+046 Reload craft report
+047 Primary target report
+048 secondary target report
+049 tertiary target report
+050 convoy craft report
+051 strike craft report
+052 mission critical craft report
+053 vital craft report
+054 research facility report
+055 manufacturing facility report
+056 base report
+057 station report
+
+058 Order from Defiance
+059 Order from Liberty
+060 Order from Independance
+061 Order from Home base
+062 Order from Command ship
+063 Order from base
+064 Order from station
+065 Order from mission critical craft
+066 Order from vital craft
+067 Order from convoy craft
+068 Order from strike craft
+069 Order from Reload craft
+
+070 Sector 1
+071 Sector 2
+072 Sector 3
+073 Sector 4
+
+074 Region 1
+075 Region 2
+076 Region 3
+077 Region 4
+
+147 One
+148 Two
+149 Three
+150 Four
+151 Five
+152 Six
+153 Seven
+154 Eight
+155 Nine
+156 Ten
+157 Eleven
+158 Twelve
+159 Ace
+160 (Marko)
+161 Aeron
+162 Emon
+163 Sabra
+164 Otana

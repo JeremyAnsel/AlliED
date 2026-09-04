@@ -1,0 +1,53 @@
+﻿<Window x:Class="AlliED.Views.MemoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlliED.Views"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="Text Sections"
+        Height="396"
+        Width="375"
+        Left="311"
+        Top="151"
+        WindowStyle="ToolWindow"
+        ShowInTaskbar="False"
+        UseLayoutRounding="True"
+        WindowStartupLocation="CenterOwner"
+        FontSize="10">
+    <TabControl x:Name="MemoPages">
+        <TabItem Header="Notes">
+            <TextBox x:Name="EditMemo1"
+                     AcceptsReturn="True"
+                     TextWrapping="Wrap"
+                     VerticalScrollBarVisibility="Auto"
+                     Background="#4AA5FF"
+                     MaxLength="4095" />
+        </TabItem>
+        <TabItem Header="Description">
+            <TextBox x:Name="EditMemo2"
+                     AcceptsReturn="True"
+                     TextWrapping="Wrap"
+                     VerticalScrollBarVisibility="Auto"
+                     Background="#4AA5FF"
+                     MaxLength="4095" />
+        </TabItem>
+        <TabItem Header="Win Debrief">
+            <TextBox x:Name="EditMemo3"
+                     AcceptsReturn="True"
+                     TextWrapping="Wrap"
+                     VerticalScrollBarVisibility="Auto"
+                     Background="#4AA5FF"
+                     MaxLength="4095" />
+        </TabItem>
+        <TabItem Header="Hints">
+            <TextBox x:Name="EditMemo4"
+                     AcceptsReturn="True"
+                     TextWrapping="Wrap"
+                     VerticalScrollBarVisibility="Auto"
+                     Background="#4AA5FF"
+                     MaxLength="4095" />
+        </TabItem>
+    </TabControl>
+</Window>

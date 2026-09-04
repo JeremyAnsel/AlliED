@@ -1,0 +1,232 @@
+(None)
+Xwing
+Ywing
+Awing
+Bwing
+TIE Fighter
+TIE Interceptor
+TIE Bomber
+TIE Advanced
+TIE Defender 
+Authority IRD
+Toscan Fighter
+Missile Boat
+Twing
+Z-95
+R-41
+Gunboat
+Shuttle
+Escort Shuttle 
+System Patrol Craft
+Scout Craft
+Stormtrooper Transpost
+Assault Transport
+Escort Transport
+Tug
+Combat Utility Vehicle
+CN/A Brick
+CN/B Hexbox
+CN/C Tube
+CN/D Pronged
+Heavy Lifter
+Mole Miner
+Bulk Freighter
+Cargo Ferry
+Modular Conveyor
+Container Transpost
+Rebel Med Transport
+Muurian Transport
+Corellian Transport
+Millenium Falcon
+Corellian Corvette
+Modified Corvette
+Nebulon B Frigate
+Modified Neb B Frigate
+Passenger Liner
+Carrack Cruiser
+Strike Cruiser
+Escort Carrier
+Dreadnaught
+Calamari Cruiser
+Lt Calamari Cruiser
+Interdictor
+Victory Star Destroyer
+Imperial Star Destroyer
+Super Star Destroyer
+CN/E Hemisphere
+CN/F Slotted
+CN/G Hourglass
+CN/H Gem
+CN/I Y shaped
+Platform 1
+Platform 2
+Platform 3
+Platform 4
+Platform 5
+Platform 6
+Asteroid Hangar
+Asteroid Laser Battery
+Asteroid Warhd Launcher
+Factory
+Satellite1
+Satellite2
+Satellite3
+*Satellite4
+*Satellite5
+Mine1
+Mine2
+Mine3
+Gun Platform
+*Mine5
+Probe1
+Probe Capsule
+*Probe3
+Buoy1
+Buoy2
+Hyper buoy
+Asteroid
+Planet
+Rendezvous Buoy
+Cargo Canister
+Shipyard
+Repair Yard
+*Mod Strike Cruiser
+Lancer Frigate
+Bulk Cruiser
+Assault Frigate
+Corellian Gunship
+Imperial Landing Craft
+Assault Shuttle
+Marauder Corvette
+Star Galleon
+Imp Research Ship
+Luxury Yacht 3000
+Ferryboat Liner 
+Modified Action Transpost
+Mobquet Transport
+Xiytiar Transport
+Freight Transport/C
+Freight Transport/H
+Freight Transport/K 
+YT-2000
+YT-2400
+Suprosa
+Skipray Blastboat
+TIE Experimental M1
+TIE Experimental M2
+TIE Experimental M3
+TIE Experimental M4
+TIE Experimental M5
+Cloakshape Fighter
+Razor Fighter
+Planetary Fighter
+Supa Fighter
+Pinook Fighter
+*Booster Pack
+Preybird Fighter
+*StarViper
+Firespray
+Pursuer
+Golan One Station
+Golan Two Station
+Golan Three Station
+Derilyn Platform
+Sensor Array
+Comm Relay
+Space Colony 1
+Space Colony 2
+Space Colony 3
+Casino
+Cargo Facility 1
+Cargo Facility 2
+Asteroid Mining Unit
+Processing Plant
+Rebel Platform
+Imperial Research Center
+Family Base
+Family Repair Yard
+Pirate Ship Yard
+Industrial Complex
+*Pirate Junkyard Base
+Escape Pod Type 1 
+Pressure Tank
+CN/J Grande
+CN/K Box
+CN/L Sphere
+CN/Hangar
+Lrg Gun Emplace
+Lrg Gun/Wrhd Empl
+Proximity Mine A
+Proximity Mine B
+*Homing Mine A
+Homing Mine B
+New Laser battery
+New Ion battery
+Cargo Freighter
+*Cargo Freighter 2
+*Cargo Freighter 3
+*Cargo Freighter 4
+*Cargo Freighter 5
+Cargo Tanker
+*Cargo Tanker 2
+*Cargo Tanker 3
+*Cargo Tanker 4
+*Cargo Tanker 5
+Escape Pod Type 2
+*Rebel Pilot
+*Imp Pilot
+*Civ Pilot
+ZeroG Stormtrooper
+ZeroG Utility
+Emkay
+Astromech Droid
+Worker Droid
+Backdrop / Light (RGB->)
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+Death Star II
+Winged Calamari Cruiser
+VSD II
+ISD II
+231

@@ -1,0 +1,477 @@
+ WINGMEN'S INSTRUCTIONS  ---------------------------------
+
+148 Stay alert  [11,12]
++This is not going to be easy  [3,4]
++Ok guys pay attention  [5,6]
++Pay attention  [6]
++We're not on a lark  [7,8]
++Keep it together  [9,10]
++Remember our mission goals [Emkay]
+149 Get ready  [11,12]
++Stay focused  [3,4]
++Remember our mission goals  [5,6]
++Be sure your cannons and shields are fully charged  [7,8]
++Go to full throttle  [9,10]
+150 Let's go get 'em  [11,12]
++Let's take 'em out  [3,4]
++Let's show 'em what we're made of  [5,6]
++Let's show 'em a thing or two!  [7,8]
++Let the fun begin  [9,10]
++Let us go make history [Emkay]
+151 Watch your six!  [6,9,10]
++Remember: don't fly straight and level for long  [3,4,7,8,11,12]
++Ok, watch your six everybody  [5]
+152 Be tough
++Be brave  [3,4,9,10]
++Remember what we're fighting for  [5,6,11,12]
++Watch out for each other  [7,8]
+153 Lock on to primary targets
+154 Lock on to secondary targets
+155 Lock on to tertiary targets
+156 Alright, cut the chatter  [9,10]
++Quiet down!  [3,4,11,12]
++Calm down. I can't make out what anyone's saying  [5,6]
++Two words: communication, disipline  [7,8]
+157 Head home before your ship falls apart  [5,6,9,10]
++Return to base for repairs  [3,4,7,8,11,12]
+158 Draw their fire!
+159 Stay close to your command ship!
+160 Stay on target....
+161 Get on those fighters!
+162 Finish 'em!  [9,10]
++Take it down!  [3,4,11,12]
++Finish it off  [5,6]
++Put it out of its misery  [7,8]
+163 Intercept those strike fighters before they launch their warheads
+164 Intercept those warheads at once!
+165 Intercept those torpedos at once!
+166 Intercept those rockets at once!
+167 Intercept those bombs at once!
+168 It's getting hot in here  [7,8]
++It's starting to get a little crowded here  [3,4,9,10]
++It's a hot time in the old town tonight  [5,6,11,12]
+169 Don't let that ship get away  [5,6,9,10]
++Stop that ship from escaping  [3,4,7,8,11,12]
+
+
+ REPORTING IN ------------------------
+
+001 This is 1
+002 This is 2
+003 This is 3
+004 This is 4
+005 This is 5
+006 This is 6
+007 This is 7
+008 This is 8
+009 This is 9
+010 This is 10
+011 This is 11
+012 This is 12 / Aeron / Emon
+
+ WINGMAN ACKNOWLEDGMENTS -------------
+
+013 Order Acknowledged
++Yes, sir  [4,9,10,12] 
++Roger  [5,6]
++As ordered  [7,8]
+014 Yes Commander
+015 Heading Out
+016 Heading Home
++Returning to base  [4]
++On my way sir  [5,6]
++See you back home  [7,8]
++Bugging out  [9,10]
++Moving out  [11,12]
+017 Waiting For Further Orders  [5,6,9,10]
++Holding position  [4,7,8,11,12]
+018 Proceeding With Mission  [5,6,9,10]
++Continuing mission  [4,7,8,11,12]
+019 Using Your target For attack
++Attacking designated target  [4]
++I'm on 'em  [5,6]
++Vectoring in  [7,8]
++I got him  [9,10]
++You got it sir  [11,12]
+020 Ignoring Designated Target  [5,6,9,10]
++Designated target is all yours  [4,7,8,11,12]
+021 Don't you believe in sharing?  [5,6,9,10]
++You trying to steal my kill?  [4,7,8,11,12]
+022 Responding to your distress call
++Coming to your assistance  [4]
++I'm on my way  [5,6]
++Moving to intercept  [7,8]
++Stay calm. I'm coming  [9,10]
++Yes, sir  [11,12]
++I'll get 'em off you [Aeron]
+023 What's the matter, too hot for you? [11,12]
++I thought you said you were an ace  [4]
++I gotta bail you out again?  [5,6]
++Got yourself into trouble again, eh?  [7,8]
++Say Please  [9,10]
+024 Inspecting Designated Target
+025 Suppressing Designated Target
+026 Jamming Designated Target
+027 Escorting Designated Target
+028 Escorting Mission Critical Craft
+029 Following Your Lead
+030 Tightning Formation  [5,6,9,10]
++Closing up  [4,7,8,11,12]
+031 Loosening Formation  [5,6,9,10]
++Spreading out  [4,7,8,11,12]
+
+ IN TROUBLE ------------------------------
+
+032 This is 1
+033 This is 2
+034 This is 3
+035 This is 4
+036 This is 5
+037 This is 6
+038 This is 7
+039 This is 8
+040 This is 9
+041 This is 10
+042 This is 11
+043 This is 12 / Aeron / Emon
+044 I'm having trouble over here
++I need assistance fast  [4]
++Cover me if you can  [5,6]
++I can't shake him  [7,8]
++I could use some help  [9,10]
++I'm taking fire  [11,12]
++Get 'em off me! [Aeron]
++I'm under attack [Emon]
++I have company [Emkay]
+045 I've got a Starship firing at me  [7,8]
++I'm under heavy fire  [4,9,10]
++Their turbolasers are targeting me  [11,12]
+046 I'm dropping chaff
+047 I'm popping flares
+048 I'm being suppressed
+049 I'm being jammed
+050 I'm caught in a Tractor beam
+
+ DAMAGED ---------------------------------
+
+051 I'm Hit!
++I'm taking damage  [4]
++My shields are going  [5,6]
++I can't shake him  [7,8]
++This guy's all over me  [9,10]
++I'm in trouble  [11,12]
++My shields are out [Aeron]
++I can't sustain any more damage [Emon]
+052 I'm out of control!
++I've lost control [Aeron]
+053 My Engines are out!  [5,6]
++I'm a sitting duck  [4,7,8,9,10]
++I'm helpless  [11,12]
+054 I've lost my lasers!
+055 I've lost my Ion Cannon!
+056 I've lost my Warhead Launcher!
+057 Sensors Out. I'm Flying Blind!
+058 My CMD Just burned out!
+059 Just lost my targetting system
+060 I'm heavily damaged!  [11,12]
++I'm taking serious damage  [4]
++I'm under heavy fire  [5,6]
++I'm losing it  [7,8]
++I'm getting shredded here!  [9,10]
+061 I'm ejecting!
++I'm punching out  [4]
++Send the SaR crew for me  [5,6]
++Call in the search and rescue team  [7,8]
++Send a recovery team for me  [9,10]
++Call in a recovery team  [11,12]
+062 Arrgghh...  [2,5,6]
++Oh no, arrgghh  [4,7,8]
++Cant' hold it together  [9,10]
++Not gonna make it!  [11,12]
++I'm breaking up [Aeron]
++Make them pay for this [Emon]
++Systems failing...trying to compensate...yaaaa! [Emkay]
+063 I'm finished!  [7,8]
++I'm dead  [4,9,10]
++It's over  [5,6,11,12]
+064 Arrgh.. Tell the...
++We all have to go sometime...  [4,9,10]
++It's been an honour...  [5,6]
++Tell my wife that I love her...  [2,7]
++It's been an honour...  [11,12]
+
+ WARHEAD ATTACK ----------------------------------
+
+065 I'm initiating my warhead attack  [5,6]
++Warheads locked and ready to fly  [4,7,8,9,10,11,12]
+066 I'm beginning my firing run  [5,6,9,10]
++Inititating attack sequence  [4,11,12]
++Time for the mighty to fall  [7,8]
+067 I'm aborting my attack run  [9,10]
++I'm pulling out  [4,11,12]
++Terminating attack due to heavy fire  [5,6]
++Defensive fire is too intense, I've got to back off  [7,8]
+068 Missiles Away
+069 Torpedoes Away
+070 Rockets Away
+071 Bombs Away
+072 Mag Pulse Warheads Away
+073 Ion Pulse Warheads Away
+
+ CAPTURE TARGET -----------------------------------
+
+074 I'm suppressing the target
+075 I'm jamming the target
+076 Tractor beam is active
+077 I'm initiating boarding operation
+078 I'm initiating the docking procedure
+079 Target grappled
+080 Target released
+
+081 I'm returning to the hanger to re-arm
++Tractor Beam is active  [7,8,9,10,11,12]
+082 I'm starting my reconnaissance  [9,10]
++I'm inspecting the target  [3,4,11,12]
++I'm going in for an inspection  [5,6]
++I'm going to take a closer look  [7,8]
+
+ TARGET SEEKING -----------------------------------
+
+083 This one's mine  [7,8]
++Engaging  [3,4,9,10]
++Moving to engage  [5,6,11,12]
+084 The Lead craft is mine  [7,8]
++I'm on the leader  [2,6]
++I'm on One  [3,4,9,10]
++I'll take the leader  [5,11,12]
+085 The number two craft is mine  [7,8]
++I'm on ....  [2,3,4,6,9,10]
++I'll take ....  [5,11,12]
+086 The number three craft is mine
+087 The number four craft is mine
+088 The number five craft is mine
+089 The number six craft is mine
+
+ KILLS --------------------------------------------
+
+090 Got 'em!  [9,10]
++Yoooo!  [3]
++Yeah!  [4,11,12]
++Mmm, good  [5,6]
++Oh yeah  [7,8]
++Alright! [Emon]
+091 Wooo!
++Woah  [2]
++Yes!  [3,4]
++I am so good  [5,6]
++I'm so hot  [7,8]
++Take that!  [9,10]
++Want some more?  [11,12]
++Who else wants some? [Emon]
+092 Woah!
++Wow!  [2]
++Ye-haaa!  [3,4]
++Ha!  [5,6]
++Excellent  [7,8]
++Outstanding  [9,10]
++He he he haa [11,12]
++Yes! [Emon]
+093 Another bandit down!
++Chalk up another one!  [3,4,7,8]
++One less bad guy  [5,6]
++I waxed one  [9,10]
++Sometimes I even impress myself  [11,12]
++That was easy [Aeron]
++Who's the master? [Emon]
++Scratch one bandit [Emkay]
+094 That's one less Imp to worry about  [5,6,9,10]
++Imperial training seems a bit lax  [3,4,7,8,11,12]
+095 We took 'em out!  [5,6,9,10]
++We are awesome  [3,4,7,8,11,12]
++Now that's what I'm talking about [Emon]
+096 Now that's a pretty picture!
++That's real nice  [3,4]
++Look at it blow!  [5,6]
++Look at that explode  [7,8]
++How nice  [9,10]
++Look at it go up  [11,12]
++Doesn't that make you proud? [Aeron]
++Now we're getting somewhere [Emon]
+097 They're history!  [9,10]
++They're goners  [3,4,11,12]
++Game over!  [5,6]
++We rock!  [7,8]
++Ancient history [Emon]
+098 Bye bye...
++That's gotta hurt  [3,4]
++Bye bye now  [5,6]
++The bigger they are, the harder they fall  [7,8]
++Sorry about that. Send me the bill  [9,10]
++Heads will roll  [11,12]
+099 We annihilated 'em!  [7,8]
++We crushed 'em!  [3,4,9,10]
++We wiped 'em out  [5,6,11,12]
+100 I'm glad I'm not on board that!  [5,6,9,10]
++Mess with the best, die like the rest  [3,4,7,8,11,12]
+101 Take that to the Emperor!  [9,10]
++Die Imperial dog!  [3,4,11,12]
++Tell your Emperor about that!  [5,6]
++Tell Palpatine we're sorry  [7,8]
+102 They're disabled  [9,10]
++They're not going anywhere  [3,4]
++That'll keep 'em out of trouble  [5,6]
++That'll stop 'em cold  [7,8]
++They're not going anywhere  [12]
+103 They're suppressed
+104 They're jammed
+105 They're inspected
+106 That's all my warheads
+
+ ADDRESSING (urgent) -----------------------------
+
+107 Hey 1
+108 Hey 2
+109 Hey 3
+110 Hey 4
+111 Hey 5
+112 Hey 6
+113 Hey 7
+114 Hey 8
+115 Hey 9
+116 Hey 10
+117 Hey 11
+118 Hey 12
+119 Hey Aeron
+120 Hey Emon
+122 Hey Ace
+
+ WARNINGS ------------------------------------
+
+123 Run for it!
++Watch out  [2]
++Break off!  [3,4]
++Pull out!  [5,6]
++Evade!  [7,8]
++Dive!  [9,10]
++Jink!  [11,12]
++Break...now! [Aeron]
++Turn hard [Emon]
++Fire countermeasures [Emkay]
+124 You better shake that bandit off your six!  [5,6,9,10]
++There's a bandit on your tail  [3,4,7,8,11,12]
+125 Attacking craft, dead ahead!  [5,6,9,10]
++Enemy in range  [3,4,7,8,11,12]
+126 There's a bandit lining up for a firing pass!
++There's a bandit making a run at you  [3,4]
++There's that bandit again  [5,6]
++There's a bandit targeting you  [7,8]
++Enemy starfighters inbound  [9,10]
++Here they come  [11,12]
++Heads up! Starfighters coming our way
+127 There's a bandit going for a missile lock!
+128 Beware of that tractor beam!
+129 Keep your distance!  [9,10]
++You're too close!  [3,4,11,12]
++That's a dangerous area  [5,6]
++Watch out for those turbolasers  [7,8]
+130 You've got two of them on you  [5,6,9,10]
++You're being double teamed  [3,4,7,8,11,12]
+131 You've got three of them on you
+132 Watch yourself! They're all over you  [9,10]
++Watch yourself! You're a very popular target  [2,3,4,5,6,7,8,11,12]
+
+ BAD NEWS -------------------------------
+
+133 Oh no..  [3,4,8]
++Uh oh  [2]
++Bad news  [5,6]
++Oh, dear  [7,8]
++Blast it!  [9,10]
++This is serious!  [11,12]
++That's a blow [Aeron]
++That hurts [Emon]
++That is a real loss [Emon]
+134 We've lost one
+135 We've lost two
+136 We've lost three
+137 We've lost four
+138 We've lost five
+139 We've lost six
+140 We've lost seven
+141 We've lost eight
+142 We've lost nine
+143 We've lost ten
+144 We've lost eleven
+145 We've lost twelve
+146 We let one get away  [5,6,9,10]
++One of 'em escaped  [3,4,7,8,11,12]
+147 Pilot ejected
+
+
+ ADDRESSING (non urgent) -----------------------
+
+170 Hey 1
+171 Hey 2
+172 Hey 3
+173 Hey 4
+174 Hey 5
+175 Hey 6
+176 Hey 7
+177 Hey 8
+178 Hey 9
+179 Hey 10
+180 Hey 11
+181 Hey 12
+182 Hey Aeron
+183 Hey Emon
+185 Hey Ace
+
+
+ SUCCESSES ------------------------------
+
+186 Great shot
++Nice shooting  [3,4]
++Good hunting  [5,6]
++Good aim  [7,8]
++What a deadeye  [9,10]
++Way to take 'em out  [11,12]
++Way to finish 'em off [Aeron]
++Way to stick it to 'em [Emon]
++Way to go hotshot! [Emkay]
+187 Wow!  [5,6,9,10]
++Impressive  [3,4,7,8,11,12]
++Very impressive [Emon]
+188 Keep it up
+189 You deserve a battle citation  [9,10]
++You're an ace  [3,4,11,12]
++You deserve a promotion  [5,6]
++You've earned a little R&R
+190 Your warheads hit!  [7,8]
++Direct hit!  [3,4,9,10]
++That's got their attention  [5,6,11,12]
+191 You took out a warhead launcher!  [7,8]
++You knocked out a warhead defence system  [3,9,10]
++That'll make our job a lot easier  [5,6,11,12]
+192 You took out a turbolaser!  [6,7,8]
++That'll make our job a little easier  [3,4,9,10]
++That helps us out  [5]
++Pulling teeth again, eh?  [11,12]
+193 You took out a shield generator!  [7,8]
++They're in trouble now  [3,4]
++Now's when we really start to hurt 'em  [5,6,11,12]
++Now they're in trouble  [9,10]
+194 You took out a comm tower!  [7,8]
++That'll keep 'em from calling for help  [3,4,9,10]
++That'll shut 'em up  [5,6,11,12]
+195 You took out the sensor suite(?)  [7,8]
++That'll put 'em in the dark  [3,4,9,10]
++There's a nice poke in the eye  [5,6,11,12]
+196 You nailed the bridge  [7,8]
++That ought to rattle their cage  [3,4,9,10]
++Sweets to the sweet  [5,6,11,12]
+
+
+ AERON ONLY ------------
+
+274 Hey - Emkay!
+275 Hey, Emkay

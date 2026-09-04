@@ -1,0 +1,33 @@
+﻿namespace AlliED.Impl.Enumerations;
+
+internal enum TieClassEnum : byte
+{
+    None = 0,
+    FlightGroup = 1,
+    ShipType = 2,
+    ShipCategory = 3,
+    ObjectCategory = 4,
+    Iff = 5,
+    CraftWithOrder = 6,
+    CraftWhen = 7,
+    GlobalGroup = 8,
+    Rank = 9,
+    CraftWithStatus1 = 10,
+    All = 11,
+    Team = 12,
+    PlayerOfGlobalGroup = 13,
+    AfterDelay = 14,
+    NotFlightGroup = 15,
+    NotShipType = 16,
+    NotShipCategory = 17,
+    NotObjectCategory = 18,
+    NotIff = 19,
+    NotGlobalGroup = 20,
+    NotTeam = 21,
+    NotPlayerOfGlobalGroup = 22,
+    GlobalUnit = 23,
+    NotGlobalUnit = 24,
+    CraftWithCargo = 25,
+    CraftWithoutCargo = 26,
+    RadioMessage = 27,
+}

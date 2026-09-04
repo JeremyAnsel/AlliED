@@ -1,0 +1,40 @@
+Stationary.        Systems: 100%         No return fire.
+Fly to Mothership if assigned, otherwise to hyperspace.  Disregards Targets.  Returns fire.
+Circle through enabled WPs specified # of times.   Disregards Targets.    Returns fire.
+Circle through enabled WPs specified # of times. Evades attackers. Returns fire. Disregards Targets.
+Fly to Rendezvous WP and await boarding.   Disregards Targets.  Returns fire.
+Stationary.       Systems at 0%         No Return fire.
+Stationary.       Systems at 0%         No Return fire.
+Attack Targets.        (Not for Capital ships. Use a Starship order)
+Attack ships with orders to escort the designated Targets.
+Attack craft once they have attacked designated Targets.   Ignores boarding craft. 
+Attack craft with orders to attack OR board designated Targets.
+Attack to disable Targets.     Use missiles to bring down shields.
+Board Targets (if stationary) to give the Targets its cargo.
+Board Targets (if stationary) to take their cargo.
+Board Target (if stationary) to exchange cargo with the Target.
+Board Target (if stationary) to capture it. Once captured, Target will Go Home.
+Board Target (if stationary) to destroy it. Target will explode when docking is complete.
+Board Target to pick it up and carry it for the rest of its mission.
+Drops off the designated FG   (NOT Targets)
+Wait for specified time, then continue to next order.   Systems: 100%    Returns fire.
+Wait for specified time, then continue to next order.   Systems: 100%    Returns fire.
+Circle through enabled WPs specified # of times.   Attacks Targets.   Returns fire.
+SShip await return of all FGs with it as their Mothership.   Attacks Targets.   Returns fire.
+SShip await launch of all FGs with it as their Mothership.   Attacks Targets.   Returns fire.
+Circle through enabled WPs and attack all FGs attacking Targets.  Returns fire.
+Circle through enabled WPs and attack all FGs attacking Targets.  Returns fire.
+Circle through enabled WPs and attack Targets.    Returns fire.
+Circle through enabled WPs and attack to disable Targets.  Returns fire (with lasers).
+Stationary.       Systems at 100%         No Return fire. 
+Fly to Mothership if assigned, otherwise to hyperspace.  Attacks Targets.  Returns fire.
+Stationary.       Systems at 100%         No Return fire.
+Board to ? - After boarding, Target continues its orders.
+Board Targets (if stationary) to repair it. Once repaired, Target continues its orders.
+Stationary.       Systems at 100%         No Return fire. 
+Stationary.       Systems at 100%         No Return fire.
+Stationary.       Systems at 100%         No Return fire. 
+Craft will explode after specified delay time.    No return fire.
+Collide with Target until it destroys itself, also fires lasers at Target.   Returns fire.
+Stationary.       Systems at 100%         No Return fire.
+Stationary.       Systems at 100%         No Return fire.

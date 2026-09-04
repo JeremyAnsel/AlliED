@@ -1,0 +1,106 @@
+﻿<Window x:Class="AlliED.Views.WavListBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlliED.Views"
+        xmlns:localControls="clr-namespace:AlliED.Controls"
+        xmlns:localConverters="clr-namespace:AlliED.Converters"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="WAVs included with XWA"
+        Height="555"
+        Width="634"
+        Left="249"
+        Top="155"
+        WindowStyle="ToolWindow"
+        ShowInTaskbar="False"
+        UseLayoutRounding="True"
+        WindowStartupLocation="CenterOwner"
+        FontSize="10">
+    <Canvas>
+        <ToolBar ToolBarTray.IsLocked="True"
+                 Canvas.Left="490"
+                 Canvas.Top="54">
+            <Button x:Name="SpeedButton1"
+                    Width="109"
+                    Height="25"
+                    Content="Search" />
+        </ToolBar>
+        <GroupBox x:Name="PilotChoice"
+                  Canvas.Left="486"
+                  Canvas.Top="91"
+                  Width="115"
+                  Height="308"
+                  Header="Pilots"
+                  Visibility="Collapsed"
+                  d:Visibility="Collapsed">
+            <UniformGrid Columns="1">
+                <UniformGrid.Tag>
+                    <MultiBinding Converter="{x:Static localConverters:StringsToRadioButtonsConverter.Default}">
+                        <Binding RelativeSource="{RelativeSource Self}" />
+                        <Binding Source="{x:Static local:WavListBoxResources.PilotChoiceStrings}" />
+                    </MultiBinding>
+                </UniformGrid.Tag>
+            </UniformGrid>
+        </GroupBox>
+        <GroupBox x:Name="TacChoice"
+                  Canvas.Left="486"
+                  Canvas.Top="91"
+                  Width="115"
+                  Height="104"
+                  Header="Tactical Officers">
+            <UniformGrid Columns="1">
+                <UniformGrid.Tag>
+                    <MultiBinding Converter="{x:Static localConverters:StringsToRadioButtonsConverter.Default}">
+                        <Binding RelativeSource="{RelativeSource Self}" />
+                        <Binding Source="{x:Static local:WavListBoxResources.TacChoiceStrings}" />
+                    </MultiBinding>
+                </UniformGrid.Tag>
+            </UniformGrid>
+        </GroupBox>
+        <CheckBox x:Name="CheckBox1"
+                  Canvas.Left="498"
+                  Canvas.Top="414"
+                  Width="114"
+                  Height="17"
+                  Content="Autoplay WAV"
+                  IsChecked="True" />
+        <Button x:Name="CancelBtn"
+                Canvas.Left="510"
+                Canvas.Top="448"
+                Width="75"
+                Height="25"
+                Content="_Cancel"
+                Click="CancelBtn_Click" />
+        <Button x:Name="OKBtn"
+                Canvas.Left="510"
+                Canvas.Top="486"
+                Width="75"
+                Height="25"
+                Content="_OK"
+                Click="OKBtn_Click" />
+        <TabControl x:Name="VoiceTabs"
+                    Canvas.Left="0"
+                    Canvas.Top="0"
+                    Width="463"
+                    Height="525">
+            <TabItem Header="Tactical Officers" />
+            <TabItem Header="Pilots" />
+            <TabItem Header="CD 1" />
+            <TabItem Header="CD 2" />
+            <TabItem Header="Custom" />
+        </TabControl>
+        <localControls:CustomListBox x:Name="ListBox1"
+                                     Canvas.Left="4"
+                                     Canvas.Top="22"
+                                     Width="455"
+                                     Height="499"
+                                     Background="Black" />
+        <TextBox x:Name="SearchEdit"
+                 Canvas.Left="488"
+                 Canvas.Top="26"
+                 Width="111"
+                 Height="21" />
+    </Canvas>
+</Window>

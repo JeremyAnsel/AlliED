@@ -1,0 +1,1728 @@
+﻿<Window x:Class="AlliED.Views.Form1Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlliED.Views"
+        xmlns:localRoot="clr-namespace:AlliED"
+        xmlns:localConverters="clr-namespace:AlliED.Converters"
+        xmlns:localControls="clr-namespace:AlliED.Controls"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="AlliED"
+        Height="585"
+        Width="818"
+        Left="202"
+        Top="137"
+        WindowStyle="SingleBorderWindow"
+        ShowInTaskbar="True"
+        UseLayoutRounding="True"
+        FontSize="10">
+    <DockPanel>
+        <Menu x:Name="MainMenu1"
+              DockPanel.Dock="Top">
+            <MenuItem x:Name="Project1"
+                      Header="_File">
+                <MenuItem x:Name="New1"
+                          Header="_New..."
+                          Command="{x:Static localRoot:AlliedCommands.NewMission}">
+                    <MenuItem.Icon>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=0}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="Open2"
+                          Header="_Open..."
+                          Command="{x:Static localRoot:AlliedCommands.OpenMission}">
+                    <MenuItem.Icon>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=1}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="Save2"
+                          Header="_Save"
+                          Command="{x:Static localRoot:AlliedCommands.SaveMission}">
+                    <MenuItem.Icon>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=3}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="SaveAs2"
+                          Header="Save _As..."
+                          Command="{x:Static localRoot:AlliedCommands.SaveAsMission}">
+                    <MenuItem.Icon>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=2}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="Backup1"
+                          Header="Bac_kup"
+                          Command="{x:Static localRoot:AlliedCommands.BackupMission}" />
+                <Separator />
+                <MenuItem x:Name="Browse1"
+                          Header="_Browse..."
+                          Command="{x:Static localRoot:AlliedCommands.BrowseMissions}" />
+                <MenuItem x:Name="Loadbylst2"
+                          Header="_Load by lst..."
+                          Command="{x:Static localRoot:AlliedCommands.LoadMissionByLst}" />
+                <Separator />
+                <MenuItem x:Name="Import1"
+                          Header="_Import">
+                    <MenuItem x:Name="XWing1"
+                              Tag="1"
+                              Header="_X-Wing..."
+                              Command="{x:Static localRoot:AlliedCommands.ImportXWing}" />
+                    <MenuItem x:Name="TIEFighter1"
+                              Tag="2"
+                              Header="_TIE Fighter..."
+                              Command="{x:Static localRoot:AlliedCommands.ImportTieFighter}" />
+                    <MenuItem x:Name="XvTBoP1"
+                              Tag="3"
+                              Header="_XvT..."
+                              Command="{x:Static localRoot:AlliedCommands.ImportXvT}" />
+                    <MenuItem x:Name="BoP2"
+                              Tag="4"
+                              Header="_BoP..."
+                              Command="{x:Static localRoot:AlliedCommands.ImportBoP}" />
+                </MenuItem>
+                <MenuItem x:Name="Export1"
+                          Header="_Export">
+                    <MenuItem x:Name="XvT1"
+                              Tag="12"
+                              Header="_XvT..."
+                              Command="{x:Static localRoot:AlliedCommands.ExportXvT}" />
+                    <MenuItem x:Name="BoP1"
+                              Tag="14"
+                              Header="_BoP..."
+                              Command="{x:Static localRoot:AlliedCommands.ExportBoP}" />
+                </MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="Edit1"
+                      Header="_Edit">
+                <MenuItem x:Name="AddFG2"
+                          Header="Add _Item"
+                          Command="{x:Static localRoot:AlliedCommands.AddItem}">
+                    <MenuItem.Icon>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=6}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="DeleteFG1"
+                          Header="_Delete Item"
+                          Command="{x:Static localRoot:AlliedCommands.DeleteItem}">
+                    <MenuItem.Icon>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=7}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="Copy2"
+                          Header="_Copy"
+                          Command="{x:Static localRoot:AlliedCommands.EditCopy}">
+                    <MenuItem.Icon>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=9}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="Paste2"
+                          Header="_Paste"
+                          Command="{x:Static localRoot:AlliedCommands.EditPaste}">
+                    <MenuItem.Icon>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=10}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem x:Name="MoveUp3"
+                          Header="Move _up"
+                          Command="{x:Static localRoot:AlliedCommands.EditMoveUp}">
+                    <MenuItem.Icon>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=4}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="Movedown3"
+                          Header="_Move down"
+                          Command="{x:Static localRoot:AlliedCommands.EditMoveDown}">
+                    <MenuItem.Icon>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=5}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="View1"
+                      Header="_View">
+                <MenuItem x:Name="ClassicFGEditview1"
+                          Header="Classic _Editor view"
+                          Command="{x:Static localRoot:AlliedCommands.ClassicEditorView}" />
+                <MenuItem x:Name="ClassicMapview1"
+                          Header="Classic _Map view"
+                          Command="{x:Static localRoot:AlliedCommands.ClassicMapView}" />
+                <Separator />
+                <MenuItem x:Name="WPEditor1"
+                          IsCheckable="True"
+                          Header="_WP Editor"
+                          Command="{x:Static localRoot:AlliedCommands.ViewWaypointsEditor}" />
+                <MenuItem x:Name="ShipList1"
+                          IsCheckable="True"
+                          Header="Main _Pages"
+                          Command="{x:Static localRoot:AlliedCommands.ViewMainPages}"
+                          IsChecked="True" />
+                <MenuItem x:Name="Datapad1"
+                          IsCheckable="True"
+                          Header="_Datapad"
+                          Command="{x:Static localRoot:AlliedCommands.ViewDatapad}"
+                          IsChecked="True" />
+                <MenuItem x:Name="OrderRegionSelect1"
+                          IsCheckable="True"
+                          Header="_Order-Region Selector"
+                          Command="{x:Static localRoot:AlliedCommands.ViewOrderRegionSelector}"
+                          IsChecked="True" />
+                <MenuItem x:Name="TextSections1"
+                          IsCheckable="True"
+                          Header="_Text Sections"
+                          Command="{x:Static localRoot:AlliedCommands.ViewTextSections}" />
+                <MenuItem x:Name="WAVfilemanager1"
+                          IsCheckable="True"
+                          Header="WA_V file manager"
+                          IsChecked="True"
+                          Command="{x:Static localRoot:AlliedCommands.ViewWavFileManager}" />
+                <Separator Visibility="Collapsed"
+                           d:Visibility="Visible" />
+                <MenuItem x:Name="Docklefttoolbartotop1"
+                          Header="Dock left toolbar to top"
+                          Visibility="Collapsed"
+                          d:Visibility="Visible" />
+            </MenuItem>
+            <MenuItem x:Name="Options1"
+                      Header="_Options">
+                <MenuItem x:Name="Preferences1"
+                          Header="_Preferences..."
+                          Command="{x:Static localRoot:AlliedCommands.OptionsPreferences}">
+                    <MenuItem.Icon>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=12}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem x:Name="Lockorders1"
+                          IsCheckable="True"
+                          Header="Lock orders to Regions"
+                          Command="{x:Static localRoot:AlliedCommands.OptionsLockOrdersToRegions}" />
+                <Separator />
+                <MenuItem x:Name="ErrorCheck1"
+                          Header="Error Checking">
+                    <MenuItem x:Name="ErrCheckOn1"
+                              IsCheckable="True"
+                              Header="Automatically on saving"
+                              Command="{x:Static localRoot:AlliedCommands.ErrorCheckingAutoOnSaving}" />
+                    <Separator />
+                    <MenuItem x:Name="CheckFilename1"
+                              IsCheckable="True"
+                              Header="Check filename format"
+                              Command="{x:Static localRoot:AlliedCommands.ErrorCheckingFilenameFormat}" />
+                </MenuItem>
+                <Separator />
+                <MenuItem x:Name="Backingup1"
+                          Header="Backing up">
+                    <MenuItem x:Name="Overwriteprevious1"
+                              IsCheckable="True"
+                              Header="Overwrite previous"
+                              Command="{x:Static localRoot:AlliedCommands.BackingUpOverwrite}" />
+                    <MenuItem x:Name="Incremental1"
+                              IsCheckable="True"
+                              Header="Incremental"
+                              IsChecked="True"
+                              Command="{x:Static localRoot:AlliedCommands.BackingUpIncremental}" />
+                </MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="Tools1"
+                      Header="_Tools">
+                <MenuItem x:Name="HyperbouyWizard1"
+                          Header="_Hyperbuoy Wizard..."
+                          Command="{x:Static localRoot:AlliedCommands.ToolsHyperbuoyWizard}">
+                    <MenuItem.Icon>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=27}" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem x:Name="AddBackdrop2"
+                          Header="Add default _Backdrop"
+                          Command="{x:Static localRoot:AlliedCommands.ToolsAddDefaultBackdrop}" />
+                <Separator />
+                <MenuItem x:Name="GoalView1"
+                          Header="_Goal Summary..."
+                          Command="{x:Static localRoot:AlliedCommands.GoalSummary}" />
+                <Separator />
+                <MenuItem x:Name="ShipListSequence1"
+                          Header="_Shiplist Sequence..."
+                          Command="{x:Static localRoot:AlliedCommands.ToolsShiplistSequence}" />
+            </MenuItem>
+            <MenuItem x:Name="Map1"
+                      Header="_Map">
+                <MenuItem x:Name="XYView1"
+                          localControls:MenuItemGroupBehavior.GroupName="View1"
+                          Tag="1"
+                          IsCheckable="True"
+                          Header="X-Y View"
+                          IsChecked="True"
+                          Command="{x:Static localRoot:AlliedCommands.MapXYView}" />
+                <MenuItem x:Name="XZView1"
+                          localControls:MenuItemGroupBehavior.GroupName="View1"
+                          Tag="2"
+                          IsCheckable="True"
+                          Header="X-Z View"
+                          Command="{x:Static localRoot:AlliedCommands.MapXZView}" />
+                <MenuItem x:Name="YZView1"
+                          localControls:MenuItemGroupBehavior.GroupName="View1"
+                          Tag="3"
+                          IsCheckable="True"
+                          Header="Y-Z View"
+                          Command="{x:Static localRoot:AlliedCommands.MapYZView}" />
+                <Separator />
+                <MenuItem x:Name="XSnap1"
+                          Header="X Snap">
+                    <MenuItem x:Name="Off1"
+                              Tag="1"
+                              IsCheckable="True"
+                              Header="Off"
+                              IsChecked="True"
+                              Command="{x:Static localRoot:AlliedCommands.SnapXOff}"
+                              CommandParameter="1" />
+                    <MenuItem x:Name="N01km1"
+                              Tag="16"
+                              IsCheckable="True"
+                              Header="0.1 km"
+                              Command="{x:Static localRoot:AlliedCommands.SnapX01}"
+                              CommandParameter="16" />
+                    <MenuItem x:Name="N02km1"
+                              Tag="32"
+                              IsCheckable="True"
+                              Header="0.2 km"
+                              Command="{x:Static localRoot:AlliedCommands.SnapX02}"
+                              CommandParameter="32" />
+                    <MenuItem x:Name="N05km1"
+                              Tag="80"
+                              IsCheckable="True"
+                              Header="0.5 km"
+                              Command="{x:Static localRoot:AlliedCommands.SnapX05}"
+                              CommandParameter="80" />
+                    <MenuItem x:Name="N10km2"
+                              Tag="160"
+                              IsCheckable="True"
+                              Header="1.0 km"
+                              Command="{x:Static localRoot:AlliedCommands.SnapX10}"
+                              CommandParameter="160" />
+                </MenuItem>
+                <MenuItem x:Name="YSnap1"
+                          Header="Y Snap">
+                    <MenuItem x:Name="Off2"
+                              Tag="1"
+                              IsCheckable="True"
+                              Header="Off"
+                              IsChecked="True"
+                              Command="{x:Static localRoot:AlliedCommands.SnapYOff}"
+                              CommandParameter="1" />
+                    <MenuItem x:Name="N01km2"
+                              Tag="16"
+                              IsCheckable="True"
+                              Header="0.1 km"
+                              Command="{x:Static localRoot:AlliedCommands.SnapY01}"
+                              CommandParameter="16" />
+                    <MenuItem x:Name="N02km2"
+                              Tag="32"
+                              IsCheckable="True"
+                              Header="0.2 km"
+                              Command="{x:Static localRoot:AlliedCommands.SnapY02}"
+                              CommandParameter="32" />
+                    <MenuItem x:Name="N05km2"
+                              Tag="80"
+                              IsCheckable="True"
+                              Header="0.5 km"
+                              Command="{x:Static localRoot:AlliedCommands.SnapY05}"
+                              CommandParameter="80" />
+                    <MenuItem x:Name="N10km1"
+                              Tag="160"
+                              IsCheckable="True"
+                              Header="1.0 km"
+                              Command="{x:Static localRoot:AlliedCommands.SnapY10}"
+                              CommandParameter="160" />
+                </MenuItem>
+                <MenuItem x:Name="AllSnapOff1"
+                          Header="All Snap Off"
+                          Command="{x:Static localRoot:AlliedCommands.MapAllSnapOff}" />
+                <Separator />
+                <MenuItem x:Name="ToggleGrid1"
+                          IsCheckable="True"
+                          Header="_Grid on"
+                          IsChecked="True"
+                          Command="{x:Static localRoot:AlliedCommands.MapGridOn}" />
+                <MenuItem x:Name="Numbergrid1"
+                          IsCheckable="True"
+                          Header="Number grid"
+                          IsChecked="True"
+                          Command="{x:Static localRoot:AlliedCommands.MapNumberGrid}" />
+                <Separator />
+                <MenuItem x:Name="Allwaypoints1"
+                          IsCheckable="True"
+                          Header="All waypoints"
+                          Command="{x:Static localRoot:AlliedCommands.MapAllWaypoints}" />
+                <MenuItem x:Name="LinkHyppoint1"
+                          IsCheckable="True"
+                          Header="Link _Hyp point"
+                          IsChecked="True"
+                          Command="{x:Static localRoot:AlliedCommands.MapLinkHypPoint}" />
+                <MenuItem x:Name="Showdistances"
+                          IsCheckable="True"
+                          Header="Show _distances"
+                          IsChecked="True"
+                          Command="{x:Static localRoot:AlliedCommands.MapShowDistances}" />
+                <MenuItem x:Name="Showtimes"
+                          IsCheckable="True"
+                          Header="Show _times"
+                          IsChecked="True"
+                          Command="{x:Static localRoot:AlliedCommands.MapShowTimes}" />
+                <Separator />
+                <MenuItem x:Name="MinimumWireframesSizes1"
+                          IsCheckable="True"
+                          Header="Min. wireframes si_zes"
+                          IsChecked="True"
+                          Command="{x:Static localRoot:AlliedCommands.MapMinWireframesSizes}" />
+                <MenuItem x:Name="ToggleIconsOnly1"
+                          IsCheckable="True"
+                          Header="_Icons Only"
+                          Command="{x:Static localRoot:AlliedCommands.MapIconsOnly}" />
+                <MenuItem x:Name="YX1"
+                          Header="YX"
+                          Visibility="Collapsed"
+                          d:Visibility="Visible" />
+            </MenuItem>
+            <MenuItem x:Name="Region_1"
+                      Header="_Region">
+                <MenuItem x:Name="Region11"
+                          localControls:MenuItemGroupBehavior.GroupName="Region"
+                          Tag="1"
+                          IsCheckable="True"
+                          Header="Region _1"
+                          IsChecked="True"
+                          Command="{x:Static localRoot:AlliedCommands.Region1}" />
+                <MenuItem x:Name="Region21"
+                          localControls:MenuItemGroupBehavior.GroupName="Region"
+                          Tag="2"
+                          IsCheckable="True"
+                          Header="Region _2"
+                          Command="{x:Static localRoot:AlliedCommands.Region2}" />
+                <MenuItem x:Name="Region31"
+                          localControls:MenuItemGroupBehavior.GroupName="Region"
+                          Tag="3"
+                          IsCheckable="True"
+                          Header="Region _3"
+                          Command="{x:Static localRoot:AlliedCommands.Region3}" />
+                <MenuItem x:Name="Region41"
+                          localControls:MenuItemGroupBehavior.GroupName="Region"
+                          Tag="4"
+                          IsCheckable="True"
+                          Header="Region _4"
+                          Command="{x:Static localRoot:AlliedCommands.Region4}" />
+                <Separator />
+                <MenuItem x:Name="Order11"
+                          localControls:MenuItemGroupBehavior.GroupName="Order"
+                          Tag="1"
+                          IsCheckable="True"
+                          Header="Order 1"
+                          IsChecked="True"
+                          Command="{x:Static localRoot:AlliedCommands.Order1}" />
+                <MenuItem x:Name="Order21"
+                          localControls:MenuItemGroupBehavior.GroupName="Order"
+                          Tag="2"
+                          IsCheckable="True"
+                          Header="Order 2"
+                          Command="{x:Static localRoot:AlliedCommands.Order2}" />
+                <MenuItem x:Name="Order31"
+                          localControls:MenuItemGroupBehavior.GroupName="Order"
+                          Tag="3"
+                          IsCheckable="True"
+                          Header="Order 3"
+                          Command="{x:Static localRoot:AlliedCommands.Order3}" />
+                <MenuItem x:Name="Order41"
+                          localControls:MenuItemGroupBehavior.GroupName="Order"
+                          Tag="4"
+                          IsCheckable="True"
+                          Header="Order 4"
+                          Command="{x:Static localRoot:AlliedCommands.Order4}" />
+            </MenuItem>
+            <MenuItem x:Name="About1"
+                      Header="_Info">
+                <MenuItem x:Name="WebPage"
+                          Header="_Links">
+                    <MenuItem x:Name="MyPage1"
+                              Header="_AlliED Page" />
+                    <MenuItem x:Name="DatamastersWebSite1"
+                              Header="_XWA Upgrade" />
+                    <MenuItem x:Name="XWingAllianceNet1"
+                              Header="_Darksaber's X-Wing Station" />
+                    <Separator />
+                    <MenuItem x:Name="LucasArts1"
+                              Header="_LucasArts" />
+                    <MenuItem x:Name="TotallyGames1"
+                              Header="_Totally Games" />
+                    <MenuItem x:Name="StarWarscom1"
+                              Header="_Star Wars" />
+                </MenuItem>
+                <Separator />
+                <MenuItem x:Name="About2"
+                          Header="_About..."
+                          Command="{x:Static localRoot:AlliedCommands.About}" />
+            </MenuItem>
+        </Menu>
+        <ToolBarTray x:Name="ControlBar1"
+                     DockPanel.Dock="Top"
+                     IsLocked="True">
+            <ToolBar x:Name="ToolBarProject"
+                     Height="22">
+                <Button x:Name="NewMissionBut"
+                        ToolTip="{Binding Command, RelativeSource={RelativeSource Self}, Converter={x:Static localConverters:RoutedCommandTextConverter.Default}}"
+                        Command="{x:Static localRoot:AlliedCommands.NewMission}">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=0}" />
+                </Button>
+                <Button x:Name="LoadBtn"
+                        ToolTip="{Binding Command, RelativeSource={RelativeSource Self}, Converter={x:Static localConverters:RoutedCommandTextConverter.Default}}"
+                        Command="{x:Static localRoot:AlliedCommands.OpenMission}">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=1}" />
+                </Button>
+                <Menu>
+                    <MenuItem Click="OpenMenuItem_Click">
+                        <MenuItem.Header>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="12" />
+                                </Grid.ColumnDefinitions>
+                                <Path Grid.Column="0"
+                                      VerticalAlignment="Bottom"
+                                      HorizontalAlignment="Left"
+                                      Fill="Gray"
+                                      Data="M0,0 L0,2 L4,6 L8,2 L8,0 L4,4 z" />
+                            </Grid>
+                        </MenuItem.Header>
+                        <MenuItem.ContextMenu>
+                            <ContextMenu x:Name="HistPopUp"
+                                         Padding="0">
+                                <ContextMenu.ItemContainerStyle>
+                                    <Style TargetType="{x:Type MenuItem}">
+                                        <EventSetter Event="Click"
+                                                     Handler="OpenSubMenuItem_Click" />
+                                    </Style>
+                                </ContextMenu.ItemContainerStyle>
+                            </ContextMenu>
+                        </MenuItem.ContextMenu>
+                    </MenuItem>
+                </Menu>
+                <Button x:Name="SaveAsBtn"
+                        ToolTip="{Binding Command, RelativeSource={RelativeSource Self}, Converter={x:Static localConverters:RoutedCommandTextConverter.Default}}"
+                        Command="{x:Static localRoot:AlliedCommands.SaveAsMission}">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=2}" />
+                </Button>
+                <Button x:Name="SaveBtn"
+                        ToolTip="{Binding Command, RelativeSource={RelativeSource Self}, Converter={x:Static localConverters:RoutedCommandTextConverter.Default}}"
+                        Command="{x:Static localRoot:AlliedCommands.SaveMission}">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=3}" />
+                </Button>
+            </ToolBar>
+            <ToolBar x:Name="ToolBarMissionEtc"
+                     Height="22">
+                <Button x:Name="MissionBtn"
+                        ToolTip="Mission parameters">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=16}" />
+                </Button>
+                <Button x:Name="BrfBtn"
+                        ToolTip="Briefing Editor">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=18}" />
+                </Button>
+                <Button x:Name="Battle"
+                        ToolTip="Edit .lst files">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=14}" />
+                </Button>
+            </ToolBar>
+            <ToolBar x:Name="ToolBarDropBox"
+                     Height="22">
+                <GroupBox x:Name="Panel9"
+                          Width="185"
+                          Height="21">
+                    <localControls:CustomComboBox x:Name="SelectionBox"
+                                                  Width="118"
+                                                  Height="19"
+                                                  Background="#0C0C0C"
+                                                  Foreground="#00FF00"
+                                                  ItemsSource="{x:Static local:Form1WindowResources.SelectionBoxStrings}"
+                                                  SelectedIndex="0" />
+                </GroupBox>
+            </ToolBar>
+            <ToolBar x:Name="ToolBarListWP"
+                     Height="22">
+                <CheckBox x:Name="ShowFGList"
+                          ToolTip="Show Main Pages">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=34}" />
+                </CheckBox>
+                <CheckBox x:Name="ShowDatapad"
+                          ToolTip="Show Datapad">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=36}" />
+                </CheckBox>
+                <CheckBox x:Name="ShowOrderSel"
+                          ToolTip="Show Order-Region Selector">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=39}" />
+                </CheckBox>
+                <CheckBox x:Name="DescBtn"
+                          ToolTip="Text Sections">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=32}" />
+                </CheckBox>
+                <CheckBox x:Name="MapEditWPBtn"
+                          ToolTip="Waypoints">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=35}" />
+                </CheckBox>
+            </ToolBar>
+            <ToolBar x:Name="ToolBarXY"
+                     Height="22">
+                <GroupBox x:Name="Panel8"
+                          Width="53"
+                          Height="21">
+                    <TextBlock x:Name="Label1"
+                               Text="X:" />
+                </GroupBox>
+                <Separator />
+                <GroupBox x:Name="Panel3"
+                          Width="53"
+                          Height="21">
+                    <TextBlock x:Name="Label2"
+                               Text="Y:" />
+                </GroupBox>
+            </ToolBar>
+            <ToolBar x:Name="ToolBarErrorPref"
+                     Height="22">
+                <Button x:Name="ErrBtn"
+                        ToolTip="Error Check">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=11}" />
+                </Button>
+                <Button x:Name="ToolButton7"
+                        ToolTip="{Binding Command, RelativeSource={RelativeSource Self}, Converter={x:Static localConverters:RoutedCommandTextConverter.Default}}"
+                        Command="{x:Static localRoot:AlliedCommands.GoalSummary}">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=44}" />
+                </Button>
+            </ToolBar>
+            <ToolBar x:Name="ToolBarPalette"
+                     Height="22">
+                <Menu>
+                    <MenuItem x:Name="TeamDrop"
+                              ToolTip="Cycle Current Team"
+                              Width="30">
+                        <MenuItem.Header>
+                            <Button x:Name="TeamDropBtn">
+                                <Image Stretch="Uniform"
+                                       Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=38}" />
+                            </Button>
+                        </MenuItem.Header>
+                        <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                  Tag="1"
+                                  Header="1" />
+                        <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                  Tag="2"
+                                  Header="2" />
+                        <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                  Tag="3"
+                                  Header="3" />
+                        <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                  Tag="4"
+                                  Header="4" />
+                        <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                  Tag="5"
+                                  Header="5" />
+                        <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                  Tag="6"
+                                  Header="6" />
+                        <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                  Tag="7"
+                                  Header="7" />
+                        <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                  Tag="8"
+                                  Header="8" />
+                        <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                  Tag="9"
+                                  Header="9" />
+                        <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                  Tag="10"
+                                  Header="10" />
+                    </MenuItem>
+                </Menu>
+                <Separator />
+                <CheckBox x:Name="PaletOn"
+                          ToolTip="Show icon palette">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=37}" />
+                </CheckBox>
+            </ToolBar>
+        </ToolBarTray>
+        <DockPanel DockPanel.Dock="Bottom">
+            <Canvas DockPanel.Dock="Right"
+                    Width="24"
+                    Height="24" />
+            <ScrollBar x:Name="XScroll"
+                       DockPanel.Dock="Right"
+                       Orientation="Horizontal"
+                       Width="26"
+                       Height="16"
+                       LargeChange="100"
+                       SmallChange="50"
+                       Maximum="320000"
+                       Minimum="-320000" />
+            <ToolBar x:Name="Panel6"
+                     ToolBarTray.IsLocked="True">
+                <TextBlock x:Name="Label4"
+                           Width="26"
+                           Height="13"
+                           Text="View:" />
+                <CheckBox x:Name="RebIFF"
+                          Tag="2"
+                          Width="17"
+                          Height="17"
+                          ToolTip="IFF Rebel"
+                          IsChecked="True">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.RebIFFGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </CheckBox>
+                <CheckBox x:Name="ImpIFF"
+                          Tag="3"
+                          Width="17"
+                          Height="17"
+                          ToolTip="IFF imperial"
+                          IsChecked="True">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ImpIFFGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </CheckBox>
+                <CheckBox x:Name="BluIFF"
+                          Tag="4"
+                          Width="17"
+                          Height="17"
+                          ToolTip="IFF Blue"
+                          IsChecked="True">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.BluIFFGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </CheckBox>
+                <CheckBox x:Name="YellIFF"
+                          Tag="5"
+                          Width="17"
+                          Height="17"
+                          ToolTip="IFF Yellow"
+                          IsChecked="True">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.YellIFFGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </CheckBox>
+                <CheckBox x:Name="Red2IFF"
+                          Tag="6"
+                          Width="17"
+                          Height="17"
+                          ToolTip="IFF Red"
+                          IsChecked="True">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.Red2IFFGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </CheckBox>
+                <CheckBox x:Name="PurpIFF"
+                          Tag="7"
+                          Width="17"
+                          Height="17"
+                          ToolTip="IFF Azzameen"
+                          IsChecked="True">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.PurpIFFGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </CheckBox>
+                <Separator />
+                <CheckBox x:Name="FightersOn"
+                          Tag="31"
+                          Width="17"
+                          Height="17"
+                          ToolTip="Starfighter Class"
+                          IsChecked="True">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.FightersOnGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </CheckBox>
+                <CheckBox x:Name="CapShipsOn"
+                          Tag="30"
+                          Width="17"
+                          Height="17"
+                          ToolTip="Starship Class"
+                          IsChecked="True">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.CapShipsOnGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </CheckBox>
+                <CheckBox x:Name="TransportsOn"
+                          Tag="32"
+                          Width="17"
+                          Height="17"
+                          ToolTip="Transport or Utility Class"
+                          IsChecked="True">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.TransportsOnGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </CheckBox>
+                <CheckBox x:Name="FRTsOn"
+                          Tag="33"
+                          Width="17"
+                          Height="17"
+                          ToolTip="Freighter/Container Class"
+                          IsChecked="True">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.FRTsOnGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </CheckBox>
+                <CheckBox x:Name="PlatformsOn"
+                          Tag="34"
+                          Width="17"
+                          Height="17"
+                          ToolTip="Platform Class"
+                          IsChecked="True">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.PlatformsOnGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </CheckBox>
+                <CheckBox x:Name="ObjectsOn"
+                          Tag="35"
+                          Width="17"
+                          Height="17"
+                          ToolTip="Objects"
+                          IsChecked="True">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ObjectsOnGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </CheckBox>
+                <Separator />
+                <RadioButton x:Name="EasyBtn"
+                             GroupName="70"
+                             localControls:RadioButtonUncheckBehavior.HandleUncheckOnClick="True"
+                             Width="17"
+                             Height="17"
+                             ToolTip="Easy difficulty"
+                             Content="E" />
+                <RadioButton x:Name="MedBtn"
+                             GroupName="70"
+                             localControls:RadioButtonUncheckBehavior.HandleUncheckOnClick="True"
+                             Width="17"
+                             Height="17"
+                             ToolTip="Medium difficulty"
+                             Content="M" />
+                <RadioButton x:Name="HardBtn"
+                             GroupName="70"
+                             localControls:RadioButtonUncheckBehavior.HandleUncheckOnClick="True"
+                             Width="17"
+                             Height="17"
+                             ToolTip="Hard difficulty"
+                             Content="H" />
+                <Separator />
+                <CheckBox x:Name="ShowStartBtn"
+                          Tag="36"
+                          Width="17"
+                          Height="17"
+                          ToolTip="FGs within 30 seconds">
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.ShowStartBtnGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </CheckBox>
+                <Button x:Name="AllIFF"
+                        Width="25"
+                        Height="17"
+                        ToolTip="All FGs in mission"
+                        Content="All" />
+                <Separator />
+                <TextBlock x:Name="Label3"
+                           Width="28"
+                           Height="13"
+                           Text="zoom:" />
+                <TextBlock x:Name="Label5"
+                           Width="16"
+                           Height="13"
+                           Text="32" />
+                <Separator />
+                <Button x:Name="ZoomTo16Btn"
+                        Width="27"
+                        Height="14"
+                        Content="16"
+                        Padding="0" />
+                <ScrollBar x:Name="ZoomBar"
+                           Orientation="Horizontal"
+                           Width="187"
+                           Height="12"
+                           LargeChange="16"
+                           SmallChange="1"
+                           Maximum="2000"
+                           Minimum="4"
+                           Value="32" />
+                <Button x:Name="ZoomTo800Btn"
+                        Width="27"
+                        Height="14"
+                        Content="800"
+                        Padding="0" />
+            </ToolBar>
+        </DockPanel>
+        <DockPanel DockPanel.Dock="Right">
+            <ScrollBar x:Name="YScroll"
+                       DockPanel.Dock="Bottom"
+                       Orientation="Vertical"
+                       Width="16"
+                       Height="26"
+                       LargeChange="100"
+                       SmallChange="50"
+                       Maximum="320000"
+                       Minimum="-320000" />
+            <ToolBar x:Name="Panel5"
+                     ToolBarTray.IsLocked="True">
+                <ToolBar.LayoutTransform>
+                    <RotateTransform Angle="90" />
+                </ToolBar.LayoutTransform>
+                <RadioButton x:Name="LockBattleCtr"
+                             GroupName="14"
+                             localControls:RadioButtonUncheckBehavior.HandleUncheckOnClick="True"
+                             Width="17"
+                             Height="17"
+                             ToolTip="AutoCentre: Fit to battlefield">
+                    <RadioButton.LayoutTransform>
+                        <RotateTransform Angle="-90" />
+                    </RadioButton.LayoutTransform>
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.LockBattleCtrGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </RadioButton>
+                <RadioButton x:Name="LockCtr"
+                             GroupName="14"
+                             localControls:RadioButtonUncheckBehavior.HandleUncheckOnClick="True"
+                             Width="17"
+                             Height="17"
+                             ToolTip="AutoCentre: at Map centre">
+                    <RadioButton.LayoutTransform>
+                        <RotateTransform Angle="-90" />
+                    </RadioButton.LayoutTransform>
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.LockCtrGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </RadioButton>
+                <RadioButton x:Name="LockCurr"
+                             GroupName="14"
+                             localControls:RadioButtonUncheckBehavior.HandleUncheckOnClick="True"
+                             Width="17"
+                             Height="17"
+                             ToolTip="AutoCentre: on current FG">
+                    <RadioButton.LayoutTransform>
+                        <RotateTransform Angle="-90" />
+                    </RadioButton.LayoutTransform>
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.LockCurrGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </RadioButton>
+                <RadioButton x:Name="LockZero"
+                             GroupName="14"
+                             localControls:RadioButtonUncheckBehavior.HandleUncheckOnClick="True"
+                             Width="17"
+                             Height="17"
+                             ToolTip="AutoCentre: zero Y axis">
+                    <RadioButton.LayoutTransform>
+                        <RotateTransform Angle="-90" />
+                    </RadioButton.LayoutTransform>
+                    <Image Stretch="Uniform"
+                           Source="{Binding Source={x:Static local:Form1WindowResources.LockZeroGlyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                </RadioButton>
+                <Separator />
+                <Image x:Name="Image1"
+                       Width="19"
+                       Height="19"
+                       Stretch="Uniform"
+                       Source="{Binding Source={x:Static local:Form1WindowResources.Image1Glyph}, Converter={x:Static localConverters:StringImageConverter.Default}}">
+                    <Image.LayoutTransform>
+                        <RotateTransform Angle="-90" />
+                    </Image.LayoutTransform>
+                </Image>
+                <CheckBox x:Name="LockBtn"
+                          Tag="1"
+                          Width="19"
+                          Height="17"
+                          ToolTip="Lock Start 1 waypoint"
+                          Content="1">
+                    <CheckBox.LayoutTransform>
+                        <RotateTransform Angle="-90" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <RadioButton x:Name="LockX"
+                             GroupName="22"
+                             localControls:RadioButtonUncheckBehavior.HandleUncheckOnClick="True"
+                             Width="19"
+                             Height="17"
+                             ToolTip="Lock current X coordinate"
+                             Content="X">
+                    <RadioButton.LayoutTransform>
+                        <RotateTransform Angle="-90" />
+                    </RadioButton.LayoutTransform>
+                    <RadioButton.ContextMenu>
+                        <ContextMenu x:Name="XsnapPop">
+                            <MenuItem x:Name="XsnapOff"
+                                      IsCheckable="True"
+                                      Tag="1"
+                                      Header="Off"
+                                      IsChecked="True"
+                                      Command="{x:Static localRoot:AlliedCommands.SnapXOff}"
+                                      CommandParameter="1"
+                                      CommandTarget="{Binding Path=PlacementTarget, RelativeSource={RelativeSource AncestorType=ContextMenu}}" />
+                            <MenuItem x:Name="Xsnap01"
+                                      IsCheckable="True"
+                                      Tag="16"
+                                      Header="0.1 km"
+                                      Command="{x:Static localRoot:AlliedCommands.SnapX01}"
+                                      CommandParameter="16"
+                                      CommandTarget="{Binding Path=PlacementTarget, RelativeSource={RelativeSource AncestorType=ContextMenu}}" />
+                            <MenuItem x:Name="Xsnap02"
+                                      IsCheckable="True"
+                                      Tag="32"
+                                      Header="0.2 km"
+                                      Command="{x:Static localRoot:AlliedCommands.SnapX02}"
+                                      CommandParameter="32"
+                                      CommandTarget="{Binding Path=PlacementTarget, RelativeSource={RelativeSource AncestorType=ContextMenu}}" />
+                            <MenuItem x:Name="Xsnap05"
+                                      IsCheckable="True"
+                                      Tag="80"
+                                      Header="0.5 km"
+                                      Command="{x:Static localRoot:AlliedCommands.SnapX05}"
+                                      CommandParameter="80"
+                                      CommandTarget="{Binding Path=PlacementTarget, RelativeSource={RelativeSource AncestorType=ContextMenu}}" />
+                            <MenuItem x:Name="Xsnap10"
+                                      IsCheckable="True"
+                                      Tag="160"
+                                      Header="1.0 km"
+                                      Command="{x:Static localRoot:AlliedCommands.SnapX10}"
+                                      CommandParameter="160"
+                                      CommandTarget="{Binding Path=PlacementTarget, RelativeSource={RelativeSource AncestorType=ContextMenu}}" />
+                        </ContextMenu>
+                    </RadioButton.ContextMenu>
+                </RadioButton>
+                <RadioButton x:Name="LockY"
+                             GroupName="22"
+                             localControls:RadioButtonUncheckBehavior.HandleUncheckOnClick="True"
+                             Width="19"
+                             Height="17"
+                             ToolTip="Lock current Y coordinate"
+                             Content="Y">
+                    <RadioButton.LayoutTransform>
+                        <RotateTransform Angle="-90" />
+                    </RadioButton.LayoutTransform>
+                    <RadioButton.ContextMenu>
+                        <ContextMenu x:Name="YSnapPop">
+                            <MenuItem x:Name="YsnapOff"
+                                      IsCheckable="True"
+                                      Tag="1"
+                                      Header="Off"
+                                      IsChecked="True"
+                                      Command="{x:Static localRoot:AlliedCommands.SnapYOff}"
+                                      CommandParameter="1"
+                                      CommandTarget="{Binding Path=PlacementTarget, RelativeSource={RelativeSource AncestorType=ContextMenu}}" />
+                            <MenuItem x:Name="Ysnap01"
+                                      IsCheckable="True"
+                                      Tag="16"
+                                      Header="0.1 km"
+                                      Command="{x:Static localRoot:AlliedCommands.SnapY01}"
+                                      CommandParameter="16"
+                                      CommandTarget="{Binding Path=PlacementTarget, RelativeSource={RelativeSource AncestorType=ContextMenu}}" />
+                            <MenuItem x:Name="Ysnap02"
+                                      IsCheckable="True"
+                                      Tag="32"
+                                      Header="0.2 km"
+                                      Command="{x:Static localRoot:AlliedCommands.SnapY02}"
+                                      CommandParameter="32"
+                                      CommandTarget="{Binding Path=PlacementTarget, RelativeSource={RelativeSource AncestorType=ContextMenu}}" />
+                            <MenuItem x:Name="Ysnap05"
+                                      IsCheckable="True"
+                                      Tag="80"
+                                      Header="0.5 km"
+                                      Command="{x:Static localRoot:AlliedCommands.SnapY05}"
+                                      CommandParameter="80"
+                                      CommandTarget="{Binding Path=PlacementTarget, RelativeSource={RelativeSource AncestorType=ContextMenu}}" />
+                            <MenuItem x:Name="Ysnap10"
+                                      IsCheckable="True"
+                                      Tag="160"
+                                      Header="1.0 km"
+                                      Command="{x:Static localRoot:AlliedCommands.SnapY10}"
+                                      CommandParameter="160"
+                                      CommandTarget="{Binding Path=PlacementTarget, RelativeSource={RelativeSource AncestorType=ContextMenu}}" />
+                        </ContextMenu>
+                    </RadioButton.ContextMenu>
+                </RadioButton>
+                <Separator />
+                <ToolBar x:Name="ToolRegion"
+                         ToolBarTray.IsLocked="True"
+                         Width="83"
+                         Height="20">
+                    <RadioButton x:Name="R1btn"
+                                 Tag="1"
+                                 ToolTip="Region 1"
+                                 IsChecked="True"
+                                 Command="{x:Static localRoot:AlliedCommands.Region1}">
+                        <RadioButton.LayoutTransform>
+                            <RotateTransform Angle="-90" />
+                        </RadioButton.LayoutTransform>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList2}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=0}" />
+                    </RadioButton>
+                    <RadioButton x:Name="R2btn"
+                                 Tag="2"
+                                 ToolTip="Region 2"
+                                 Command="{x:Static localRoot:AlliedCommands.Region2}">
+                        <RadioButton.LayoutTransform>
+                            <RotateTransform Angle="-90" />
+                        </RadioButton.LayoutTransform>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList2}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=1}" />
+                    </RadioButton>
+                    <RadioButton x:Name="R3Btn"
+                                 Tag="3"
+                                 ToolTip="Region 3"
+                                 Command="{x:Static localRoot:AlliedCommands.Region3}">
+                        <RadioButton.LayoutTransform>
+                            <RotateTransform Angle="-90" />
+                        </RadioButton.LayoutTransform>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList2}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=2}" />
+                    </RadioButton>
+                    <RadioButton x:Name="R4Btn"
+                                 Tag="4"
+                                 ToolTip="Region 4"
+                                 Command="{x:Static localRoot:AlliedCommands.Region4}">
+                        <RadioButton.LayoutTransform>
+                            <RotateTransform Angle="-90" />
+                        </RadioButton.LayoutTransform>
+                        <Image Stretch="Uniform"
+                               Source="{Binding Source={x:Static local:Form1WindowResources.ImageList2}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=3}" />
+                    </RadioButton>
+                </ToolBar>
+            </ToolBar>
+        </DockPanel>
+        <Grid x:Name="mainGrid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <TabControl x:Name="OverallPages"
+                        Grid.Column="0"
+                        MinWidth="285">
+                <TabItem x:Name="TabSheet9"
+                         Tag="0"
+                         Header="Flight Groups">
+                    <DockPanel>
+                        <ToolBarTray x:Name="ControlBar2"
+                                     DockPanel.Dock="Top"
+                                     IsLocked="True">
+                            <ToolBar x:Name="ToolBarEdit">
+                                <Button x:Name="NewFGBut"
+                                        ToolTip="New FG or Message"
+                                        Command="{x:Static localRoot:AlliedCommands.AddItem}">
+                                    <Image Stretch="Uniform"
+                                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=6}" />
+                                </Button>
+                                <Button x:Name="DeleteBut"
+                                        ToolTip="Delete selections"
+                                        Command="{x:Static localRoot:AlliedCommands.DeleteItem}">
+                                    <Image Stretch="Uniform"
+                                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=7}" />
+                                </Button>
+                                <Button x:Name="CopyBtn"
+                                        ToolTip="Copy current selection"
+                                        Command="{x:Static localRoot:AlliedCommands.EditCopy}">
+                                    <Image Stretch="Uniform"
+                                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=9}" />
+                                </Button>
+                                <Button x:Name="PasteBtn"
+                                        ToolTip="Paste"
+                                        Command="{x:Static localRoot:AlliedCommands.EditPaste}">
+                                    <Image Stretch="Uniform"
+                                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=10}" />
+                                </Button>
+                            </ToolBar>
+                            <ToolBar x:Name="ToolBarUpDown">
+                                <Button x:Name="UpBtn"
+                                        ToolTip="Move selections up"
+                                        Command="{x:Static localRoot:AlliedCommands.EditMoveUp}">
+                                    <Image Stretch="Uniform"
+                                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=4}" />
+                                </Button>
+                                <Button x:Name="DownBtn"
+                                        ToolTip="Move selections down"
+                                        Command="{x:Static localRoot:AlliedCommands.EditMoveDown}">
+                                    <Image Stretch="Uniform"
+                                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=5}" />
+                                </Button>
+                            </ToolBar>
+                            <ToolBar x:Name="ToolBarLibrary">
+                                <Button x:Name="LibShowBut"
+                                        ToolTip="FG Library">
+                                    <Image Stretch="Uniform"
+                                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=19}" />
+                                </Button>
+                                <Button x:Name="PutIntoLib"
+                                        ToolTip="Add selections to current library">
+                                    <Image Stretch="Uniform"
+                                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=20}" />
+                                </Button>
+                                <Separator />
+                                <CheckBox x:Name="ShowWAVman"
+                                          ToolTip="WAV file manager"
+                                          IsChecked="True"
+                                          IsEnabled="False"
+                                          Click="ShowWAVman_Click">
+                                    <Image Stretch="Uniform"
+                                           Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=41}" />
+                                </CheckBox>
+                            </ToolBar>
+                        </ToolBarTray>
+                        <Grid>
+                            <localControls:CustomListBox x:Name="ShipList"
+                                                         SelectionMode="Extended"
+                                                         Background="#000000"
+                                                         Foreground="White">
+                                <d:ListBox.Items>
+                                    <ListBoxItem Content="some text" />
+                                </d:ListBox.Items>
+                                <localControls:CustomListBox.ContextMenu>
+                                    <ContextMenu x:Name="ShipListPopUp">
+                                        <MenuItem x:Name="NewFG1"
+                                                  Header="Add _FG"
+                                                  Command="{x:Static localRoot:AlliedCommands.AddItem}">
+                                            <MenuItem.Icon>
+                                                <Image Stretch="Uniform"
+                                                       Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=6}" />
+                                            </MenuItem.Icon>
+                                        </MenuItem>
+                                        <MenuItem x:Name="Delete1"
+                                                  Header="_Delete"
+                                                  Command="{x:Static localRoot:AlliedCommands.DeleteItem}">
+                                            <MenuItem.Icon>
+                                                <Image Stretch="Uniform"
+                                                       Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=7}" />
+                                            </MenuItem.Icon>
+                                        </MenuItem>
+                                        <MenuItem x:Name="Copy1"
+                                                  Header="_Copy"
+                                                  Command="{x:Static localRoot:AlliedCommands.EditCopy}">
+                                            <MenuItem.Icon>
+                                                <Image Stretch="Uniform"
+                                                       Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=9}" />
+                                            </MenuItem.Icon>
+                                        </MenuItem>
+                                        <MenuItem x:Name="Paste1"
+                                                  Header="_Paste"
+                                                  Command="{x:Static localRoot:AlliedCommands.EditPaste}">
+                                            <MenuItem.Icon>
+                                                <Image Stretch="Uniform"
+                                                       Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=10}" />
+                                            </MenuItem.Icon>
+                                        </MenuItem>
+                                        <Separator />
+                                        <MenuItem x:Name="MoveUp1"
+                                                  Header="Move _up"
+                                                  Command="{x:Static localRoot:AlliedCommands.EditMoveUp}">
+                                            <MenuItem.Icon>
+                                                <Image Stretch="Uniform"
+                                                       Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=4}" />
+                                            </MenuItem.Icon>
+                                        </MenuItem>
+                                        <MenuItem x:Name="MoveDown1"
+                                                  Header="_Move down"
+                                                  Command="{x:Static localRoot:AlliedCommands.EditMoveDown}">
+                                            <MenuItem.Icon>
+                                                <Image Stretch="Uniform"
+                                                       Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=5}" />
+                                            </MenuItem.Icon>
+                                        </MenuItem>
+                                        <Separator />
+                                        <MenuItem x:Name="NewMission1"
+                                                  Header="_New Mission"
+                                                  Command="{x:Static localRoot:AlliedCommands.NewMission}">
+                                            <MenuItem.Icon>
+                                                <Image Stretch="Uniform"
+                                                       Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=0}" />
+                                            </MenuItem.Icon>
+                                        </MenuItem>
+                                        <MenuItem x:Name="Open1"
+                                                  Header="_Open..."
+                                                  Command="{x:Static localRoot:AlliedCommands.OpenMission}">
+                                            <MenuItem.Icon>
+                                                <Image Stretch="Uniform"
+                                                       Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=1}" />
+                                            </MenuItem.Icon>
+                                        </MenuItem>
+                                        <MenuItem x:Name="Save1"
+                                                  Header="_Save"
+                                                  Command="{x:Static localRoot:AlliedCommands.SaveMission}">
+                                            <MenuItem.Icon>
+                                                <Image Stretch="Uniform"
+                                                       Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=3}" />
+                                            </MenuItem.Icon>
+                                        </MenuItem>
+                                        <MenuItem x:Name="SaveAs1"
+                                                  Header="Save _as..."
+                                                  Command="{x:Static localRoot:AlliedCommands.SaveAsMission}">
+                                            <MenuItem.Icon>
+                                                <Image Stretch="Uniform"
+                                                       Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=2}" />
+                                            </MenuItem.Icon>
+                                        </MenuItem>
+                                        <MenuItem x:Name="Reopen1"
+                                                  Header="_Reopen"
+                                                  IsEnabled="False">
+                                            <MenuItem.ItemContainerStyle>
+                                                <Style TargetType="{x:Type MenuItem}">
+                                                    <EventSetter Event="Click"
+                                                                 Handler="OpenSubMenuItem_Click" />
+                                                </Style>
+                                            </MenuItem.ItemContainerStyle>
+                                        </MenuItem>
+                                        <MenuItem x:Name="Loadbylst1"
+                                                  Header="_Load by lst..."
+                                                  Command="{x:Static localRoot:AlliedCommands.LoadMissionByLst}" />
+                                        <MenuItem x:Name="AddHyperbuoys1"
+                                                  Header="Add Hyperbuoys..."
+                                                  Command="{x:Static localRoot:AlliedCommands.ToolsHyperbuoyWizard}">
+                                            <MenuItem.Icon>
+                                                <Image Stretch="Uniform"
+                                                       Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=27}" />
+                                            </MenuItem.Icon>
+                                        </MenuItem>
+                                        <MenuItem x:Name="AddBackdrop1"
+                                                  Header="Add Backdrop"
+                                                  Command="{x:Static localRoot:AlliedCommands.ToolsAddDefaultBackdrop}" />
+                                    </ContextMenu>
+                                </localControls:CustomListBox.ContextMenu>
+                            </localControls:CustomListBox>
+                            <ListBox x:Name="FGMirror"
+                                     Width="77"
+                                     Height="90"
+                                     SelectionMode="Extended"
+                                     Visibility="Collapsed"
+                                     d:Visibility="Visible" />
+                        </Grid>
+                    </DockPanel>
+                </TabItem>
+                <TabItem x:Name="TabSheet10"
+                         Tag="1"
+                         Header="Messages">
+                    <DockPanel>
+                        <GroupBox x:Name="WAVPanel"
+                                  DockPanel.Dock="Bottom">
+                            <UniformGrid Columns="1">
+                                <ToolBarTray x:Name="ControlBar3"
+                                             IsLocked="True">
+                                    <ToolBar x:Name="ToolBar1">
+                                        <Button x:Name="CreateLst"
+                                                ToolTip="Create .lst file for WAVs">
+                                            <Image Stretch="Uniform"
+                                                   Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=6}" />
+                                        </Button>
+                                        <Button x:Name="SaveWAV"
+                                                ToolTip="Save .lst file">
+                                            <Image Stretch="Uniform"
+                                                   Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=3}" />
+                                        </Button>
+                                        <Button x:Name="ClearWAVBut"
+                                                ToolTip="Clear current WAV">
+                                            <Image Stretch="Uniform"
+                                                   Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=40}" />
+                                        </Button>
+                                        <Button x:Name="LoadWAV"
+                                                ToolTip="Choose WAV file">
+                                            <Image Stretch="Uniform"
+                                                   Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=1}" />
+                                        </Button>
+                                        <Button x:Name="WAVlistBut"
+                                                ToolTip="Choose WAV from game">
+                                            <Image Stretch="Uniform"
+                                                   Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=42}" />
+                                        </Button>
+                                        <Separator />
+                                        <CheckBox x:Name="EndMsgWav"
+                                                  ToolTip="Mission Completion WAVs">
+                                            <Image Stretch="Uniform"
+                                                   Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=43}" />
+                                        </CheckBox>
+                                    </ToolBar>
+                                </ToolBarTray>
+                                <!--<MediaElement x:Name="WAVplayer"
+                                              Canvas.Left="244"
+                                              Canvas.Top="28"
+                                              Width="21"
+                                              Height="21"
+                                              LoadedBehavior="Manual"
+                                              UnloadedBehavior="Manual" />-->
+                                <TextBox x:Name="WAVfileEd" />
+                            </UniformGrid>
+                        </GroupBox>
+                        <localControls:CustomListBox x:Name="MsgStrList"
+                                                     SelectionMode="Extended"
+                                                     Background="#000000"
+                                                     Foreground="White">
+                            <d:ListBox.Items>
+                                <ListBoxItem Content="some text" />
+                            </d:ListBox.Items>
+                            <localControls:CustomListBox.ContextMenu>
+                                <ContextMenu x:Name="PopupMenu3">
+                                    <MenuItem x:Name="AddFG1"
+                                              Header="_Add Message"
+                                              Command="{x:Static localRoot:AlliedCommands.AddItem}">
+                                        <MenuItem.Icon>
+                                            <Image Stretch="Uniform"
+                                                   Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=6}" />
+                                        </MenuItem.Icon>
+                                    </MenuItem>
+                                    <MenuItem x:Name="Delete2"
+                                              Header="_Delete"
+                                              Command="{x:Static localRoot:AlliedCommands.DeleteItem}">
+                                        <MenuItem.Icon>
+                                            <Image Stretch="Uniform"
+                                                   Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=7}" />
+                                        </MenuItem.Icon>
+                                    </MenuItem>
+                                    <Separator />
+                                    <MenuItem x:Name="MoveUp2"
+                                              Header="Move _Up"
+                                              Command="{x:Static localRoot:AlliedCommands.EditMoveUp}">
+                                        <MenuItem.Icon>
+                                            <Image Stretch="Uniform"
+                                                   Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=4}" />
+                                        </MenuItem.Icon>
+                                    </MenuItem>
+                                    <MenuItem x:Name="MoveDown2"
+                                              Header="_Move Down"
+                                              Command="{x:Static localRoot:AlliedCommands.EditMoveDown}">
+                                        <MenuItem.Icon>
+                                            <Image Stretch="Uniform"
+                                                   Source="{Binding Source={x:Static local:Form1WindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=5}" />
+                                        </MenuItem.Icon>
+                                    </MenuItem>
+                                </ContextMenu>
+                            </localControls:CustomListBox.ContextMenu>
+                        </localControls:CustomListBox>
+                    </DockPanel>
+                </TabItem>
+                <TabItem x:Name="TabSheet14"
+                         Tag="2"
+                         Header="Teams">
+                    <TabItem.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                      Tag="1"
+                                      Header="1" />
+                            <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                      Tag="2"
+                                      Header="2" />
+                            <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                      Tag="3"
+                                      Header="3" />
+                            <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                      Tag="4"
+                                      Header="4" />
+                            <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                      Tag="5"
+                                      Header="5" />
+                            <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                      Tag="6"
+                                      Header="6" />
+                            <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                      Tag="7"
+                                      Header="7" />
+                            <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                      Tag="8"
+                                      Header="8" />
+                            <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                      Tag="9"
+                                      Header="9" />
+                            <MenuItem Style="{DynamicResource MenuItemStyle1}"
+                                      Tag="10"
+                                      Header="10" />
+                        </ContextMenu>
+                    </TabItem.ContextMenu>
+                    <Canvas>
+                        <TextBlock x:Name="Label52"
+                                   Canvas.Left="28"
+                                   Canvas.Top="31"
+                                   Width="58"
+                                   Height="13"
+                                   Text="Team Name" />
+                        <TextBlock x:Name="Label114"
+                                   Canvas.Left="168"
+                                   Canvas.Top="31"
+                                   Width="63"
+                                   Height="13"
+                                   Text="Allied Teams:" />
+                        <TextBlock x:Name="Label40"
+                                   Canvas.Left="28"
+                                   Canvas.Top="76"
+                                   Width="71"
+                                   Height="13"
+                                   Text="IFF for Autolink" />
+                        <TextBlock x:Name="Label11"
+                                   Canvas.Left="8"
+                                   Canvas.Top="175"
+                                   Width="78"
+                                   Height="13"
+                                   Text="Primary Success" />
+                        <TextBlock x:Name="Label13"
+                                   Canvas.Left="8"
+                                   Canvas.Top="253"
+                                   Width="68"
+                                   Height="13"
+                                   Text="Primary Failure" />
+                        <TextBlock x:Name="Label16"
+                                   Canvas.Left="8"
+                                   Canvas.Top="332"
+                                   Width="95"
+                                   Height="13"
+                                   Text="Secondary Success" />
+                        <Button x:Name="SpeedButton1"
+                                Canvas.Left="140"
+                                Canvas.Top="414"
+                                Width="25"
+                                Height="22"
+                                ToolTip="Next Team">
+                            <Image Stretch="Uniform"
+                                   Source="{Binding Source={x:Static local:Form1WindowResources.SpeedButton1Glyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                        </Button>
+                        <Button x:Name="SpeedButton2"
+                                Canvas.Left="92"
+                                Canvas.Top="414"
+                                Width="25"
+                                Height="22"
+                                ToolTip="Previous Team">
+                            <Image Stretch="Uniform"
+                                   Source="{Binding Source={x:Static local:Form1WindowResources.SpeedButton2Glyph}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+                        </Button>
+                        <ComboBox x:Name="TeamName1Ed"
+                                  Canvas.Left="8"
+                                  Canvas.Top="46"
+                                  Width="120"
+                                  Height="21"
+                                  Background="#6C0237"
+                                  IsEditable="True"
+                                  ItemsSource="{x:Static local:Form1WindowResources.TeamName1EdStrings}" />
+                        <ListBox x:Name="FriendsList"
+                                 Canvas.Left="146"
+                                 Canvas.Top="46"
+                                 Width="109"
+                                 Height="108"
+                                 SelectionMode="Extended"
+                                 ItemsSource="{x:Static local:Form1WindowResources.FriendsListStrings}" />
+                        <ComboBox x:Name="TeamIFFBox1"
+                                  Canvas.Left="8"
+                                  Canvas.Top="92"
+                                  Width="120"
+                                  Height="21" />
+                        <Button x:Name="JoinByRadio"
+                                Canvas.Left="8"
+                                Canvas.Top="128"
+                                Width="120"
+                                Height="25"
+                                Content="Link Team by Radio" />
+                        <TextBox x:Name="Succ1Ed"
+                                 Tag="1"
+                                 Canvas.Left="5"
+                                 Canvas.Top="193"
+                                 Width="265"
+                                 Height="21"
+                                 Background="#000000"
+                                 Foreground="White"
+                                 MaxLength="64"
+                                 d:Text="some text" />
+                        <TextBox x:Name="Succ2Ed"
+                                 Tag="2"
+                                 Canvas.Left="5"
+                                 Canvas.Top="216"
+                                 Width="265"
+                                 Height="21"
+                                 Background="#000000"
+                                 Foreground="White"
+                                 MaxLength="64"
+                                 d:Text="some text" />
+                        <TextBox x:Name="Fail1Ed"
+                                 Tag="3"
+                                 Canvas.Left="5"
+                                 Canvas.Top="271"
+                                 Width="265"
+                                 Height="21"
+                                 Background="#000000"
+                                 Foreground="White"
+                                 MaxLength="64"
+                                 d:Text="some text" />
+                        <TextBox x:Name="Fail2Ed"
+                                 Tag="4"
+                                 Canvas.Left="5"
+                                 Canvas.Top="294"
+                                 Width="265"
+                                 Height="21"
+                                 Background="#000000"
+                                 Foreground="White"
+                                 MaxLength="64"
+                                 d:Text="some text" />
+                        <TextBox x:Name="Sec1Ed"
+                                 Tag="5"
+                                 Canvas.Left="5"
+                                 Canvas.Top="350"
+                                 Width="265"
+                                 Height="21"
+                                 Background="#000000"
+                                 Foreground="White"
+                                 MaxLength="64"
+                                 d:Text="some text" />
+                        <TextBox x:Name="Sec2Ed"
+                                 Tag="6"
+                                 Canvas.Left="5"
+                                 Canvas.Top="373"
+                                 Width="265"
+                                 Height="21"
+                                 Background="#000000"
+                                 Foreground="White"
+                                 MaxLength="64"
+                                 d:Text="sometext" />
+                    </Canvas>
+                </TabItem>
+            </TabControl>
+            <GridSplitter x:Name="Splitter1"
+                          Grid.Column="1"
+                          ResizeDirection="Columns"
+                          Width="3"
+                          HorizontalAlignment="Stretch" />
+            <DockPanel Grid.Column="2">
+                <ToolBarTray x:Name="CoolBar1"
+                             DockPanel.Dock="Left"
+                             Height="25"
+                             IsLocked="True">
+                    <ToolBarTray.LayoutTransform>
+                        <RotateTransform Angle="90" />
+                    </ToolBarTray.LayoutTransform>
+                    <ToolBar x:Name="ToolBarAxisView"
+                             Height="25">
+                        <RadioButton x:Name="XY"
+                                     GroupName="View"
+                                     Width="24"
+                                     Height="24"
+                                     ToolTip="X-Y View"
+                                     IsChecked="True">
+                            <RadioButton.LayoutTransform>
+                                <RotateTransform Angle="-90" />
+                            </RadioButton.LayoutTransform>
+                            <Image Stretch="Uniform"
+                                   Source="{Binding Source={x:Static local:Form1WindowResources.MapImages}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=7}" />
+                        </RadioButton>
+                        <RadioButton x:Name="XZ"
+                                     GroupName="View"
+                                     Width="24"
+                                     Height="24"
+                                     ToolTip="X-Z View">
+                            <RadioButton.LayoutTransform>
+                                <RotateTransform Angle="-90" />
+                            </RadioButton.LayoutTransform>
+                            <Image Stretch="Uniform"
+                                   Source="{Binding Source={x:Static local:Form1WindowResources.MapImages}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=8}" />
+                        </RadioButton>
+                        <RadioButton x:Name="YZ"
+                                     GroupName="View"
+                                     Width="24"
+                                     Height="24"
+                                     ToolTip="Y-Z View">
+                            <RadioButton.LayoutTransform>
+                                <RotateTransform Angle="-90" />
+                            </RadioButton.LayoutTransform>
+                            <Image Stretch="Uniform"
+                                   Source="{Binding Source={x:Static local:Form1WindowResources.MapImages}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=9}" />
+                        </RadioButton>
+                        <Separator />
+                        <RadioButton x:Name="AllWPS"
+                                     GroupName="WP"
+                                     localControls:RadioButtonUncheckBehavior.HandleUncheckOnClick="True"
+                                     Width="24"
+                                     Height="24"
+                                     ToolTip="Show all WPs">
+                            <RadioButton.LayoutTransform>
+                                <RotateTransform Angle="-90" />
+                            </RadioButton.LayoutTransform>
+                            <Image Stretch="Uniform"
+                                   Source="{Binding Source={x:Static local:Form1WindowResources.MapImages}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=3}" />
+                        </RadioButton>
+                        <RadioButton x:Name="CurrWPs"
+                                     GroupName="WP"
+                                     localControls:RadioButtonUncheckBehavior.HandleUncheckOnClick="True"
+                                     Width="24"
+                                     Height="24"
+                                     ToolTip="Current FG's WPs">
+                            <RadioButton.LayoutTransform>
+                                <RotateTransform Angle="-90" />
+                            </RadioButton.LayoutTransform>
+                            <Image Stretch="Uniform"
+                                   Source="{Binding Source={x:Static local:Form1WindowResources.MapImages}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=2}" />
+                        </RadioButton>
+                        <Separator />
+                        <CheckBox x:Name="NamesOn"
+                                  Width="24"
+                                  Height="24"
+                                  ToolTip="Show Names">
+                            <CheckBox.LayoutTransform>
+                                <RotateTransform Angle="-90" />
+                            </CheckBox.LayoutTransform>
+                            <Image Stretch="Uniform"
+                                   Source="{Binding Source={x:Static local:Form1WindowResources.MapImages}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=1}" />
+                        </CheckBox>
+                        <CheckBox x:Name="CurrOnly"
+                                  Width="24"
+                                  Height="24"
+                                  ToolTip="Current FG only">
+                            <CheckBox.LayoutTransform>
+                                <RotateTransform Angle="-90" />
+                            </CheckBox.LayoutTransform>
+                            <Image Stretch="Uniform"
+                                   Source="{Binding Source={x:Static local:Form1WindowResources.MapImages}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=0}" />
+                        </CheckBox>
+                        <Separator />
+                        <Button x:Name="FitBattleBtn"
+                                Width="24"
+                                Height="24"
+                                ToolTip="Fit to battlefield">
+                            <Button.LayoutTransform>
+                                <RotateTransform Angle="-90" />
+                            </Button.LayoutTransform>
+                            <Image Stretch="Uniform"
+                                   Source="{Binding Source={x:Static local:Form1WindowResources.MapImages}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=4}" />
+                        </Button>
+                        <Button x:Name="CentreMapBtn"
+                                Width="24"
+                                Height="24"
+                                ToolTip="Centre Map">
+                            <Button.LayoutTransform>
+                                <RotateTransform Angle="-90" />
+                            </Button.LayoutTransform>
+                            <Image Stretch="Uniform"
+                                   Source="{Binding Source={x:Static local:Form1WindowResources.MapImages}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=5}" />
+                        </Button>
+                        <Button x:Name="CtrFGBtn"
+                                Width="24"
+                                Height="24"
+                                ToolTip="Centre on current FG">
+                            <Button.LayoutTransform>
+                                <RotateTransform Angle="-90" />
+                            </Button.LayoutTransform>
+                            <Image Stretch="Uniform"
+                                   Source="{Binding Source={x:Static local:Form1WindowResources.MapImages}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=6}" />
+                        </Button>
+                    </ToolBar>
+                </ToolBarTray>
+                <Grid x:Name="ScrollBox1"
+                      Background="#000000">
+                    <localControls:PaintBoxControl x:Name="PaintBox1" />
+                </Grid>
+            </DockPanel>
+        </Grid>
+    </DockPanel>
+</Window>

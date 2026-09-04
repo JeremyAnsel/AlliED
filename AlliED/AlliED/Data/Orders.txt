@@ -1,0 +1,73 @@
+Hold Steady
+Fly home
+Circle waypoints
+Circle and Evade
+Rendezvous
+Disabled
+Await boarding
+Attack targets
+Attack escorts of
+Protect
+Escort (prevent boarding)
+Disable targets
+Board to Give/Reload
+Board to Take
+Board to Exchange
+Board to Capture
+Board to Destroy
+Pick up/Bag
+Drop off/Deploy
+Wait 1
+Wait 2
+SShip Circle
+SShip await return
+SShip await launch
+SS Patrol + protect
+SS Patrol + protect 2
+SS Patrol + attack
+SS Patrol + disable
+SShip Hold Steady 1
+SShip Fly Home
+SShip Hold Steady 2
+Board to ?
+Board to repair
+SShip hold Steady 3
+SShip hold Steady 4
+SShip hold Steady 5
+Self-Destruct
+Kamikaze attack
+Permanently disabled
+(Release carried cargo)
+Deliver/drop off
+41
+42 (Attack)
+43 (Reverse engines)
+44 (Awaiting boarding)
+45 (Board to repair)
+Defect
+47 (Surrender)
+48
+Becon
+Hyper to Region
+51
+52 (Board to tranfer)
+I.D. targets
+54
+55
+56
+Park at
+58
+59 (Start over)
+60
+Work on
+62
+63 (Orbit/Misc?)
+64 (Home in)
+65
+66
+67
+68
+69
+70
+71
+72

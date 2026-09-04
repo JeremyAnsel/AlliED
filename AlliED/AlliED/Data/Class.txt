@@ -1,0 +1,28 @@
+None
+Flight Group
+Ship Type
+Ship Category
+Object Category
+IFF
+Craft with orders
+Craft when
+Global Group (GG)
+Rank
+Craft with status1
+All
+Team
+Player of GG
+After delay
+any Flight Group except
+any Ship Type except
+any Ship Category except
+any Object Category except
+any IFF except
+any Global Group except
+any Team except
+any Player of GG except
+Global Unit (GU)
+any Global Unit except
+Craft with Cargo
+Craft without Cargo
+Message #

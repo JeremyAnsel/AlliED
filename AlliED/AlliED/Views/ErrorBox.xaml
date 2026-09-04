@@ -1,0 +1,40 @@
+﻿<Window x:Class="AlliED.Views.ErrorBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlliED.Views"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="Error and Warning List"
+        Height="342"
+        Width="571"
+        Left="252"
+        Top="146"
+        WindowStyle="ToolWindow"
+        ShowInTaskbar="False"
+        UseLayoutRounding="True"
+        WindowStartupLocation="CenterOwner"
+        FontSize="10">
+    <Canvas>
+        <TextBox x:Name="ErrMemo"
+                 Canvas.Left="0"
+                 Canvas.Top="0"
+                 Width="571"
+                 Height="271"
+                 IsReadOnly="True" />
+        <CheckBox x:Name="OmitWarnsChk"
+                  Canvas.Left="132"
+                  Canvas.Top="279"
+                  Width="279"
+                  Height="17"
+                  Content="_Don't include warnings while this mission is loaded" />
+        <Button x:Name="Button1"
+                Canvas.Left="468"
+                Canvas.Top="276"
+                Width="79"
+                Height="23"
+                Content="_OK"
+                Click="Button1_Click" />
+    </Canvas>
+</Window>

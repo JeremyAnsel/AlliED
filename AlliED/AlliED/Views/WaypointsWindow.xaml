@@ -1,0 +1,257 @@
+﻿<Window x:Class="AlliED.Views.WaypointsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlliED.Views"
+        xmlns:localControls="clr-namespace:AlliED.Controls"
+        xmlns:localConverters="clr-namespace:AlliED.Converters"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="'Waypoints"
+        Height="425"
+        Width="279"
+        Left="581"
+        Top="217"
+        WindowStyle="ToolWindow"
+        ShowInTaskbar="False"
+        UseLayoutRounding="True"
+        WindowStartupLocation="CenterOwner"
+        FontSize="10">
+    <Canvas>
+        <TextBlock x:Name="Label83"
+                   Canvas.Left="21"
+                   Canvas.Top="1"
+                   Width="7"
+                   Height="13"
+                   Text="X" />
+        <TextBlock x:Name="Label84"
+                   Canvas.Left="71"
+                   Canvas.Top="1"
+                   Width="7"
+                   Height="13"
+                   Text="Y" />
+        <TextBlock x:Name="Label85"
+                   Canvas.Left="111"
+                   Canvas.Top="1"
+                   Width="7"
+                   Height="13"
+                   Text="Z" />
+        <TextBlock x:Name="Label103"
+                   Canvas.Left="157"
+                   Canvas.Top="1"
+                   Width="39"
+                   Height="13"
+                   Text="Enabled" />
+        <TextBlock x:Name="Label1"
+                   Canvas.Left="8"
+                   Canvas.Top="170"
+                   Width="250"
+                   Height="13"
+                   Text="Label1" />
+        <TextBlock x:Name="Label38"
+                   Canvas.Left="220"
+                   Canvas.Top="1"
+                   Width="34"
+                   Height="13"
+                   Text="Region" />
+        <TextBlock x:Name="Label20"
+                   Canvas.Left="85"
+                   Canvas.Top="171"
+                   Width="106"
+                   Height="13"
+                   Text="Raw Data / 160 = km"
+                   Visibility="Collapsed"
+                   d:Visibility="Visible" />
+        <TextBlock x:Name="Label2"
+                   Canvas.Left="226"
+                   Canvas.Top="126"
+                   Width="21"
+                   Height="13"
+                   Text="Roll:" />
+        <localControls:ObservableItemsControl x:Name="WPRawGrid"
+                                              Canvas.Left="133"
+                                              Canvas.Top="158"
+                                              Width="144"
+                                              Height="100"
+                                              Tag="{Binding WPRawCollectionColumnCount}"
+                                              ItemsSource="{Binding WPRawCollection}"
+                                              Visibility="Collapsed"
+                                              d:Visibility="Collapsed">
+            <localControls:ObservableItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="3"
+                                 Rows="12" />
+                </ItemsPanelTemplate>
+            </localControls:ObservableItemsControl.ItemsPanel>
+            <localControls:ObservableItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBox Text="{Binding Text}" />
+                </DataTemplate>
+            </localControls:ObservableItemsControl.ItemTemplate>
+        </localControls:ObservableItemsControl>
+        <localControls:ObservableItemsControl x:Name="WPGrid"
+                                              Canvas.Left="5"
+                                              Canvas.Top="16"
+                                              Width="135"
+                                              Height="148"
+                                              Tag="{Binding WPCollectionColumnCount}"
+                                              ItemsSource="{Binding WPCollection}">
+            <localControls:ObservableItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="3"
+                                 Rows="6" />
+                </ItemsPanelTemplate>
+            </localControls:ObservableItemsControl.ItemsPanel>
+            <localControls:ObservableItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBox Text="{Binding Text}" />
+                </DataTemplate>
+            </localControls:ObservableItemsControl.ItemTemplate>
+        </localControls:ObservableItemsControl>
+        <localControls:ObservableItemsControl x:Name="WPEnabledList"
+                                              Canvas.Left="140"
+                                              Canvas.Top="16"
+                                              Width="70"
+                                              Height="148"
+                                              Tag="{Binding WPEnabledCollectionColumnCount}"
+                                              ItemsSource="{Binding WPEnabledCollection}">
+            <localControls:ObservableItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="1" />
+                </ItemsPanelTemplate>
+            </localControls:ObservableItemsControl.ItemsPanel>
+            <localControls:ObservableItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <ToggleButton Content="{Binding Text}"
+                                  IsChecked="{Binding IsSelected}"
+                                  Background="#F5F5F5" />
+                </DataTemplate>
+            </localControls:ObservableItemsControl.ItemTemplate>
+        </localControls:ObservableItemsControl>
+        <localControls:ObservableItemsControl x:Name="OrderWPGrid"
+                                              Canvas.Left="5"
+                                              Canvas.Top="188"
+                                              Width="135"
+                                              Height="196"
+                                              Tag="{Binding OrderWPCollectionColumnCount}"
+                                              ItemsSource="{Binding OrderWPCollection}">
+            <localControls:ObservableItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="3"
+                                 Rows="8" />
+                </ItemsPanelTemplate>
+            </localControls:ObservableItemsControl.ItemsPanel>
+            <localControls:ObservableItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBox Text="{Binding Text}" />
+                </DataTemplate>
+            </localControls:ObservableItemsControl.ItemTemplate>
+        </localControls:ObservableItemsControl>
+        <localControls:ObservableItemsControl x:Name="OrderWPEnabledList"
+                                              Canvas.Left="140"
+                                              Canvas.Top="188"
+                                              Width="70"
+                                              Height="196"
+                                              Tag="{Binding OrderWPEnabledCollectionColumnCount}"
+                                              ItemsSource="{Binding OrderWPEnabledCollection}">
+            <localControls:ObservableItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="1" />
+                </ItemsPanelTemplate>
+            </localControls:ObservableItemsControl.ItemsPanel>
+            <localControls:ObservableItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <ToggleButton Content="{Binding Text}"
+                                  IsChecked="{Binding IsSelected}"
+                                  Background="#F5F5F5" />
+                </DataTemplate>
+            </localControls:ObservableItemsControl.ItemTemplate>
+        </localControls:ObservableItemsControl>
+        <ComboBox x:Name="Start1Region"
+                  Tag="1"
+                  Canvas.Left="218"
+                  Canvas.Top="16"
+                  Width="37"
+                  Height="21"
+                  ItemsSource="{x:Static local:WaypointsWindowResources.StartRegionStrings}"
+                  SelectedIndex="0" />
+        <ComboBox x:Name="Start2Region"
+                  Tag="2"
+                  Canvas.Left="218"
+                  Canvas.Top="40"
+                  Width="37"
+                  Height="21"
+                  ItemsSource="{x:Static local:WaypointsWindowResources.StartRegionStrings}"
+                  SelectedIndex="0" />
+        <ComboBox x:Name="Start3Region"
+                  Tag="3"
+                  Canvas.Left="218"
+                  Canvas.Top="64"
+                  Width="37"
+                  Height="21"
+                  ItemsSource="{x:Static local:WaypointsWindowResources.StartRegionStrings}"
+                  SelectedIndex="0" />
+        <ComboBox x:Name="Start4Region"
+                  Tag="4"
+                  Canvas.Left="218"
+                  Canvas.Top="88"
+                  Width="37"
+                  Height="21"
+                  ItemsSource="{x:Static local:WaypointsWindowResources.StartRegionStrings}"
+                  SelectedIndex="0" />
+        <ToolBar x:Name="ToolOrient"
+                 ToolBarTray.IsLocked="True"
+                 Canvas.Left="218"
+                 Canvas.Top="224"
+                 Width="120"
+                 Height="30">
+            <ToolBar.LayoutTransform>
+                <RotateTransform Angle="90" />
+            </ToolBar.LayoutTransform>
+            <RadioButton x:Name="ToolButton1"
+                         Tag="0"
+                         ToolTip="0 deg default rotation"
+                         IsChecked="True">
+                <RadioButton.LayoutTransform>
+                    <RotateTransform Angle="-90" />
+                </RadioButton.LayoutTransform>
+                <Image Stretch="Uniform"
+                       Source="{Binding Source={x:Static local:WaypointsWindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=0}" />
+            </RadioButton>
+            <RadioButton x:Name="ToolButton2"
+                         Tag="64"
+                         ToolTip="90 deg default rotation">
+                <RadioButton.LayoutTransform>
+                    <RotateTransform Angle="-90" />
+                </RadioButton.LayoutTransform>
+                <Image Stretch="Uniform"
+                       Source="{Binding Source={x:Static local:WaypointsWindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=1}" />
+            </RadioButton>
+            <RadioButton x:Name="ToolButton3"
+                         Tag="128"
+                         ToolTip="180 deg default rotation">
+                <RadioButton.LayoutTransform>
+                    <RotateTransform Angle="-90" />
+                </RadioButton.LayoutTransform>
+                <Image Stretch="Uniform"
+                       Source="{Binding Source={x:Static local:WaypointsWindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=2}" />
+            </RadioButton>
+            <RadioButton x:Name="ToolButton4"
+                         Tag="192"
+                         ToolTip="270 deg default rotation">
+                <RadioButton.LayoutTransform>
+                    <RotateTransform Angle="-90" />
+                </RadioButton.LayoutTransform>
+                <Image Stretch="Uniform"
+                       Source="{Binding Source={x:Static local:WaypointsWindowResources.ImageList1}, Converter={x:Static localConverters:StringImageListSelectConverter.Default}, ConverterParameter=3}" />
+            </RadioButton>
+        </ToolBar>
+        <TextBox x:Name="RollEdit"
+                 Tag="8"
+                 Canvas.Left="218"
+                 Canvas.Top="140"
+                 Width="37"
+                 Height="21" />
+    </Canvas>
+</Window>

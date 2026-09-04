@@ -1,0 +1,33 @@
+﻿namespace AlliED.Impl.Enumerations;
+
+internal enum FlightGroupStatusEnum : byte
+{
+    Normal = 0,
+    DoubleWarheads = 1,
+    HalfWarheads = 2,
+    NoShieldsDamaged = 3,
+    HalfShieldsDamaged = 4,
+    LasersDamaged = 5,
+    HyperdriveDamaged = 6,
+    NoShieldsRecharge = 7,
+    ShieldsAdded = 8,
+    HyperdriveAdded = 9,
+    DoubleDefensive = 10,
+    HalfDefensive = 11,
+    DoubleShields = 12,
+    HalfShieldsRecharge = 13,
+    NoLasers = 14,
+    EnginesDamaged = 15,
+    ShieldsAndHyperdriveAdded = 16,
+    AllSystemsDamaged = 17,
+    DoubleChargedShields = 18,
+    HalfChargedShields = 19,
+    Indestructible = 20,
+    UnlimitedAmmo = 21,
+    NoEscapePods = 22,
+    NotCargoPods = 23,
+    NotInspected = 24,
+    Inspected = 25,
+    Identified = 26,
+    HangarObject = 27,
+}

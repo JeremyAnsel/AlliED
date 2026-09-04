@@ -1,0 +1,87 @@
+﻿<Window x:Class="AlliED.Views.BackdropBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlliED.Views"
+        xmlns:localConverters="clr-namespace:AlliED.Converters"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="Click on backdrop to select"
+        Height="500"
+        Width="759"
+        Left="224"
+        Top="156"
+        WindowStyle="ToolWindow"
+        ShowInTaskbar="False"
+        UseLayoutRounding="True"
+        WindowStartupLocation="CenterOwner"
+        FontSize="10">
+    <Canvas>
+        <TextBlock x:Name="Label1"
+                   Canvas.Left="654"
+                   Canvas.Top="318"
+                   Width="27"
+                   Height="13"
+                   Text="Color:" />
+        <xctk:ColorPicker x:Name="ColorPanel"
+                          Canvas.Left="640"
+                          Canvas.Top="336"
+                          Width="63"
+                          Height="39"
+                          ToolTip="Click to edit"
+                          UsingAlphaChannel="False" />
+        <Image x:Name="Image1"
+               Canvas.Left="2"
+               Canvas.Top="2"
+               Width="612"
+               Height="459"
+               Stretch="Uniform"
+               Source="{Binding Source={x:Static local:BackdropBoxResources.Image1}, Converter={x:Static localConverters:StringImageConverter.Default}}" />
+        <Button x:Name="Button1"
+                Canvas.Left="634"
+                Canvas.Top="394"
+                Width="75"
+                Height="25"
+                Content="_Cancel"
+                Click="Button1_Click" />
+        <Button x:Name="Button2"
+                Canvas.Left="634"
+                Canvas.Top="432"
+                Width="75"
+                Height="25"
+                Content="_Use"
+                Click="Button2_Click" />
+        <GroupBox x:Name="GroupBox1"
+                  Canvas.Left="639"
+                  Canvas.Top="8"
+                  Width="67"
+                  Height="65"
+                  Header="Selection:">
+            <Canvas>
+                <TextBlock x:Name="Label2"
+                           Canvas.Left="18"
+                           Canvas.Top="18"
+                           Width="Auto"
+                           Height="13"
+                           Text="--" />
+            </Canvas>
+        </GroupBox>
+        <GroupBox x:Name="GroupBox2"
+                  Canvas.Left="638"
+                  Canvas.Top="84"
+                  Width="67"
+                  Height="217"
+                  Header="Shadow:">
+            <ListBox x:Name="ToolBar1"
+                     ItemsSource="{Binding Source={x:Static local:BackdropBoxResources.ImageList1}, Converter={x:Static localConverters:StringImageListConverter.Default}, ConverterParameter='21-20-7'}"
+                     SelectedIndex="0">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Image Source="{Binding .}" />
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </GroupBox>
+    </Canvas>
+</Window>

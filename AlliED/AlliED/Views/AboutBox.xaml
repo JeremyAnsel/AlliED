@@ -41,13 +41,16 @@
                    Height="13"
                    Text="Version" />
         <TextBlock x:Name="EMailLab"
-                   Canvas.Left="152"
+                   Canvas.Left="120"
                    Canvas.Top="97"
-                   Width="87"
+                   Width="190"
                    Height="13">
             <!--<Hyperlink NavigateUri="mailto:allied@troyed.com?subject=AlliED"
                        RequestNavigate="Hyperlink_RequestNavigate">allied@troyed.com</Hyperlink>-->
-            <Hyperlink>allied@troyed.com</Hyperlink>
+            <!--<Hyperlink>allied@troyed.com</Hyperlink>-->
+            <Hyperlink NavigateUri="https://github.com/JeremyAnsel/AlliED"
+                       RequestNavigate="Hyperlink_RequestNavigate"
+                       ToolTip="https://github.com/JeremyAnsel/AlliED">https://github.com/JeremyAnsel/AlliED</Hyperlink>
         </TextBlock>
         <TextBlock x:Name="Label7"
                    Canvas.Left="125"
@@ -70,7 +73,7 @@
             <Hyperlink>troyed.com</Hyperlink>
         </TextBlock>
         <TextBlock x:Name="Label1"
-                   Canvas.Left="82"
+                   Canvas.Left="50"
                    Canvas.Top="97"
                    Width="66"
                    Height="13"

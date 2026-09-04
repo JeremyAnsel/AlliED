@@ -41,15 +41,18 @@
                    Text="Copyright"
                    TextWrapping="Wrap" />
         <TextBlock x:Name="Label1"
-                   Canvas.Left="53"
+                   Canvas.Left="20"
                    Canvas.Top="55"
-                   Width="165"
+                   Width="250"
                    Height="13">
             <Run>Bug reports to: </Run>
-            <Hyperlink>allied@troyed.com</Hyperlink>
+            <!--<Hyperlink>allied@troyed.com</Hyperlink>-->
+            <Hyperlink NavigateUri="https://github.com/JeremyAnsel/AlliED"
+                       RequestNavigate="Hyperlink_RequestNavigate"
+                       ToolTip="https://github.com/JeremyAnsel/AlliED">https://github.com/JeremyAnsel/AlliED</Hyperlink>
         </TextBlock>
         <TextBlock x:Name="Label3"
-                   Canvas.Left="26"
+                   Canvas.Left="20"
                    Canvas.Top="75"
                    Width="230"
                    Height="13"

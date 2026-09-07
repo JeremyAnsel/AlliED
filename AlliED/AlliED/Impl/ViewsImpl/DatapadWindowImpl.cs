@@ -2174,9 +2174,18 @@ internal static class DatapadWindowImpl
         }
     }
 
+    private static bool _TDatapad_RoleBoxChangeCalled = false;
+
     // L004C1F28
     private static void TDatapad_RoleBoxChange(DatapadWindow Datapad, object? Sender)
     {
+        if (_TDatapad_RoleBoxChangeCalled)
+        {
+            return;
+        }
+
+        _TDatapad_RoleBoxChangeCalled = true;
+
         Unit_00513838_Proc_0051E2AC(Sender);
 
         byte bl = AlliedVariables.s_V0x00543C9A;
@@ -2187,6 +2196,8 @@ internal static class DatapadWindowImpl
 
         AlliedVariables.s_V0x00543C9A = bl;
         Unit_00513838_Proc_0051DB68();
+
+        _TDatapad_RoleBoxChangeCalled = false;
     }
 
     // L0051E2AC

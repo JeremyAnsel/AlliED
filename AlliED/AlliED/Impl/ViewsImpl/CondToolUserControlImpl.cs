@@ -301,7 +301,7 @@ internal static class CondToolUserControlImpl
                         case DatapadFGPageEnum.Arrival:
                         case DatapadFGPageEnum.GGoals:
                         case DatapadFGPageEnum.Messages:
-                            Controls_TControl_SetHeight(CondToolForm.Cond12Panel, AlliedPixelsScaleDiv(0xA3));
+                            Controls_TControl_SetHeight(CondToolForm.Cond12Panel, AlliedPixelsScaleDiv(200));
                             ebx = (int)CondToolForm.Cond12Panel.Height;
                             break;
 

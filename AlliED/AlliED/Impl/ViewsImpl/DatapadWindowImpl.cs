@@ -1354,6 +1354,8 @@ internal static class DatapadWindowImpl
         eax0.T4Class.Update();
     }
 
+    private static bool _TDatapad_ShipBoxChangeCalled = false;
+
     // L004BFCC4
     private static void TDatapad_ShipBoxChange(DatapadWindow Datapad, object edx0)
     {
@@ -1362,12 +1364,21 @@ internal static class DatapadWindowImpl
             return;
         }
 
+        if (_TDatapad_ShipBoxChangeCalled)
+        {
+            return;
+        }
+
+        _TDatapad_ShipBoxChangeCalled = true;
+
         int esi = AlliedGetControlTag(edx0);
         int edx1 = Unit_00513838_Proc_0051E8C4(edx0);
         Unit_00513838_Proc_0051E614(esi, edx1);
 
         Form1WindowImpl.TForm1_Proc_0052D3F8(AlliedVariables.s_AlliedForm1Window!);
         Unit_00513838_Proc_0051DB68();
+
+        _TDatapad_ShipBoxChangeCalled = false;
     }
 
     // L0051E8C4

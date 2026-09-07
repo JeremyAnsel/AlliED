@@ -82,7 +82,8 @@ internal class TFileRec
             throw new InvalidOperationException();
         }
 
-        _file = File.OpenWrite(_filename);
+        //_file = File.OpenWrite(_filename);
+        _file = File.Open(_filename, FileMode.Create, FileAccess.Write, FileShare.None);
         _recSize = recSize;
         _fileLength = -1;
     }

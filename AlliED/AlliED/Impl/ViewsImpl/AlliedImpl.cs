@@ -2237,7 +2237,7 @@ internal static class AlliedImpl
                 }
                 else
                 {
-                    string ebp68C = Unit_00511CD0_Proc_0051213C(new string((char)ebp05, 1));
+                    string ebp68C = Unit_00511CD0_Proc_0051213C(string.Empty);
                     ebx.M000000 = ebp68C;
                 }
 
@@ -2256,7 +2256,7 @@ internal static class AlliedImpl
                 }
                 else
                 {
-                    string ebp68C = Unit_00511CD0_Proc_0051213C(new string((char)ebp05, 1));
+                    string ebp68C = Unit_00511CD0_Proc_0051213C(string.Empty);
                     ebx.M000040 = ebp68C;
                 }
 
@@ -2275,7 +2275,7 @@ internal static class AlliedImpl
                 }
                 else
                 {
-                    string ebp68C = Unit_00511CD0_Proc_0051213C(new string((char)ebp05, 1));
+                    string ebp68C = Unit_00511CD0_Proc_0051213C(string.Empty);
                     ebx.M000080 = ebp68C;
                 }
             }
@@ -2316,7 +2316,7 @@ internal static class AlliedImpl
                     }
                     else
                     {
-                        string ebp990 = Unit_00511CD0_Proc_0051213C(new string((char)ebp09, 1));
+                        string ebp990 = Unit_00511CD0_Proc_0051213C(string.Empty);
                         ebx.StrIncomp = ebp990;
                     }
 
@@ -2335,7 +2335,7 @@ internal static class AlliedImpl
                     }
                     else
                     {
-                        string ebp990 = Unit_00511CD0_Proc_0051213C(new string((char)ebp09, 1));
+                        string ebp990 = Unit_00511CD0_Proc_0051213C(string.Empty);
                         ebx.StrSucc = ebp990;
                     }
 
@@ -2353,7 +2353,7 @@ internal static class AlliedImpl
                     }
                     else
                     {
-                        string ebp990 = Unit_00511CD0_Proc_0051213C(new string((char)ebp09, 1));
+                        string ebp990 = Unit_00511CD0_Proc_0051213C(string.Empty);
                         ebx.StrFail = ebp990;
                     }
                 }

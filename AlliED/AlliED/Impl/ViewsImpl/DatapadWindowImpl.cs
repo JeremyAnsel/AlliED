@@ -64,9 +64,12 @@ internal static class DatapadWindowImpl
         window.ToolR2.Click += (s, e) => TDatapad_ToolR1Click(window, (RadioButton)s);
         window.ToolR3.Click += (s, e) => TDatapad_ToolR1Click(window, (RadioButton)s);
         window.ToolR4.Click += (s, e) => TDatapad_ToolR1Click(window, (RadioButton)s);
-        window.MissleSelBox.SelectionChanged += (s, e) => TDatapad_MissleSelBoxClick(window, s);
-        window.CounterSelbox.SelectionChanged += (s, e) => TDatapad_MissleSelBoxClick(window, s);
-        window.BeamSelBox.SelectionChanged += (s, e) => TDatapad_MissleSelBoxClick(window, s);
+        window.MissleSelBox.MouseLeftButtonUp += (s, e) => TDatapad_MissleSelBoxClick(window, s);
+        window.MissleSelBox.KeyUp += (s, e) => TDatapad_MissleSelBoxClick(window, s);
+        window.CounterSelbox.MouseLeftButtonUp += (s, e) => TDatapad_MissleSelBoxClick(window, s);
+        window.CounterSelbox.KeyUp += (s, e) => TDatapad_MissleSelBoxClick(window, s);
+        window.BeamSelBox.MouseLeftButtonUp += (s, e) => TDatapad_MissleSelBoxClick(window, s);
+        window.BeamSelBox.KeyUp += (s, e) => TDatapad_MissleSelBoxClick(window, s);
         window.AllOptionsBut.Click += (s, e) => TDatapad_AllOptionsButClick(window, s);
         window.OpShipTypes.SelectionChanged += (s, e) => TDatapad_OpShipTypesChange(window, s);
         window.OpShipWavesSpin.ValueChanged += (s, e) => TDatapad_OpShipWavesSpinChange(window, s);

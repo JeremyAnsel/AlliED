@@ -938,7 +938,7 @@ internal static class AlliedImpl
         for (int ebx = 0; ebx < 8; ebx++)
         {
             S0xTieTeamObject eax1 = Classes_TList_Get(AlliedVariables.s_TeamsObjectsList, eax0);
-            StdCtrls_TCustomListBox_SetSelected(AlliedVariables.s_AlliedForm1Window!.FriendsList, ebx, eax1.Team.TeamAllied[ebx]);
+            StdCtrls_TCustomListBox_SetSelected(AlliedVariables.s_AlliedForm1Window!.FriendsList, ebx, eax1.Team.TeamAllied[ebx] != TieAllegeanceEnum.Hostile);
         }
     }
 
@@ -4238,7 +4238,7 @@ internal static class AlliedImpl
             else if (esi != 0x02)
             {
                 eax1 = Classes_TList_Get(AlliedVariables.s_TeamsObjectsList, 0);
-                eax1.Team.TeamAllied[0x02 + esi] = true;
+                eax1.Team.TeamAllied[0x02 + esi] = TieAllegeanceEnum.Friendly;
             }
 
             eax1 = Classes_TList_Get(AlliedVariables.s_TeamsObjectsList, 0x02 + esi);

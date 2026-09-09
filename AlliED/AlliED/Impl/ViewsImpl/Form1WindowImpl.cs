@@ -7255,7 +7255,7 @@ internal static class Form1WindowImpl
         {
             bool edx1 = ebx >= Form1.FriendsList.Items.Count ? false : StdCtrls_TCustomListBox_GetSelected(Form1.FriendsList, ebx);
             S0xTieTeamObject eax1 = Classes_TList_Get(AlliedVariables.s_TeamsObjectsList, AlliedVariables.s_V0x00543B18);
-            eax1.Team.TeamAllied[ebx] = edx1;
+            eax1.Team.TeamAllied[ebx] = edx1 ? TieAllegeanceEnum.Friendly : TieAllegeanceEnum.Hostile;
         }
     }
 

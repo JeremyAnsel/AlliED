@@ -17,7 +17,7 @@ internal class S0xTieTeam
     public byte[] unk000012 = new byte[8];
 
     /* 0x001A */
-    public bool[] TeamAllied = new bool[10];
+    public TieAllegeanceEnum[] TeamAllied = new TieAllegeanceEnum[10];
 
     /* 0x0024 */
     private string _PrimarySuccessMessage1 = string.Empty;
@@ -59,7 +59,7 @@ internal class S0xTieTeam
         array.ReadUnknown(0x012, team.unk000012);
         for (int i = 0; i < 10; i++)
         {
-            team.TeamAllied[i] = array[0x01A + i] != 0;
+            team.TeamAllied[i] = (TieAllegeanceEnum)array[0x01A + i];
         }
         team.PrimarySuccessMessage1 = array.ReadFixedLengthString(0x024, 64);
         team.PrimarySuccessMessage2 = array.ReadFixedLengthString(0x064, 64);
@@ -79,7 +79,7 @@ internal class S0xTieTeam
         array.WriteUnknown(0x012, unk000012);
         for (int i = 0; i < 10; i++)
         {
-            array[0x01A + i] = TeamAllied[i] ? (byte)1 : (byte)0;
+            array[0x01A + i] = (byte)TeamAllied[i];
         }
         array.WriteFixedLengthString(0x024, PrimarySuccessMessage1, 64);
         array.WriteFixedLengthString(0x064, PrimarySuccessMessage2, 64);

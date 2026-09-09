@@ -164,7 +164,7 @@ internal static class Form1WindowImpl
         window.Sec2Ed.TextChanged += (s, e) => TForm1_Succ1EdChange(window, (TextBox)s);
         window.JoinByRadio.Click += (s, e) => TForm1_JoinByRadioClick(window, s);
         window.TeamIFFBox1.SelectionChanged += (s, e) => TForm1_TeamIFFBox1Change(window, s);
-        window.FriendsList.SelectionChanged += (s, e) => TForm1_FriendsListClick(window, s);
+        window.FriendsList.MouseLeftButtonUp += (s, e) => TForm1_FriendsListClick(window, s);
         window.TeamName1Ed.SelectionChanged += (s, e) => TForm1_TeamName1EdChange(window, s);
         window.CreateLst.Click += (s, e) => TForm1_CreateLstClick(window, s);
         window.SaveWAV.Click += (s, e) => TForm1_SaveWAVClick(window, s);

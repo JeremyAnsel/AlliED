@@ -558,6 +558,12 @@ internal static class AlliedSystemImpl
     {
         object item = box.Items[index];
 
+        if (item is ListBoxItem listItem)
+        {
+            listItem.IsSelected = selected;
+            return;
+        }
+
         if (selected)
         {
             if (!box.SelectedItems.Contains(item))

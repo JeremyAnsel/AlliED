@@ -4287,9 +4287,18 @@ internal static class Form1WindowImpl
         Menus_TMenuItem_SetChecked(Form1.OrderRegionSelect1, Form1.ShowOrderSel.IsChecked == true);
     }
 
+    private static bool _OverallPagesChangeCalled = false;
+
     // L0052B6AC
     private static void TForm1_OverallPagesChange(Form1Window Form1, object? Sender)
     {
+        if (_OverallPagesChangeCalled)
+        {
+            return;
+        }
+
+        _OverallPagesChangeCalled = true;
+
         int esi0 = AlliedVariables.s_V0x005B7088[Convert.ToInt32(Form1.OverallPages.GetActivePage().Tag)];
 
         if (esi0 > TApplication_GetWidth() - 0x32)
@@ -4366,7 +4375,8 @@ internal static class Form1WindowImpl
 
                     if (AlliedVariables.s_TDatapad_Instance is not null)
                     {
-                        ComCtrls_TPageControl_SetActivePage(AlliedVariables.s_TDatapad_Instance!.FGPages, ComCtrls_TPageControl_GetPage(AlliedVariables.s_TDatapad_Instance!.FGPages, AlliedVariables.s_V0x00543CC4));
+                        // todo
+                        //ComCtrls_TPageControl_SetActivePage(AlliedVariables.s_TDatapad_Instance!.FGPages, ComCtrls_TPageControl_GetPage(AlliedVariables.s_TDatapad_Instance!.FGPages, AlliedVariables.s_V0x00543CC4));
                         ComCtrls_TTabSheet_SetTabVisible(ComCtrls_TPageControl_GetPage(AlliedVariables.s_TDatapad_Instance!.FGPages, 0x08), true);
                         ComCtrls_TTabSheet_SetTabVisible(ComCtrls_TPageControl_GetPage(AlliedVariables.s_TDatapad_Instance!.FGPages, 0x09), false);
                         Unit_00513838_Proc_0051C03C((DatapadFGPageEnum)Convert.ToInt32(AlliedVariables.s_TDatapad_Instance!.FGPages.GetActivePage().Tag));
@@ -4422,6 +4432,8 @@ internal static class Form1WindowImpl
 
         AlliedVariables.s_V0x005B704C = 0x01;
         TForm1_Proc_0052D3F8(Form1);
+
+        _OverallPagesChangeCalled = false;
     }
 
     // L0052F518

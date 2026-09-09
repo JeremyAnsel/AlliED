@@ -39,7 +39,7 @@ internal static class DatapadWindowImpl
 
     private static void SetBindings(DatapadWindow window)
     {
-        window.Activated += (s, e) => TDatapad_FormActivate(window);
+        window.Loaded += (s, e) => TDatapad_FormActivate(window);
         window.Closing += (s, e) => TDatapad_FormClose(window);
 
         window.KeyDown += (s, e) => TDatapad_FormKeyDown(window, s, e.Key, Keyboard.Modifiers);
@@ -1099,9 +1099,20 @@ internal static class DatapadWindowImpl
         }
     }
 
+    private static int _FGPagesChangeIndex = -1;
+
     // L004C042C
     public static void TDatapad_FGPagesChange(DatapadWindow Datapad, object? Sender)
     {
+        int index = Datapad.FGPages.GetPageIndex();
+
+        if (index == _FGPagesChangeIndex)
+        {
+            return;
+        }
+
+        _FGPagesChangeIndex = index;
+
         if (Datapad.FGPages.GetActivePage() == Datapad.FGGoals)
         {
             Controls_TControl_SetTop(Datapad.Panel2, AlliedPixelsScaleDiv(0xBC));

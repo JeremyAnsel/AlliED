@@ -123,7 +123,7 @@ internal static class ClipWindowImpl
         if (AlliedVariables.s_V0x00543C9A != 0)
         {
             string ebp04 = Controls_TControl_GetText(ClipForm.SpeedEd);
-            ShipSeqEnum eax1 = (ShipSeqEnum)ClipForm.ListBox1.SelectedIndex;
+            ShipSeqEnum eax1 = (ShipSeqEnum)ClipForm.ListBox1.SelectedIndexOr0();
             CraftIdEnum edx1 = AlliedConvertShipSeqToCraftId(eax1);
             AlliedVariables.s_Allied_Strings_SpeedTxt.Put((int)edx1, ebp04);
             AlliedVariables.s_V0x0053BD86 = 0x01;
@@ -137,7 +137,7 @@ internal static class ClipWindowImpl
 
         if (AlliedVariables.s_ClipboardType == ClipboardTypeEnum.ShiplistSequence)
         {
-            ShipSeqEnum eax1 = (ShipSeqEnum)ClipForm.ListBox1.SelectedIndex;
+            ShipSeqEnum eax1 = (ShipSeqEnum)ClipForm.ListBox1.SelectedIndexOr0();
             CraftIdEnum eax2 = AlliedConvertShipSeqToCraftId(eax1);
             Controls_TControl_SetText(ClipForm.SpeedEd, AlliedVariables.s_Allied_Strings_SpeedTxt.GetText((int)eax2));
         }

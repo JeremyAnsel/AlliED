@@ -1,4 +1,5 @@
-﻿using System.Windows.Controls;
+﻿using AlliED.Extensions;
+using System.Windows.Controls;
 using System.Windows.Input;
 
 namespace AlliED.Impl.ViewsImpl;
@@ -57,7 +58,7 @@ internal static class MemoWindowImpl
     {
         AlliedVariables.s_V0x00535E8E = 0x01;
 
-        switch ((MemoPageEnum)MemoForm.MemoPages.SelectedIndex)
+        switch ((MemoPageEnum)MemoForm.MemoPages.SelectedIndexOr0())
         {
             case MemoPageEnum.Notes:
                 TMemoForm_Proc_004C4278(MemoForm, 0x80000005, 0x00000000, MemoForm.EditMemo1);
@@ -101,7 +102,7 @@ internal static class MemoWindowImpl
     private static void TMemoForm_FormDestroy(MemoWindow MemoForm)
     {
         AlliedVariables.s_V0x00535E8C = 0;
-        AlliedVariables.s_MemoForm_PageIndex = (MemoPageEnum)MemoForm.MemoPages.SelectedIndex;
+        AlliedVariables.s_MemoForm_PageIndex = (MemoPageEnum)MemoForm.MemoPages.SelectedIndexOr0();
         TMemoForm_Proc_004C4328(MemoForm);
         Form1WindowImpl.TForm1_L0052BD20(AlliedVariables.s_AlliedForm1Window!, AlliedVariables.s_TMemoForm_Instance!, AlliedVariables.s_V0x005AFC74.m000000);
         ComCtrls_TToolButton_SetDown(AlliedVariables.s_AlliedForm1Window!.DescBtn, false);
@@ -116,7 +117,7 @@ internal static class MemoWindowImpl
             return;
         }
 
-        switch ((MemoPageEnum)MemoForm.MemoPages.SelectedIndex)
+        switch ((MemoPageEnum)MemoForm.MemoPages.SelectedIndexOr0())
         {
             case MemoPageEnum.Notes:
                 TMemoForm_Proc_004C42BC(MemoForm, MemoForm.EditMemo1, AlliedVariables.s_TieMission_Notes);

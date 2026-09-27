@@ -252,7 +252,7 @@ internal static class OrderSelWindowImpl
                     continue;
                 }
 
-                int eax1 = AlliedVariables.s_TClipForm_Instance.ListBox1.SelectedIndex;
+                int eax1 = AlliedVariables.s_TClipForm_Instance.ListBox1.SelectedIndexOr0();
 
                 S0xOrdObject eax2 = Classes_TList_Get(AlliedVariables.s_V0x00543CFC, eax1);
                 S0xFGObject eax3 = Classes_TList_Get(AlliedVariables.s_FlightGroupObjectsList, ebx);

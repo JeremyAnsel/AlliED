@@ -3139,17 +3139,17 @@ internal static class BriefingWindowImpl
         {
             case BriefingCommandEnum.ShowShipData:
                 eax1 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
-                eax1.m000004.Parameter = (short)BrfForm.ColorBox.SelectedIndex;
+                eax1.m000004.Parameter = (short)BrfForm.ColorBox.SelectedIndexOr0();
                 break;
 
             case BriefingCommandEnum.RotateIcon:
                 eax1 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
-                eax1.m000004.Rotation = (IconRotationEnum)BrfForm.ColorBox.SelectedIndex;
+                eax1.m000004.Rotation = (IconRotationEnum)BrfForm.ColorBox.SelectedIndexOr0();
                 break;
 
             default:
                 eax1 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
-                eax1.m000004.ColorIndex = (short)BrfForm.ColorBox.SelectedIndex;
+                eax1.m000004.ColorIndex = (short)BrfForm.ColorBox.SelectedIndexOr0();
                 break;
         }
 
@@ -3315,7 +3315,7 @@ internal static class BriefingWindowImpl
             Graphics_TFont_SetName(eax2, "Verdana");
             eax2 = Graphics_TBitmap_GetCanvas(AlliedVariables.s_V0x00542EB8)!;
             Graphics_TFont_SetSize(eax2, 0x09);
-            int edx1 = BrfForm.MapIndex.SelectedIndex;
+            int edx1 = BrfForm.MapIndex.SelectedIndexOr0();
             string ebp0C = AlliedVariables.s_V0x0054247C.GetText(edx1);
             Graphics_TCanvas_TextOut(Graphics_TBitmap_GetCanvas(AlliedVariables.s_V0x00542EB8)!, A8, A4, ebp0C);
             TRect ebp1C = BrfForm.GetClientRect();
@@ -3332,7 +3332,7 @@ internal static class BriefingWindowImpl
             TBrfForm_Proc_00502624(BrfForm);
             Graphics_TBrush_SetStyle(BrfForm.PaintBox1.Bitmap!, 0x01);
             Graphics_TFont_SetColor(BrfForm.PaintBox1, 0x00FFFFFF);
-            int edx1 = BrfForm.MapIndex.SelectedIndex;
+            int edx1 = BrfForm.MapIndex.SelectedIndexOr0();
             string ebp30 = AlliedVariables.s_Strings_Ships.GetText(edx1);
             Graphics_TCanvas_TextOut(BrfForm.PaintBox1.Bitmap!, A8, A4 + 0x05, ebp30);
         }
@@ -3811,7 +3811,7 @@ internal static class BriefingWindowImpl
     // L004FF4BC
     private static void TBrfForm_CommandBoxChange(BriefingWindow BrfForm)
     {
-        BriefingCommandEnum si = (BriefingCommandEnum)BrfForm.CommandBox.SelectedIndex;
+        BriefingCommandEnum si = (BriefingCommandEnum)BrfForm.CommandBox.SelectedIndexOr0();
 
         TCommandObject eax1 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
         eax1.m000004.BriefingCommand = si;
@@ -3869,7 +3869,7 @@ internal static class BriefingWindowImpl
 
             case BriefingCommandEnum.NewIcon:
                 {
-                    short si = (short)BrfForm.IndexBox.SelectedIndex;
+                    short si = (short)BrfForm.IndexBox.SelectedIndexOr0();
                     //short si = (short)Math.Max(BrfForm.IndexBox.SelectedIndex, 0);
                     TCommandObject eax2 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
                     eax2.m000004.Parameter = si;
@@ -3878,7 +3878,7 @@ internal static class BriefingWindowImpl
 
             case BriefingCommandEnum.ShowShipData:
                 {
-                    short si = (short)BrfForm.IndexBox.SelectedIndex;
+                    short si = (short)BrfForm.IndexBox.SelectedIndexOr0();
                     TCommandObject eax2 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
                     eax2.m000004.IconIndex = si;
                     break;
@@ -3886,7 +3886,7 @@ internal static class BriefingWindowImpl
 
             default:
                 {
-                    short si = (short)BrfForm.IndexBox.SelectedIndex;
+                    short si = (short)BrfForm.IndexBox.SelectedIndexOr0();
                     TCommandObject eax2 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
                     eax2.m000004.Parameter = si;
                     break;
@@ -5420,7 +5420,7 @@ internal static class BriefingWindowImpl
             eax1 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
             eax1.m000004.BriefingCommand = TBrfForm_Proc_005042E8(BrfForm, AlliedVariables.s_V0x00542498 - 1);
             eax1 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
-            eax1.m000004.Parameter = (short)BrfForm.MapIndex.SelectedIndex;
+            eax1.m000004.Parameter = (short)BrfForm.MapIndex.SelectedIndexOr0();
             TBrfForm_Proc_00503A20(BrfForm, true);
             AlliedVariables.s_V0x00542EC9 = 0;
         }
@@ -5429,9 +5429,9 @@ internal static class BriefingWindowImpl
             eax1 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
             eax1.m000004.BriefingCommand = TBrfForm_Proc_005041C4(BrfForm, AlliedVariables.s_V0x00542498 - 1);
             eax1 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
-            eax1.m000004.Parameter = (short)BrfForm.MapIndex.SelectedIndex;
+            eax1.m000004.Parameter = (short)BrfForm.MapIndex.SelectedIndexOr0();
             eax1 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
-            eax1.m000004.ColorIndex = (short)BrfForm.MapColor.SelectedIndex;
+            eax1.m000004.ColorIndex = (short)BrfForm.MapColor.SelectedIndexOr0();
             TBrfForm_Proc_00503A20(BrfForm, true);
             AlliedVariables.s_V0x00542EC8 = 0;
             TBrfForm_Proc_00502624(BrfForm);
@@ -5448,7 +5448,7 @@ internal static class BriefingWindowImpl
             AlliedVariables.s_V0x00542EDC[esi].m00000C = AlliedVariables.s_V0x00542498 + 1;
             AlliedVariables.s_V0x00542EDC[esi].m000006 = 0x01;
             AlliedVariables.s_V0x00542EDC[esi].CraftId = AlliedConvertShipSeqToCraftId((ShipSeqEnum)BrfForm.MapIndex.SelectedIndex);
-            AlliedVariables.s_V0x00542EDC[esi].Iff = (byte)BrfForm.MapColor.SelectedIndex;
+            AlliedVariables.s_V0x00542EDC[esi].Iff = (byte)BrfForm.MapColor.SelectedIndexOr0();
             AlliedVariables.s_V0x00542EDC[esi].X = (short)AlliedVariables.s_V0x005433F8;
             AlliedVariables.s_V0x00542EDC[esi].Y = (short)AlliedVariables.s_V0x005433FC;
             TBrfForm_Proc_0050548C(BrfForm, esi, AlliedVariables.s_V0x00542EDC[esi].CraftId, AlliedVariables.s_V0x00542EDC[esi].Rotation, AlliedVariables.s_V0x00542EDC[esi].Iff);
@@ -5457,7 +5457,7 @@ internal static class BriefingWindowImpl
             eax1 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
             eax1.m000004.CraftId = AlliedConvertShipSeqToCraftId((ShipSeqEnum)BrfForm.MapIndex.SelectedIndex);
             eax1 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
-            eax1.m000004.ColorIndex = (short)BrfForm.MapColor.SelectedIndex;
+            eax1.m000004.ColorIndex = (short)BrfForm.MapColor.SelectedIndexOr0();
             TCommandObject edi = new();
             edi.m000004.BriefingCommand = BriefingCommandEnum.MoveIcon;
             edi.m000004.Time = (short)AlliedVariables.s_V0x00542494;
@@ -5479,14 +5479,14 @@ internal static class BriefingWindowImpl
         else if (AlliedVariables.s_V0x00542EC7 != 0)
         {
             eax1 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
-            eax1.m000004.Parameter = (short)BrfForm.MapIndex.SelectedIndex;
+            eax1.m000004.Parameter = (short)BrfForm.MapIndex.SelectedIndexOr0();
             TBrfForm_Proc_00503A20(BrfForm, true);
             AlliedVariables.s_V0x00542EC7 = 0;
         }
         else if (AlliedVariables.s_V0x00542ECB != 0)
         {
             eax1 = Classes_TList_Get(AlliedVariables.s_V0x00543CF4, AlliedVariables.s_V0x00542498);
-            eax1.m000004.Parameter = (short)BrfForm.MapIndex.SelectedIndex;
+            eax1.m000004.Parameter = (short)BrfForm.MapIndex.SelectedIndexOr0();
             TBrfForm_Proc_00503A20(BrfForm, true);
             AlliedVariables.s_V0x00542ECB = 0;
         }

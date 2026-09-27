@@ -1849,7 +1849,7 @@ internal static class DatapadWindowImpl
                 }
 
                 S0xFGObject eax1 = Classes_TList_Get(AlliedVariables.s_FlightGroupObjectsList, ebx);
-                eax1.FlightGroupStruct.OptionalCraftCategory = (byte)Datapad.OpShipTypes.SelectedIndex;
+                eax1.FlightGroupStruct.OptionalCraftCategory = (byte)Datapad.OpShipTypes.SelectedIndexOr0();
             }
         }
 
@@ -1942,7 +1942,7 @@ internal static class DatapadWindowImpl
                 }
 
                 S0xFGObject eax1 = Classes_TList_Get(AlliedVariables.s_FlightGroupObjectsList, ebx);
-                eax1.FlightGroupStruct.OptionalCraftsId[index] = AlliedConvertShipSeqToCraftId((ShipSeqEnum)Datapad.OpShipBox.SelectedIndex);
+                eax1.FlightGroupStruct.OptionalCraftsId[index] = AlliedConvertShipSeqToCraftId((ShipSeqEnum)Datapad.OpShipBox.SelectedIndexOr0());
             }
 
             Unit_00513838_Proc_0051467C();
@@ -1960,14 +1960,14 @@ internal static class DatapadWindowImpl
     // L004C1AD8
     private static void TDatapad_OpFGListClick(DatapadWindow Datapad, object? Sender)
     {
-        AlliedVariables.s_V0x00543B24 = Datapad.OpFGList.SelectedIndex;
+        AlliedVariables.s_V0x00543B24 = Datapad.OpFGList.SelectedIndexOr0();
         Unit_00513838_Proc_0051B1C8();
     }
 
     // L00515E38
     public static void Unit_00513838_Proc_00515E38()
     {
-        byte ebp01 = (byte)AlliedVariables.s_TDatapad_Instance!.OpFGList.SelectedIndex;
+        byte ebp01 = (byte)AlliedVariables.s_TDatapad_Instance!.OpFGList.SelectedIndexOr0();
         AlliedVariables.s_TDatapad_Instance!.OpFGList.Clear();
 
         for (int ebx = 0; ebx < 0x0A; ebx++)
@@ -2504,7 +2504,7 @@ internal static class DatapadWindowImpl
     // L004C18A0
     private static void TDatapad_FGgoalListClick(DatapadWindow Datapad, object? Sender)
     {
-        AlliedVariables.s_V0x00543B48 = Datapad.FGgoalList.SelectedIndex;
+        AlliedVariables.s_V0x00543B48 = Datapad.FGgoalList.SelectedIndexOr0();
         AlliedVariables.s_V0x005B6B64 = S0xTieFlightGroupGoal.FromByteArray(AlliedVariables.s_V0x005AFE90.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].ToByteArray());
         AlliedVariables.s_V0x00543C9A = 0;
         Form1WindowImpl.TForm1_Proc_0052870C(AlliedVariables.s_AlliedForm1Window!);
@@ -2536,7 +2536,7 @@ internal static class DatapadWindowImpl
                 }
 
                 S0xFGObject eax1 = Classes_TList_Get(AlliedVariables.s_FlightGroupObjectsList, ebx);
-                eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].AppliesToTeams[1] = (byte)Datapad.FGGoalTeamBox.SelectedIndex;
+                eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].AppliesToTeams[1] = (byte)Datapad.FGGoalTeamBox.SelectedIndexOr0();
 
                 AlliedVariables.s_V0x00543C9A = 0;
 
@@ -3137,7 +3137,7 @@ internal static class DatapadWindowImpl
 
                     if (AlliedVariables.s_TDatapad_Instance!.OrderBox.SelectedIndex < AlliedVariables.s_Strings_OrdTexts.GetCount())
                     {
-                        int edx1 = AlliedVariables.s_TDatapad_Instance!.OrderBox.SelectedIndex;
+                        int edx1 = AlliedVariables.s_TDatapad_Instance!.OrderBox.SelectedIndexOr0();
                         Controls_TControl_SetText(AlliedVariables.s_TDatapad_Instance!.XWOrderLab, AlliedVariables.s_Strings_OrdTexts.GetText(edx1));
                     }
                     else

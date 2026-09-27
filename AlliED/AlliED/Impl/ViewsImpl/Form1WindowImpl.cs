@@ -3455,7 +3455,7 @@ internal static class Form1WindowImpl
     {
         if (eax0)
         {
-            AlliedVariables.s_V0x00543B0C = AlliedVariables.s_AlliedForm1Window!.ShipList.SelectedIndex;
+            AlliedVariables.s_V0x00543B0C = AlliedVariables.s_AlliedForm1Window!.ShipList.SelectedIndexOr0();
         }
         else
         {
@@ -3503,14 +3503,14 @@ internal static class Form1WindowImpl
         }
         else
         {
-            AlliedVariables.s_V0x005B7050 = Form1.SelectionBox.SelectedIndex;
+            AlliedVariables.s_V0x005B7050 = Form1.SelectionBox.SelectedIndexOr0();
 
             if (AlliedVariables.s_CenteringSetting)
             {
                 MapWindowImpl.TMapForm__PROC_004F7A4C(AlliedVariables.s_TMapForm_Instance!);
             }
 
-            AlliedVariables.s_V0x005B7064 = Form1.SelectionBox.SelectedIndex;
+            AlliedVariables.s_V0x005B7064 = Form1.SelectionBox.SelectedIndexOr0();
             AlliedVariables.s_V0x005B7068 = AlliedVariables.s_V0x005B7064;
             AlliedVariables.s_V0x005B7044 = 0;
         }
@@ -4558,7 +4558,7 @@ internal static class Form1WindowImpl
     // L0052D1FC
     private static void TForm1_SelectionBoxChange(Form1Window Form1, object? Sender)
     {
-        AlliedVariables.s_V0x005B7050 = AlliedVariables.s_AlliedForm1Window!.SelectionBox.SelectedIndex;
+        AlliedVariables.s_V0x005B7050 = AlliedVariables.s_AlliedForm1Window!.SelectionBox.SelectedIndexOr0();
 
         if (Sender == Form1.SelectionBox)
         {
@@ -4766,7 +4766,7 @@ internal static class Form1WindowImpl
             {
                 AlliedVariables.s_FlightGroupObjectsList[AlliedVariables.s_V0x00543B0C] = AlliedVariables.s_V0x005AFE90.Clone();
                 Unit_00513838_Proc_005146A4();
-                AlliedVariables.s_V0x00543B0C = Form1.ShipList.SelectedIndex;
+                AlliedVariables.s_V0x00543B0C = Form1.ShipList.SelectedIndexOr0();
             }
 
             Unit_00513838_Proc_0051950C(true);
@@ -5324,25 +5324,25 @@ internal static class Form1WindowImpl
                 }
 
                 S0xFGObject eax1 = Classes_TList_Get(AlliedVariables.s_FlightGroupObjectsList, ebx);
-                eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].Amount = (TieAmountEnum)AlliedVariables.s_TCondToolForm_Instance!.PercentBox.SelectedIndex;
+                eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].Amount = (TieAmountEnum)AlliedVariables.s_TCondToolForm_Instance!.PercentBox.SelectedIndexOr0();
                 eax1 = Classes_TList_Get(AlliedVariables.s_FlightGroupObjectsList, ebx);
-                eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].GoalType = (TieFGGoalTypeEnum)AlliedVariables.s_TCondToolForm_Instance!.IndexBox.SelectedIndex;
+                eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].GoalType = (TieFGGoalTypeEnum)AlliedVariables.s_TCondToolForm_Instance!.IndexBox.SelectedIndexOr0();
                 eax1 = Classes_TList_Get(AlliedVariables.s_FlightGroupObjectsList, ebx);
-                eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].Condition = (TieConditionEnum)AlliedVariables.s_TCondToolForm_Instance!.CondBox.SelectedIndex;
+                eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].Condition = (TieConditionEnum)AlliedVariables.s_TCondToolForm_Instance!.CondBox.SelectedIndexOr0();
                 eax1 = Classes_TList_Get(AlliedVariables.s_FlightGroupObjectsList, ebx);
-                eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].AppliesToTeams[1] = (byte)AlliedVariables.s_TDatapad_Instance!.FGGoalTeamBox.SelectedIndex;
+                eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].AppliesToTeams[1] = (byte)AlliedVariables.s_TDatapad_Instance!.FGGoalTeamBox.SelectedIndexOr0();
 
-                switch ((TieConditionEnum)AlliedVariables.s_TCondToolForm_Instance!.CondBox.SelectedIndex)
+                switch ((TieConditionEnum)AlliedVariables.s_TCondToolForm_Instance!.CondBox.SelectedIndexOr0())
                 {
                     case TieConditionEnum.Within:
                     case TieConditionEnum.Beyond:
                         eax1 = Classes_TList_Get(AlliedVariables.s_FlightGroupObjectsList, ebx);
-                        eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].Time = (byte)AlliedVariables.s_TCondToolForm_Instance!.RegionFGBox.SelectedIndex;
+                        eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].Time = (byte)AlliedVariables.s_TCondToolForm_Instance!.RegionFGBox.SelectedIndexOr0();
                         break;
 
                     default:
                         eax1 = Classes_TList_Get(AlliedVariables.s_FlightGroupObjectsList, ebx);
-                        eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].Time = (byte)AlliedVariables.s_TCondToolForm_Instance!.RegionFGBox.SelectedIndex;
+                        eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].Time = (byte)AlliedVariables.s_TCondToolForm_Instance!.RegionFGBox.SelectedIndexOr0();
                         break;
                 }
 
@@ -5352,7 +5352,7 @@ internal static class Form1WindowImpl
 
                 AlliedVariables.s_V0x00543C9A = 0;
 
-                if (AlliedVariables.s_TDatapad_Instance!.FGGoalTeamBox.SelectedIndex == 0)
+                if (AlliedVariables.s_TDatapad_Instance!.FGGoalTeamBox.SelectedIndexOr0() == 0)
                 {
                     eax1 = Classes_TList_Get(AlliedVariables.s_FlightGroupObjectsList, ebx);
                     eax1.FlightGroupStruct.Goals[AlliedVariables.s_V0x00543B48].AppliesToTeams[0] = 0x01;
@@ -5520,8 +5520,8 @@ internal static class Form1WindowImpl
     {
         S0xTieFlightGroupOrder ebp98 = new();
 
-        ebp98.OrderId = (TieOrderIdEnum)AlliedVariables.s_TDatapad_Instance!.OrderBox.SelectedIndex;
-        ebp98.Throttle = (byte)AlliedVariables.s_TDatapad_Instance!.OrderSpeedBox.SelectedIndex;
+        ebp98.OrderId = (TieOrderIdEnum)AlliedVariables.s_TDatapad_Instance!.OrderBox.SelectedIndexOr0();
+        ebp98.Throttle = (byte)AlliedVariables.s_TDatapad_Instance!.OrderSpeedBox.SelectedIndexOr0();
 
         if (AlliedVariables.s_TDatapad_Instance!.OrderBox.SelectedIndex == 0x32)
         {
@@ -5534,55 +5534,55 @@ internal static class Form1WindowImpl
 
         ebp98.Var1 = (byte)Spin_TSpinEdit_GetValue(AlliedVariables.s_TDatapad_Instance!.OrderP2);
         ebp98.Var2 = (byte)Spin_TSpinEdit_GetValue(AlliedVariables.s_TDatapad_Instance!.OrderP3);
-        ebp98.SecondaryTarget.ClassA = (TieClassEnum)AlliedVariables.s_TDatapad_Instance!.T3Class.SelectedIndex;
+        ebp98.SecondaryTarget.ClassA = (TieClassEnum)AlliedVariables.s_TDatapad_Instance!.T3Class.SelectedIndexOr0();
 
         if (AlliedVariables.s_TDatapad_Instance!.T3Class.SelectedIndex == 0x02)
         {
-            ebp98.SecondaryTarget.ParameterA = (byte)AlliedConvertShipSeqToCraftId((ShipSeqEnum)AlliedVariables.s_TDatapad_Instance!.T3Index.SelectedIndex);
+            ebp98.SecondaryTarget.ParameterA = (byte)AlliedConvertShipSeqToCraftId((ShipSeqEnum)AlliedVariables.s_TDatapad_Instance!.T3Index.SelectedIndexOr0());
         }
         else
         {
-            ebp98.SecondaryTarget.ParameterA = (byte)AlliedVariables.s_TDatapad_Instance!.T3Index.SelectedIndex;
+            ebp98.SecondaryTarget.ParameterA = (byte)AlliedVariables.s_TDatapad_Instance!.T3Index.SelectedIndexOr0();
         }
 
-        ebp98.SecondaryTarget.ClassB = (TieClassEnum)AlliedVariables.s_TDatapad_Instance!.T4Class.SelectedIndex;
+        ebp98.SecondaryTarget.ClassB = (TieClassEnum)AlliedVariables.s_TDatapad_Instance!.T4Class.SelectedIndexOr0();
 
         if (AlliedVariables.s_TDatapad_Instance!.T4Class.SelectedIndex == 0x02)
         {
-            ebp98.SecondaryTarget.ParameterB = (byte)AlliedConvertShipSeqToCraftId((ShipSeqEnum)AlliedVariables.s_TDatapad_Instance!.T4Index.SelectedIndex);
+            ebp98.SecondaryTarget.ParameterB = (byte)AlliedConvertShipSeqToCraftId((ShipSeqEnum)AlliedVariables.s_TDatapad_Instance!.T4Index.SelectedIndexOr0());
         }
         else
         {
-            ebp98.SecondaryTarget.ParameterB = (byte)AlliedVariables.s_TDatapad_Instance!.T4Index.SelectedIndex;
+            ebp98.SecondaryTarget.ParameterB = (byte)AlliedVariables.s_TDatapad_Instance!.T4Index.SelectedIndexOr0();
         }
 
         ebp98.SecondaryTarget.Operator = AlliedVariables.s_TDatapad_Instance!.ThreeAnd4Chk.IsChecked != true ? (byte)1 : (byte)0;
         ebp98.SecondaryTarget.m000005 = 0;
-        ebp98.PrimaryTarget.ClassA = (TieClassEnum)AlliedVariables.s_TDatapad_Instance!.T1Class.SelectedIndex;
+        ebp98.PrimaryTarget.ClassA = (TieClassEnum)AlliedVariables.s_TDatapad_Instance!.T1Class.SelectedIndexOr0();
 
         if (AlliedVariables.s_TDatapad_Instance!.T1Class.SelectedIndex == 0x02)
         {
-            ebp98.PrimaryTarget.ParameterA = (byte)AlliedConvertShipSeqToCraftId((ShipSeqEnum)AlliedVariables.s_TDatapad_Instance!.T1Index.SelectedIndex);
+            ebp98.PrimaryTarget.ParameterA = (byte)AlliedConvertShipSeqToCraftId((ShipSeqEnum)AlliedVariables.s_TDatapad_Instance!.T1Index.SelectedIndexOr0());
         }
         else
         {
-            ebp98.PrimaryTarget.ParameterA = (byte)AlliedVariables.s_TDatapad_Instance!.T1Index.SelectedIndex;
+            ebp98.PrimaryTarget.ParameterA = (byte)AlliedVariables.s_TDatapad_Instance!.T1Index.SelectedIndexOr0();
         }
 
-        ebp98.PrimaryTarget.ClassB = (TieClassEnum)AlliedVariables.s_TDatapad_Instance!.T2Class.SelectedIndex;
+        ebp98.PrimaryTarget.ClassB = (TieClassEnum)AlliedVariables.s_TDatapad_Instance!.T2Class.SelectedIndexOr0();
 
         if (AlliedVariables.s_TDatapad_Instance!.T2Class.SelectedIndex == 0x02)
         {
-            ebp98.PrimaryTarget.ParameterB = (byte)AlliedConvertShipSeqToCraftId((ShipSeqEnum)AlliedVariables.s_TDatapad_Instance!.T2Index.SelectedIndex);
+            ebp98.PrimaryTarget.ParameterB = (byte)AlliedConvertShipSeqToCraftId((ShipSeqEnum)AlliedVariables.s_TDatapad_Instance!.T2Index.SelectedIndexOr0());
         }
         else
         {
-            ebp98.PrimaryTarget.ParameterB = (byte)AlliedVariables.s_TDatapad_Instance!.T2Index.SelectedIndex;
+            ebp98.PrimaryTarget.ParameterB = (byte)AlliedVariables.s_TDatapad_Instance!.T2Index.SelectedIndexOr0();
         }
 
         ebp98.PrimaryTarget.Operator = AlliedVariables.s_TDatapad_Instance!.OneAnd2Chk.IsChecked != true ? (byte)1 : (byte)0;
         ebp98.PrimaryTarget.m000005 = 0;
-        ebp98.SpeedMph = (byte)AlliedVariables.s_TDatapad_Instance!.MGLTBox.SelectedIndex;
+        ebp98.SpeedMph = (byte)AlliedVariables.s_TDatapad_Instance!.MGLTBox.SelectedIndexOr0();
 
         ebp98.Waypoints = AlliedVariables.s_V0x005AFE90.FlightGroupStruct.Orders[(AlliedVariables.s_CurrentRegion - 1) * 4 + (AlliedVariables.s_CurrentOrderInRegion - 1)].Waypoints.ToArray();
         ebp98.m000054 = AlliedVariables.s_V0x005AFE90.FlightGroupStruct.Orders[(AlliedVariables.s_CurrentRegion - 1) * 4 + (AlliedVariables.s_CurrentOrderInRegion - 1)].m000054.ToArray();
@@ -7219,9 +7219,9 @@ internal static class Form1WindowImpl
     // L00529858
     private static void TForm1_TeamIFFBox1Change(Form1Window Form1, object? Sender)
     {
-        AlliedVariables.s_V0x00543C78[AlliedVariables.s_V0x00543B18] = (byte)Form1.TeamIFFBox1.SelectedIndex;
+        AlliedVariables.s_V0x00543C78[AlliedVariables.s_V0x00543B18] = (byte)Form1.TeamIFFBox1.SelectedIndexOr0();
 
-        switch (Form1.TeamIFFBox1.SelectedIndex)
+        switch (Form1.TeamIFFBox1.SelectedIndexOr0())
         {
             case 0x00:
                 {
@@ -7578,11 +7578,11 @@ internal static class Form1WindowImpl
                     Unit_00513838_Proc_005146A4();
                 }
 
-                AlliedVariables.s_V0x00543B10 = Form1.MsgStrList.SelectedIndex;
+                AlliedVariables.s_V0x00543B10 = Form1.MsgStrList.SelectedIndexOr0();
 
-                if (Form1.MsgStrList.SelectedIndex < AlliedVariables.s_TieFileHeader.RadioMessagesCount)
+                if (Form1.MsgStrList.SelectedIndexOr0() < AlliedVariables.s_TieFileHeader.RadioMessagesCount)
                 {
-                    AlliedVariables.s_V0x005B6B58 = Classes_TList_Get(AlliedVariables.s_RadioMessagesObjectsList, Form1.MsgStrList.SelectedIndex);
+                    AlliedVariables.s_V0x005B6B58 = Classes_TList_Get(AlliedVariables.s_RadioMessagesObjectsList, Form1.MsgStrList.SelectedIndexOr0());
                 }
 
                 TForm1_Proc_00526E4C(Form1, AlliedVariables.s_V0x005B6B58.RadioMessage);
@@ -8203,7 +8203,7 @@ internal static class Form1WindowImpl
     {
         if (Form1.EndMsgWav.IsChecked == true && AlliedVariables.s_V0x00543C3C.GetCount() >= 0x46)
         {
-            int eax1 = Form1.MsgStrList.SelectedIndex;
+            int eax1 = Form1.MsgStrList.SelectedIndexOr0();
             string ebp1C_6 = AlliedVariables.s_V0x00543C3C.GetText(eax1 + 0x40);
             Controls_TControl_SetText(Form1.WAVfileEd, ebp1C_6);
 

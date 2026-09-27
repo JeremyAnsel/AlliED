@@ -52,7 +52,7 @@ internal static class LblBoxImpl
     // L004C7678
     private static void TLBLForm_TabControl1Change(LblBox lblForm, object? edx0)
     {
-        LblFormPageEnum eax1 = (LblFormPageEnum)lblForm.TabControl1.SelectedIndex;
+        LblFormPageEnum eax1 = (LblFormPageEnum)lblForm.TabControl1.SelectedIndexOr0();
 
         switch (eax1)
         {

@@ -299,7 +299,7 @@ internal static class WaypointsWindowImpl
     // L0050BD04
     private static void TWPform_Start1RegionChange(WaypointsWindow WPform, ComboBox edx0)
     {
-        Unit_00513838_Proc_0051DBC8(Convert.ToInt32(edx0.Tag), edx0.SelectedIndex);
+        Unit_00513838_Proc_0051DBC8(Convert.ToInt32(edx0.Tag), edx0.SelectedIndexOr0());
     }
 
     // L0050BD24

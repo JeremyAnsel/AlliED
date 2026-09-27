@@ -1074,7 +1074,7 @@ internal static class XvTBoxImpl
     // L004CED60
     private static string TXvTForm__PROC_004CED60(XvTBox XvTForm)
     {
-        string ebp08_1 = Unit_00513838_Proc_0051B024(AlliedVariables.s_V0x00541BB4, (MissTypePickBoxEnum)XvTForm.MissTypePickBox.SelectedIndex);
+        string ebp08_1 = Unit_00513838_Proc_0051B024(AlliedVariables.s_V0x00541BB4, (MissTypePickBoxEnum)XvTForm.MissTypePickBox.SelectedIndexOr0());
         string ebp08_0 = Path.GetFileName(AlliedVariables.s_V0x00543BF8);
         return ebp08_1 + ebp08_0;
     }
@@ -1469,9 +1469,9 @@ internal static class XvTBoxImpl
         AlliedVariables.s_TXvTForm_Instance.Owner = Application.Current.MainWindow;
         AlliedVariables.s_TXvTForm_Instance.ShowDialog();
 
-        AlliedVariables.s_V0x00541BA8 = AlliedVariables.s_TXvTForm_Instance.RegionPickBox.SelectedIndex;
-        AlliedVariables.s_V0x00541BAC = AlliedVariables.s_TXvTForm_Instance.OrderPickBox.SelectedIndex + 1;
-        AlliedVariables.s_V0x00541BB8 = AlliedVariables.s_TXvTForm_Instance.MissTypePickBox.SelectedIndex;
+        AlliedVariables.s_V0x00541BA8 = AlliedVariables.s_TXvTForm_Instance.RegionPickBox.SelectedIndexOr0();
+        AlliedVariables.s_V0x00541BAC = AlliedVariables.s_TXvTForm_Instance.OrderPickBox.SelectedIndexOr0() + 1;
+        AlliedVariables.s_V0x00541BB8 = AlliedVariables.s_TXvTForm_Instance.MissTypePickBox.SelectedIndexOr0();
 
         AlliedVariables.s_AlliedForm1Window!.ExportSaveDlg.FileName = TXvTForm__PROC_004CED60(AlliedVariables.s_TXvTForm_Instance);
 

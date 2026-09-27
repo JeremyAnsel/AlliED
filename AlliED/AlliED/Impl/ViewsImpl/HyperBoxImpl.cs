@@ -47,8 +47,8 @@ internal static class HyperBoxImpl
                 ebp10_0 = "From ";
             }
 
-            int fromBoxSelectedIndex = HyperForm.FromBox.SelectedIndex;
-            int toBoxSelectedIndex = HyperForm.ToBox.SelectedIndex;
+            int fromBoxSelectedIndex = HyperForm.FromBox.SelectedIndexOr0();
+            int toBoxSelectedIndex = HyperForm.ToBox.SelectedIndexOr0();
 
             byte ebp08 = 0;
 

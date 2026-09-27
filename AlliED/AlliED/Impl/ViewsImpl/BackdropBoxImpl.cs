@@ -40,7 +40,7 @@ internal static class BackdropBoxImpl
         AlliedVariables.s_Allied_BackdropShadowIndex = AlliedVariables.s_V0x005AFE90.FlightGroupStruct.GlobalCargoIndex;
         Controls_TControl_SetColor(BDropForm.ColorPanel, TBDropForm_L0050D78C(BDropForm, AlliedVariables.s_V0x005AFE90.FlightGroupStruct.Name.WithMaxLength(0x14)));
         BDropForm.ColorPanel.SelectedColor = ColorHelpers.FromUInt32(TBDropForm_L0050D78C(BDropForm, AlliedVariables.s_V0x005AFE90.FlightGroupStruct.Name.WithMaxLength(0x14)));
-        AlliedVariables.s_Allied_BackdropPlanetIndex = AlliedVariables.s_TShipExt_Instance!.SpecShpSpin.SelectedIndex;
+        AlliedVariables.s_Allied_BackdropPlanetIndex = AlliedVariables.s_TShipExt_Instance!.SpecShpSpin.SelectedIndexOr0();
         Controls_TControl_SetText(BDropForm.Label2, "#" + AlliedVariables.s_Allied_BackdropPlanetIndex.ToString(CultureInfo.InvariantCulture));
     }
 

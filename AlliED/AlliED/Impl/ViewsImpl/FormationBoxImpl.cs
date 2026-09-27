@@ -40,7 +40,7 @@ internal static class FormationBoxImpl
     // L004C8D34
     private static void TFormForm_FormActivate(FormationBox FormForm)
     {
-        AlliedVariables.s_AlliedCurrentFormation = AlliedVariables.s_TShipExt_Instance!.FormBox.SelectedIndex;
+        AlliedVariables.s_AlliedCurrentFormation = AlliedVariables.s_TShipExt_Instance!.FormBox.SelectedIndexOr0();
         Graphics_TBrush_SetColor(Graphics_TBitmap_GetCanvas(AlliedVariables.s_V0x0053BDA0)!, 0);
         Graphics_TBitmap_GetCanvas(AlliedVariables.s_V0x0053BDA0)!.Color = 0x00EE0086;
         Graphics_TPen_SetColor(Graphics_TBitmap_GetCanvas(AlliedVariables.s_V0x0053BDA0)!, 0x00C0C0C0);

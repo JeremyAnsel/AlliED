@@ -165,9 +165,9 @@ internal static class WavListBoxImpl
     // L004D3434
     private static void TWAVListForm_FormClose(WavListBox WAVListForm)
     {
-        AlliedVariables.s_VoiceTabsPageIndex = (VoiceTabsPageEnum)WAVListForm.VoiceTabs.SelectedIndex;
+        AlliedVariables.s_VoiceTabsPageIndex = (VoiceTabsPageEnum)WAVListForm.VoiceTabs.SelectedIndexOr0();
         AlliedVariables.s_WAVListFormSearchString = Controls_TControl_GetText(WAVListForm.SearchEdit);
-        AlliedVariables.s_V0x00543D20[WAVListForm.VoiceTabs.SelectedIndex] = (short)WAVListForm.ListBox1.SelectedIndex;
+        AlliedVariables.s_V0x00543D20[WAVListForm.VoiceTabs.SelectedIndex] = (short)WAVListForm.ListBox1.SelectedIndexOr0();
 
         AlliedVariables.s_TacticalOfficersVoiceList = new();
         AlliedVariables.s_V0x00542408 = new();
@@ -188,7 +188,7 @@ internal static class WavListBoxImpl
     // L004D43E8
     private static void TWAVListForm_SpeedButton1Click(WavListBox WAVListForm, object? Sender)
     {
-        int ebp04 = WAVListForm.ListBox1.SelectedIndex;
+        int ebp04 = WAVListForm.ListBox1.SelectedIndexOr0();
 
         if (ebp04 < 0)
         {
@@ -374,7 +374,7 @@ internal static class WavListBoxImpl
     // L004D463C
     private static void TWAVListForm_VoiceTabsChanging(WavListBox WAVListForm)
     {
-        AlliedVariables.s_V0x00543D20[WAVListForm.VoiceTabs.SelectedIndex] = (short)WAVListForm.ListBox1.SelectedIndex;
+        AlliedVariables.s_V0x00543D20[WAVListForm.VoiceTabs.SelectedIndex] = (short)WAVListForm.ListBox1.SelectedIndexOr0();
     }
 
     // L004D400C
@@ -383,7 +383,7 @@ internal static class WavListBoxImpl
         TWAVListForm_Proc_004D4340(WAVListForm);
         WAVListForm.ListBox1.Clear();
 
-        VoiceTabsPageEnum eax1 = (VoiceTabsPageEnum)WAVListForm.VoiceTabs.SelectedIndex;
+        VoiceTabsPageEnum eax1 = (VoiceTabsPageEnum)WAVListForm.VoiceTabs.SelectedIndexOr0();
 
         switch (eax1)
         {
@@ -433,7 +433,7 @@ internal static class WavListBoxImpl
     // L004D4340
     private static void TWAVListForm_Proc_004D4340(WavListBox WAVListForm)
     {
-        VoiceTabsPageEnum eax1 = (VoiceTabsPageEnum)WAVListForm.VoiceTabs.SelectedIndex;
+        VoiceTabsPageEnum eax1 = (VoiceTabsPageEnum)WAVListForm.VoiceTabs.SelectedIndexOr0();
 
         switch (eax1)
         {
@@ -465,7 +465,7 @@ internal static class WavListBoxImpl
         AlliedVariables.s_V0x00542439 = 0;
         string ebp40_15 = System_LStrFromChar(AlliedVariables.s_AlliedDriveLetter) + ":\\wave\\";
 
-        switch ((VoiceTabsPageEnum)WAVListForm.VoiceTabs.SelectedIndex)
+        switch ((VoiceTabsPageEnum)WAVListForm.VoiceTabs.SelectedIndexOr0())
         {
             case VoiceTabsPageEnum.TacticalOfficers:
                 {
@@ -549,7 +549,7 @@ internal static class WavListBoxImpl
 
         if (WAVListForm.ListBox1.Items.Count > 0)
         {
-            VoiceTabsPageEnum eax1 = (VoiceTabsPageEnum)WAVListForm.VoiceTabs.SelectedIndex;
+            VoiceTabsPageEnum eax1 = (VoiceTabsPageEnum)WAVListForm.VoiceTabs.SelectedIndexOr0();
 
             switch (eax1)
             {
@@ -1009,7 +1009,7 @@ internal static class WavListBoxImpl
         ListBoxItem item = Sender.GetItem(index);
         string ebp08 = WAVListForm.ListBox1.GetItemText(index);
 
-        int eax2 = WAVListForm.VoiceTabs.SelectedIndex;
+        int eax2 = WAVListForm.VoiceTabs.SelectedIndexOr0();
 
         if (eax2 >= 0x02 && eax2 < 0x05)
         {

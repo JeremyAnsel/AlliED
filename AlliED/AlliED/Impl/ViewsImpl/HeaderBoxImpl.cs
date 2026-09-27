@@ -229,15 +229,15 @@ internal static class HeaderBoxImpl
 
             AlliedVariables.s_TieFileHeader.Header.WinType = HeaderForm.U3.IsChecked == true ? (byte)1 : (byte)0;
             AlliedVariables.s_TieFileHeader.Header.AllWayShown = HeaderForm.U6.IsChecked == true;
-            AlliedVariables.s_TieFileHeader.Header.MissionType = (byte)HeaderForm.HangarBox.SelectedIndex;
+            AlliedVariables.s_TieFileHeader.Header.MissionType = (byte)HeaderForm.HangarBox.SelectedIndexOr0();
             AlliedVariables.s_TieFileHeader.Header.IsGoalMelee = (byte)Allied_StrRec_to_int(Controls_TControl_GetText(HeaderForm.Edit2));
             AlliedVariables.s_TieFileHeader.Header.TimeLimit = (byte)Allied_StrRec_to_int(Controls_TControl_GetText(HeaderForm.Edit3));
             AlliedVariables.s_TieFileHeader.Header.EndImmediately = HeaderForm.Edit4.IsChecked == true;
-            AlliedVariables.s_TieFileHeader.Header.TacticalOfficer = (byte)HeaderForm.Edit5.SelectedIndex;
-            AlliedVariables.s_TieFileHeader.Header.BriefingLogo = (byte)HeaderForm.MotherBox1.SelectedIndex;
+            AlliedVariables.s_TieFileHeader.Header.TacticalOfficer = (byte)HeaderForm.Edit5.SelectedIndexOr0();
+            AlliedVariables.s_TieFileHeader.Header.BriefingLogo = (byte)HeaderForm.MotherBox1.SelectedIndexOr0();
             AlliedVariables.s_TieFileHeader.Header.m0023AC = (byte)Allied_StrRec_to_int(Controls_TControl_GetText(HeaderForm.Edit7));
             AlliedVariables.s_TieFileHeader.Header.BriefingCodeSizeType = (byte)Allied_StrRec_to_int(Controls_TControl_GetText(HeaderForm.Edit8));
-            AlliedVariables.s_TieFileHeader.Header.m0023AE = (byte)HeaderForm.MotherBox2.SelectedIndex;
+            AlliedVariables.s_TieFileHeader.Header.m0023AE = (byte)HeaderForm.MotherBox2.SelectedIndexOr0();
             AlliedVariables.s_TieFileHeader.Header.m0023AF = (byte)Allied_StrRec_to_int(Controls_TControl_GetText(HeaderForm.Edit10));
             AlliedVariables.s_V0x00570FF8.m000000[0] = HeaderForm.C1.IsChecked == true ? (byte)1 : (byte)0;
             AlliedVariables.s_V0x00570FF8.m000000[1] = HeaderForm.C2.IsChecked == true ? (byte)1 : (byte)0;

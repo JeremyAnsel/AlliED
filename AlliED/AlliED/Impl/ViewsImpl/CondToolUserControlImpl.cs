@@ -423,20 +423,20 @@ internal static class CondToolUserControlImpl
 
         if (AlliedVariables.s_V0x00543990 != 0)
         {
-            ebp06.Amount = (TieAmountEnum)CondToolForm.PercentBox.SelectedIndex;
-            ebp06.VariableType = (TieClassEnum)CondToolForm.ClassBox.SelectedIndex;
+            ebp06.Amount = (TieAmountEnum)CondToolForm.PercentBox.SelectedIndexOr0(); ;
+            ebp06.VariableType = (TieClassEnum)CondToolForm.ClassBox.SelectedIndexOr0(); ;
 
             if (ebp06.VariableType == TieClassEnum.ShipType)
             {
-                ebp06.Variable = (byte)AlliedConvertShipSeqToCraftId((ShipSeqEnum)CondToolForm.IndexBox.SelectedIndex);
+                ebp06.Variable = (byte)AlliedConvertShipSeqToCraftId((ShipSeqEnum)CondToolForm.IndexBox.SelectedIndexOr0());
             }
             else
             {
-                ebp06.Variable = (byte)CondToolForm.IndexBox.SelectedIndex;
+                ebp06.Variable = (byte)CondToolForm.IndexBox.SelectedIndexOr0();
             }
 
-            ebp06.Condition = (TieConditionEnum)CondToolForm.CondBox.SelectedIndex;
-            ebp06.Parameter = (byte)CondToolForm.RegionFGBox.SelectedIndex;
+            ebp06.Condition = (TieConditionEnum)CondToolForm.CondBox.SelectedIndexOr0();
+            ebp06.Parameter = (byte)CondToolForm.RegionFGBox.SelectedIndexOr0();
 
             //string ebp0C = Controls_TControl_GetText(CondToolForm.CondUnk2);
             //ebp06.Parameter2 = (byte)StrRec_try_to_int_L0051E3BC(ebp0C);
@@ -495,7 +495,7 @@ internal static class CondToolUserControlImpl
 
                 if (AlliedVariables.s_RadioMessagesObjectsList.Count < 0x01)
                 {
-                    int ebx1 = AlliedVariables.s_TCondToolForm_Instance!.PercentBox.SelectedIndex;
+                    int ebx1 = AlliedVariables.s_TCondToolForm_Instance!.PercentBox.SelectedIndexOr0();
                     Form1WindowImpl.Unit_00513838_Proc_00518A44();
                     AlliedVariables.s_TCondToolForm_Instance!.PercentBox.SelectedIndex = ebx1;
                     AlliedVariables.s_V0x00543B10 = 0;
@@ -578,11 +578,11 @@ internal static class CondToolUserControlImpl
 
         if (CondToolForm.ClassBox.SelectedIndex == 0x02)
         {
-            eax1 = AlliedConvertShipSeqToCraftId((ShipSeqEnum)CondToolForm.IndexBox.SelectedIndex);
+            eax1 = AlliedConvertShipSeqToCraftId((ShipSeqEnum)CondToolForm.IndexBox.SelectedIndexOr0());
         }
         else
         {
-            eax1 = (CraftIdEnum)CondToolForm.IndexBox.SelectedIndex;
+            eax1 = (CraftIdEnum)CondToolForm.IndexBox.SelectedIndexOr0();
         }
 
         switch ((DatapadFGPageEnum)Convert.ToInt32(AlliedVariables.s_TDatapad_Instance!.FGPages.GetActivePage().Tag))
@@ -820,7 +820,7 @@ internal static class CondToolUserControlImpl
     private static void TCondToolForm_CondBoxChange(CondToolUserControl CondToolForm)
     {
         int edi1 = CondToolForm.RegionFGBox.SelectedIndex;
-        TieConditionEnum eax1 = (TieConditionEnum)CondToolForm.CondBox.SelectedIndex;
+        TieConditionEnum eax1 = (TieConditionEnum)CondToolForm.CondBox.SelectedIndexOr0();
 
         if (eax1 == TieConditionEnum.Within || eax1 == TieConditionEnum.Beyond)
         {
@@ -998,15 +998,15 @@ internal static class CondToolUserControlImpl
                 {
                     case 0x00:
                     case 0x01:
-                        AlliedVariables.s_V0x005B6BB8.GlobalGoal.GlobalGoals[AlliedVariables.s_TDatapad_Instance!.GGRadios.GetItemIndex()].Triggers.Trigger_0[AlliedVariables.s_GGoalCurrentTrigger - 1].Parameter = (byte)CondToolForm.RegionFGBox.SelectedIndex;
+                        AlliedVariables.s_V0x005B6BB8.GlobalGoal.GlobalGoals[AlliedVariables.s_TDatapad_Instance!.GGRadios.GetItemIndex()].Triggers.Trigger_0[AlliedVariables.s_GGoalCurrentTrigger - 1].Parameter = (byte)CondToolForm.RegionFGBox.SelectedIndexOr0();
                         break;
 
                     case 0x02:
-                        AlliedVariables.s_V0x005B6BB8.GlobalGoal.GlobalGoals[AlliedVariables.s_TDatapad_Instance!.GGRadios.GetItemIndex()].Triggers.Trigger_1[0].Parameter = (byte)CondToolForm.RegionFGBox.SelectedIndex;
+                        AlliedVariables.s_V0x005B6BB8.GlobalGoal.GlobalGoals[AlliedVariables.s_TDatapad_Instance!.GGRadios.GetItemIndex()].Triggers.Trigger_1[0].Parameter = (byte)CondToolForm.RegionFGBox.SelectedIndexOr0();
                         break;
 
                     case 0x03:
-                        AlliedVariables.s_V0x005B6BB8.GlobalGoal.GlobalGoals[AlliedVariables.s_TDatapad_Instance!.GGRadios.GetItemIndex()].Triggers.Trigger_1[1].Parameter = (byte)CondToolForm.RegionFGBox.SelectedIndex;
+                        AlliedVariables.s_V0x005B6BB8.GlobalGoal.GlobalGoals[AlliedVariables.s_TDatapad_Instance!.GGRadios.GetItemIndex()].Triggers.Trigger_1[1].Parameter = (byte)CondToolForm.RegionFGBox.SelectedIndexOr0();
                         break;
                 }
 

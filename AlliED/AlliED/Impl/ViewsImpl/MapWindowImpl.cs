@@ -2152,9 +2152,9 @@ internal static class MapWindowImpl
             AlliedVariables.s_V0x005B7068 = AlliedVariables.s_FlightGroupObjectsList.Count - 1;
         }
 
-        int edx1 = AlliedVariables.s_AlliedForm1Window!.ShipList.SelectedIndex;
+        int edx1 = AlliedVariables.s_AlliedForm1Window!.ShipList.SelectedIndexOr0();
         AlliedVariables.s_AlliedForm1Window!.SelectionBox.SelectedIndex = edx1;
-        AlliedVariables.s_V0x005B7050 = AlliedVariables.s_AlliedForm1Window!.ShipList.SelectedIndex;
+        AlliedVariables.s_V0x005B7050 = AlliedVariables.s_AlliedForm1Window!.ShipList.SelectedIndexOr0();
         AlliedVariables.s_AlliedForm1Window!.SelectionBox.SetItems(AlliedVariables.s_V0x00543BC0);
         AlliedVariables.s_AlliedForm1Window!.SelectionBox.SelectedIndex = AlliedVariables.s_V0x005B7050;
 

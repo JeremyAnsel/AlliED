@@ -286,11 +286,11 @@ internal static class PreferencesWindowImpl
 
         if (s_TImportForm.ShowDialog() == true)
         {
-            AlliedVariables.s_V0x00543C84.M000000[ebp01 - 1].M000001 = (byte)s_TImportForm.ComboBox1.SelectedIndex;
-            AlliedVariables.s_V0x00543C84.M000000[ebp01 - 1].M000002 = (byte)s_TImportForm.ComboBox2.SelectedIndex;
-            AlliedVariables.s_V0x00543C84.M000000[ebp01 - 1].M000003 = (byte)s_TImportForm.ComboBox3.SelectedIndex;
-            AlliedVariables.s_V0x00543C84.M000000[ebp01 - 1].M000004 = (byte)s_TImportForm.ComboBox4.SelectedIndex;
-            AlliedVariables.s_V0x00543C84.M000000[ebp01 - 1].M000005 = (byte)s_TImportForm.ComboBox5.SelectedIndex;
+            AlliedVariables.s_V0x00543C84.M000000[ebp01 - 1].M000001 = (byte)s_TImportForm.ComboBox1.SelectedIndexOr0();
+            AlliedVariables.s_V0x00543C84.M000000[ebp01 - 1].M000002 = (byte)s_TImportForm.ComboBox2.SelectedIndexOr0();
+            AlliedVariables.s_V0x00543C84.M000000[ebp01 - 1].M000003 = (byte)s_TImportForm.ComboBox3.SelectedIndexOr0();
+            AlliedVariables.s_V0x00543C84.M000000[ebp01 - 1].M000004 = (byte)s_TImportForm.ComboBox4.SelectedIndexOr0();
+            AlliedVariables.s_V0x00543C84.M000000[ebp01 - 1].M000005 = (byte)s_TImportForm.ComboBox5.SelectedIndexOr0();
             AlliedVariables.s_V0x00543C84.M000000[ebp01 - 1].M000006 = s_TImportForm.CheckBox6.IsChecked == true;
         }
     }
@@ -349,7 +349,7 @@ internal static class PreferencesWindowImpl
 
         AlliedVariables.s_IconZoomEditSetting = eax1;
 
-        AlliedVariables.s_DefaultShipBoxSettingIndex = (CraftIdEnum)PrefForm.DefaultShipBox.SelectedIndex;
+        AlliedVariables.s_DefaultShipBoxSettingIndex = (CraftIdEnum)PrefForm.DefaultShipBox.SelectedIndexOr0();
 
         if (AlliedVariables.s_DefaultShipBoxSettingIndex < CraftIdEnum._000__1_0)
         {
@@ -358,7 +358,7 @@ internal static class PreferencesWindowImpl
 
         AlliedVariables.s_V0x005B5C74.CraftId = AlliedVariables.s_DefaultShipBoxSettingIndex;
 
-        AlliedVariables.s_DefaultAIBoxSettingIndex = PrefForm.DefaultAIBox.SelectedIndex;
+        AlliedVariables.s_DefaultAIBoxSettingIndex = PrefForm.DefaultAIBox.SelectedIndexOr0();
         AlliedVariables.s_V0x005B5C74.AIRank = (byte)AlliedVariables.s_DefaultAIBoxSettingIndex;
 
         AlliedVariables.s_ConfSaveChkSetting = PrefForm.ConfSaveChk.IsChecked == true;

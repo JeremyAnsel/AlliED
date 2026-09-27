@@ -255,12 +255,12 @@ internal static class ShipExtUserControlImpl
                 if (eax0.FlightGroupStruct.CraftId == CraftIdEnum._183_9001_1100_ResData_Backdrop)
                 {
                     S0xFGObject eax2 = Classes_TList_Get(AlliedVariables.s_FlightGroupObjectsList, ebx);
-                    eax2.FlightGroupStruct.PlanetId = (byte)Sender.SpecShpSpin.SelectedIndex;
+                    eax2.FlightGroupStruct.PlanetId = (byte)Sender.SpecShpSpin.SelectedIndexOr0();
                 }
                 else
                 {
                     S0xFGObject eax2 = Classes_TList_Get(AlliedVariables.s_FlightGroupObjectsList, ebx);
-                    eax2.FlightGroupStruct.SpecialCraft = (byte)Sender.SpecShpSpin.SelectedIndex;
+                    eax2.FlightGroupStruct.SpecialCraft = (byte)Sender.SpecShpSpin.SelectedIndexOr0();
                 }
             }
 

@@ -218,7 +218,7 @@ internal static class LibWindowImpl
     // L00513690
     private static void TLibForm_LibUpButClick(LibWindow LibForm)
     {
-        int ebx = LibForm.LibShipList.SelectedIndex;
+        int ebx = LibForm.LibShipList.SelectedIndexOr0();
 
         if (ebx <= 0)
         {
@@ -235,7 +235,7 @@ internal static class LibWindowImpl
     // L005136DC
     private static void TLibForm_LibDownButClick(LibWindow LibForm)
     {
-        int ebx = LibForm.LibShipList.SelectedIndex;
+        int ebx = LibForm.LibShipList.SelectedIndexOr0();
 
         if (ebx >= AlliedVariables.s_LibFormFlightGroupObjectsList.Count - 1)
         {
